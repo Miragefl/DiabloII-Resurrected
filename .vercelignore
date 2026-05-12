@@ -1,5 +1,5 @@
-.output
-dist
 node_modules
+dist
 .claude
 .agents
+.nuxt
