@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-d2r-bg: #0a0a0f;
+  --color-d2r-bg-alt: #12121a;
+  --color-d2r-card: #1a1a2e;
+  --color-d2r-primary: #8b5cf6;
+  --color-d2r-accent: #d4a017;
+  --color-d2r-danger: #dc2626;
+  --color-d2r-text: #e2e8f0;
+  --color-d2r-muted: #94a3b8;
+  --color-d2r-border: #2d2d44;
+
+  --font-heading: "Cinzel", serif;
+  --font-body: "Inter", sans-serif;
+  --font-cjk: "Noto Sans SC", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body), var(--font-cjk), sans-serif;
+    background-color: var(--color-d2r-bg);
+    color: var(--color-d2r-text);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), var(--font-cjk), serif;
+    color: var(--color-d2r-accent);
+  }
+
+  a {
+    color: var(--color-d2r-primary);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@layer components {
+  .d2r-card {
+    background-color: var(--color-d2r-card);
+    border: 1px solid var(--color-d2r-border);
+    border-radius: 0.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .d2r-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+  }
+
+  .d2r-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .d2r-badge-gold {
+    background-color: rgba(212, 160, 23, 0.2);
+    color: var(--color-d2r-accent);
+    border: 1px solid rgba(212, 160, 23, 0.3);
+  }
+  .d2r-badge-purple {
+    background-color: rgba(139, 92, 246, 0.2);
+    color: var(--color-d2r-primary);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+  }
+  .d2r-badge-red {
+    background-color: rgba(220, 38, 38, 0.2);
+    color: var(--color-d2r-danger);
+    border: 1px solid rgba(220, 38, 38, 0.3);
+  }
+}

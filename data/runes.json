@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "name": "El",
+    "nameZh": "艾尔",
+    "level": 11,
+    "weaponEffect": "+50 to Attack Rating, +1 Light Radius",
+    "armorEffect": "+15 Defense, +1 Light Radius",
+    "shieldEffect": "+15 Defense, +1 Light Radius",
+    "dropLevel": {
+      "normal": 1,
+      "nightmare": 2,
+      "hell": 2
+    }
+  },
+  {
+    "id": 2,
+    "name": "Eld",
+    "nameZh": "艾德",
+    "level": 11,
+    "weaponEffect": "+75% Damage to Undead, +50 Attack Rating against Undead",
+    "armorEffect": "15% Slower Stamina Drain",
+    "shieldEffect": "15% Increased Chance of Blocking",
+    "dropLevel": {
+      "normal": 3,
+      "nightmare": 4,
+      "hell": 5
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tir",
+    "nameZh": "特尔",
+    "level": 13,
+    "weaponEffect": "+2 to Mana after each Kill",
+    "armorEffect": "+2 to Mana after each Kill",
+    "shieldEffect": "+2 to Mana after each Kill",
+    "dropLevel": {
+      "normal": 4,
+      "nightmare": 6,
+      "hell": 7
+    }
+  },
+  {
+    "id": 4,
+    "name": "Nef",
+    "nameZh": "那夫",
+    "level": 13,
+    "weaponEffect": "Knockback",
+    "armorEffect": "+30 Defense vs. Missile",
+    "shieldEffect": "+30 Defense vs. Missile",
+    "dropLevel": {
+      "normal": 6,
+      "nightmare": 8,
+      "hell": 10
+    }
+  },
+  {
+    "id": 5,
+    "name": "Eth",
+    "nameZh": "爱斯",
+    "level": 15,
+    "weaponEffect": "-25% Target Defense",
+    "armorEffect": "+15% Mana Regeneration",
+    "shieldEffect": "+15% Mana Regeneration",
+    "dropLevel": {
+      "normal": 7,
+      "nightmare": 10,
+      "hell": 12
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ith",
+    "nameZh": "伊司",
+    "level": 15,
+    "weaponEffect": "+9 to Maximum Damage",
+    "armorEffect": "15% Damage Taken goes to Mana",
+    "shieldEffect": "15% Damage Taken goes to Mana",
+    "dropLevel": {
+      "normal": 9,
+      "nightmare": 12,
+      "hell": 15
+    }
+  },
+  {
+    "id": 7,
+    "name": "Tal",
+    "nameZh": "塔尔",
+    "level": 17,
+    "weaponEffect": "+75 Poison Damage over 5 seconds",
+    "armorEffect": "Poison Resist +30%",
+    "shieldEffect": "Poison Resist +35%",
+    "dropLevel": {
+      "normal": 10,
+      "nightmare": 14,
+      "hell": 17
+    }
+  },
+  {
+    "id": 8,
+    "name": "Ral",
+    "nameZh": "拉尔",
+    "level": 19,
+    "weaponEffect": "Adds 5-30 Fire Damage",
+    "armorEffect": "Fire Resist +30%",
+    "shieldEffect": "Fire Resist +35%",
+    "dropLevel": {
+      "normal": 12,
+      "nightmare": 16,
+      "hell": 20
+    }
+  },
+  {
+    "id": 9,
+    "name": "Ort",
+    "nameZh": "欧特",
+    "level": 21,
+    "weaponEffect": "Adds 1-50 Lightning Damage",
+    "armorEffect": "Lightning Resist +30%",
+    "shieldEffect": "Lightning Resist +35%",
+    "dropLevel": {
+      "normal": 13,
+      "nightmare": 18,
+      "hell": 22
+    }
+  },
+  {
+    "id": 10,
+    "name": "Thul",
+    "nameZh": "书尔",
+    "level": 23,
+    "weaponEffect": "Adds 3-14 Cold Damage, 3 second Duration",
+    "armorEffect": "Cold Resist +30%",
+    "shieldEffect": "Cold Resist +35%",
+    "dropLevel": {
+      "normal": 15,
+      "nightmare": 20,
+      "hell": 25
+    }
+  },
+  {
+    "id": 11,
+    "name": "Amn",
+    "nameZh": "安姆",
+    "level": 25,
+    "weaponEffect": "7% Life Stolen Per Hit",
+    "armorEffect": "Attacker Takes Damage of 14",
+    "shieldEffect": "Attacker Takes Damage of 14",
+    "dropLevel": {
+      "normal": 16,
+      "nightmare": 22,
+      "hell": 27
+    }
+  },
+  {
+    "id": 12,
+    "name": "Sol",
+    "nameZh": "索尔",
+    "level": 27,
+    "weaponEffect": "+9 to Minimum Damage",
+    "armorEffect": "Damage Reduced by 7",
+    "shieldEffect": "Damage Reduced by 7",
+    "dropLevel": {
+      "normal": 18,
+      "nightmare": 24,
+      "hell": 30
+    }
+  },
+  {
+    "id": 13,
+    "name": "Shael",
+    "nameZh": "夏尔",
+    "level": 29,
+    "weaponEffect": "20% Increased Attack Speed",
+    "armorEffect": "20% Faster Hit Recovery",
+    "shieldEffect": "20% Faster Block Rate",
+    "dropLevel": {
+      "normal": 19,
+      "nightmare": 26,
+      "hell": 32
+    }
+  },
+  {
+    "id": 14,
+    "name": "Dol",
+    "nameZh": "多尔",
+    "level": 31,
+    "weaponEffect": "Hit Causes Monster to Flee 25%",
+    "armorEffect": "Replenish Life +7",
+    "shieldEffect": "Replenish Life +7",
+    "dropLevel": {
+      "normal": 21,
+      "nightmare": 28,
+      "hell": 35
+    }
+  },
+  {
+    "id": 15,
+    "name": "Hel",
+    "nameZh": "海尔",
+    "level": 33,
+    "weaponEffect": "Requirements -20%",
+    "armorEffect": "Requirements -15%",
+    "shieldEffect": "Requirements -15%",
+    "dropLevel": {
+      "normal": 22,
+      "nightmare": 30,
+      "hell": 37
+    }
+  },
+  {
+    "id": 16,
+    "name": "Io",
+    "nameZh": "伊欧",
+    "level": 35,
+    "weaponEffect": "+10 to Vitality",
+    "armorEffect": "+10 to Vitality",
+    "shieldEffect": "+10 to Vitality",
+    "dropLevel": {
+      "normal": 24,
+      "nightmare": 32,
+      "hell": 40
+    }
+  },
+  {
+    "id": 17,
+    "name": "Lum",
+    "nameZh": "卢姆",
+    "level": 37,
+    "weaponEffect": "+10 to Energy",
+    "armorEffect": "+10 to Energy",
+    "shieldEffect": "+10 to Energy",
+    "dropLevel": {
+      "normal": 25,
+      "nightmare": 34,
+      "hell": 42
+    }
+  },
+  {
+    "id": 18,
+    "name": "Ko",
+    "nameZh": "科",
+    "level": 39,
+    "weaponEffect": "+10 to Dexterity",
+    "armorEffect": "+10 to Dexterity",
+    "shieldEffect": "+10 to Dexterity",
+    "dropLevel": {
+      "normal": 27,
+      "nightmare": 36,
+      "hell": 45
+    }
+  },
+  {
+    "id": 19,
+    "name": "Fal",
+    "nameZh": "法尔",
+    "level": 41,
+    "weaponEffect": "+10 to Strength",
+    "armorEffect": "+10 to Strength",
+    "shieldEffect": "+10 to Strength",
+    "dropLevel": {
+      "normal": 28,
+      "nightmare": 38,
+      "hell": 47
+    }
+  },
+  {
+    "id": 20,
+    "name": "Lem",
+    "nameZh": "蓝姆",
+    "level": 43,
+    "weaponEffect": "75% Extra Gold from Monsters",
+    "armorEffect": "50% Extra Gold from Monsters",
+    "shieldEffect": "50% Extra Gold from Monsters",
+    "dropLevel": {
+      "normal": 30,
+      "nightmare": 40,
+      "hell": 50
+    }
+  },
+  {
+    "id": 21,
+    "name": "Pul",
+    "nameZh": "普尔",
+    "level": 45,
+    "weaponEffect": "+75% Damage to Demons, +100 Attack Rating against Demons",
+    "armorEffect": "+30% Enhanced Defense",
+    "shieldEffect": "+30% Enhanced Defense",
+    "dropLevel": {
+      "normal": 31,
+      "nightmare": 42,
+      "hell": 52
+    }
+  },
+  {
+    "id": 22,
+    "name": "Um",
+    "nameZh": "乌姆",
+    "level": 47,
+    "weaponEffect": "25% Chance of Open Wounds",
+    "armorEffect": "All Resistances +15",
+    "shieldEffect": "All Resistances +22",
+    "dropLevel": {
+      "normal": 33,
+      "nightmare": 44,
+      "hell": 55
+    }
+  },
+  {
+    "id": 23,
+    "name": "Mal",
+    "nameZh": "马尔",
+    "level": 49,
+    "weaponEffect": "Prevent Monster Heal",
+    "armorEffect": "Magic Damage Reduced by 7",
+    "shieldEffect": "Magic Damage Reduced by 7",
+    "dropLevel": {
+      "normal": 34,
+      "nightmare": 46,
+      "hell": 57
+    }
+  },
+  {
+    "id": 24,
+    "name": "Ist",
+    "nameZh": "伊斯特",
+    "level": 51,
+    "weaponEffect": "30% Better Chance of Getting Magic Items",
+    "armorEffect": "25% Better Chance of Getting Magic Items",
+    "shieldEffect": "25% Better Chance of Getting Magic Items",
+    "dropLevel": {
+      "normal": 36,
+      "nightmare": 48,
+      "hell": 60
+    }
+  },
+  {
+    "id": 25,
+    "name": "Gul",
+    "nameZh": "古尔",
+    "level": 53,
+    "weaponEffect": "20% Bonus to Attack Rating",
+    "armorEffect": "5% to Maximum Poison Resist",
+    "shieldEffect": "5% to Maximum Poison Resist",
+    "dropLevel": {
+      "normal": 37,
+      "nightmare": 50,
+      "hell": 62
+    }
+  },
+  {
+    "id": 26,
+    "name": "Vex",
+    "nameZh": "伐克斯",
+    "level": 55,
+    "weaponEffect": "7% Mana Stolen Per Hit",
+    "armorEffect": "5% to Maximum Fire Resist",
+    "shieldEffect": "5% to Maximum Fire Resist",
+    "dropLevel": {
+      "normal": 39,
+      "nightmare": 52,
+      "hell": 65
+    }
+  },
+  {
+    "id": 27,
+    "name": "Ohm",
+    "nameZh": "欧姆",
+    "level": 57,
+    "weaponEffect": "+50% Enhanced Damage",
+    "armorEffect": "5% to Maximum Lightning Resist",
+    "shieldEffect": "5% to Maximum Lightning Resist",
+    "dropLevel": {
+      "normal": 40,
+      "nightmare": 54,
+      "hell": 67
+    }
+  },
+  {
+    "id": 28,
+    "name": "Lo",
+    "nameZh": "罗",
+    "level": 59,
+    "weaponEffect": "20% Deadly Strike",
+    "armorEffect": "5% to Maximum Lightning Resist",
+    "shieldEffect": "5% to Maximum Lightning Resist",
+    "dropLevel": {
+      "normal": 42,
+      "nightmare": 56,
+      "hell": 70
+    }
+  },
+  {
+    "id": 29,
+    "name": "Sur",
+    "nameZh": "瑟",
+    "level": 61,
+    "weaponEffect": "20% Chance of Crushing Blow",
+    "armorEffect": "+5% to Maximum Mana",
+    "shieldEffect": "+50 to Mana",
+    "dropLevel": {
+      "normal": 43,
+      "nightmare": 58,
+      "hell": 72
+    }
+  },
+  {
+    "id": 30,
+    "name": "Ber",
+    "nameZh": "贝",
+    "level": 63,
+    "weaponEffect": "20% Chance of Crushing Blow",
+    "armorEffect": "Damage Reduced by 8%",
+    "shieldEffect": "Damage Reduced by 8%",
+    "dropLevel": {
+      "normal": 45,
+      "nightmare": 60,
+      "hell": 75
+    }
+  },
+  {
+    "id": 31,
+    "name": "Jah",
+    "nameZh": "乔",
+    "level": 65,
+    "weaponEffect": "Ignore Target Defense",
+    "armorEffect": "+5% to Maximum Life",
+    "shieldEffect": "+50 to Life",
+    "dropLevel": {
+      "normal": 46,
+      "nightmare": 62,
+      "hell": 77
+    }
+  },
+  {
+    "id": 32,
+    "name": "Cham",
+    "nameZh": "查姆",
+    "level": 67,
+    "weaponEffect": "Freeze Target +3",
+    "armorEffect": "Cannot Be Frozen",
+    "shieldEffect": "Cannot Be Frozen",
+    "dropLevel": {
+      "normal": 48,
+      "nightmare": 64,
+      "hell": 80
+    }
+  },
+  {
+    "id": 33,
+    "name": "Zod",
+    "nameZh": "佐德",
+    "level": 69,
+    "weaponEffect": "Indestructible",
+    "armorEffect": "Indestructible",
+    "shieldEffect": "Indestructible",
+    "dropLevel": {
+      "normal": 49,
+      "nightmare": 66,
+      "hell": 82
+    }
+  }
+]

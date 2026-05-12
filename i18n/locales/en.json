@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Home",
+    "runewords": "Runewords",
+    "runes": "Runes",
+    "baseItems": "Base Items"
+  },
+  "home": {
+    "title": "Diablo II Resurrected",
+    "subtitle": "Runeword & Equipment Database",
+    "featuredRunewords": "Featured Runewords",
+    "quickAccess": "Quick Access"
+  },
+  "runewords": {
+    "title": "Runewords",
+    "subtitle": "All {count} runewords in Diablo II Resurrected",
+    "sockets": "Sockets",
+    "level": "Level",
+    "ladderOnly": "Ladder Only",
+    "d2rOnly": "D2R Only",
+    "runes": "Runes",
+    "effects": "Effects",
+    "itemTypes": "Item Types",
+    "bestFor": "Best For",
+    "compatibleBases": "Compatible Base Items",
+    "searchPlaceholder": "Search runewords...",
+    "sortByName": "Name",
+    "sortByLevel": "Level",
+    "sortBySockets": "Sockets",
+    "filter": "Filter",
+    "noResults": "No runewords match your filters.",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "runes": {
+    "title": "Runes",
+    "subtitle": "All 33 runes from El (#1) to Zod (#33)",
+    "weapon": "Weapon",
+    "armor": "Armor",
+    "shield": "Shield",
+    "dropLevel": "Drop Level",
+    "normal": "Normal",
+    "nightmare": "Nightmare",
+    "hell": "Hell",
+    "usedIn": "Used in Runewords"
+  },
+  "baseItems": {
+    "title": "Base Items",
+    "subtitle": "All socketable base items for runewords",
+    "maxSockets": "Max Sockets",
+    "strength": "Strength",
+    "dexterity": "Dexterity",
+    "damage": "Damage",
+    "defense": "Defense",
+    "speed": "Speed",
+    "compatibleRunewords": "Compatible Runewords",
+    "type": "Type"
+  },
+  "common": {
+    "backToList": "Back to List",
+    "all": "All",
+    "clear": "Clear Filters"
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "crystal-sword",
+    "name": { "en": "Crystal Sword", "zh": "水晶剑" },
+    "type": "Swords",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 43,
+    "dexterity": 0,
+    "damage": { "min": 5, "max": 15 },
+    "speed": 0,
+    "compatibleRunewords": ["spirit", "call-to-arms", "grief"]
+  },
+  {
+    "slug": "colossus-voulge",
+    "name": { "en": "Colossus Voulge", "zh": "巨长斧" },
+    "type": "Polearms",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 0,
+    "dexterity": 0,
+    "damage": { "min": 19, "max": 55 },
+    "speed": 10,
+    "compatibleRunewords": ["infinity", "insight"]
+  },
+  {
+    "slug": "archon-plate",
+    "name": { "en": "Archon Plate", "zh": "执政官铠甲" },
+    "type": "Body Armor",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 103,
+    "defense": { "min": 875, "max": 1089 },
+    "compatibleRunewords": ["enigma", "stealth"]
+  },
+  {
+    "slug": "monarch",
+    "name": { "en": "Monarch", "zh": "统治者大盾" },
+    "type": "Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 156,
+    "defense": { "min": 336, "max": 384 },
+    "compatibleRunewords": ["spirit"]
+  },
+  {
+    "slug": "phase-blade",
+    "name": { "en": "Phase Blade", "zh": "幻化之刃" },
+    "type": "Swords",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 109,
+    "dexterity": 136,
+    "damage": { "min": 31, "max": 35 },
+    "speed": -30,
+    "compatibleRunewords": ["spirit", "grief", "call-to-arms"]
+  }
+]

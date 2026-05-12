@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "首页",
+    "runewords": "符文之语",
+    "runes": "符文",
+    "baseItems": "装备底材"
+  },
+  "home": {
+    "title": "暗黑破坏神II：狱火重生",
+    "subtitle": "符文之语与装备数据库",
+    "featuredRunewords": "热门符文之语",
+    "quickAccess": "快速导航"
+  },
+  "runewords": {
+    "title": "符文之语",
+    "subtitle": "暗黑2重置版全部 {count} 个符文之语",
+    "sockets": "孔数",
+    "level": "等级",
+    "ladderOnly": "仅天梯",
+    "d2rOnly": "仅D2R",
+    "runes": "符文",
+    "effects": "属性效果",
+    "itemTypes": "装备类型",
+    "bestFor": "推荐职业",
+    "compatibleBases": "可用底材",
+    "searchPlaceholder": "搜索符文之语...",
+    "sortByName": "名称",
+    "sortByLevel": "等级",
+    "sortBySockets": "孔数",
+    "filter": "筛选",
+    "noResults": "没有匹配的符文之语。",
+    "prev": "上一个",
+    "next": "下一个"
+  },
+  "runes": {
+    "title": "符文",
+    "subtitle": "从艾尔(#1)到佐德(#33)共33个符文",
+    "weapon": "武器",
+    "armor": "盔甲",
+    "shield": "盾牌",
+    "dropLevel": "掉落等级",
+    "normal": "普通",
+    "nightmare": "噩梦",
+    "hell": "地狱",
+    "usedIn": "可用于符文之语"
+  },
+  "baseItems": {
+    "title": "装备底材",
+    "subtitle": "所有可用于制作符文之语的底材装备",
+    "maxSockets": "最大孔数",
+    "strength": "力量需求",
+    "dexterity": "敏捷需求",
+    "damage": "伤害",
+    "defense": "防御",
+    "speed": "攻击速度",
+    "compatibleRunewords": "兼容符文之语",
+    "type": "类型"
+  },
+  "common": {
+    "backToList": "返回列表",
+    "all": "全部",
+    "clear": "清除筛选"
+  }
+}

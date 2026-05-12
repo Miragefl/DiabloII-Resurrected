@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "steel",
+    "name": { "en": "Steel", "zh": "钢铁" },
+    "runes": ["Tir", "El"],
+    "runeNumbers": [3, 1],
+    "sockets": 2,
+    "itemTypes": ["Swords", "Axes", "Maces"],
+    "level": 13,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["+20% Enhanced Damage", "+3 to Minimum Damage", "+3 to Maximum Damage", "+50 to Attack Rating", "50% Chance of Open Wounds", "+2 to Mana after each Kill", "+1 Light Radius"],
+      "zh": ["+20% 增强伤害", "+3 最小伤害", "+3 最大伤害", "+50 攻击命中率", "50% 机会造成撕裂伤口", "每杀一个敌人获得 +2 法力", "+1 照亮范围"]
+    }
+  },
+  {
+    "slug": "stealth",
+    "name": { "en": "Stealth", "zh": "隐秘" },
+    "runes": ["Tal", "Eth"],
+    "runeNumbers": [7, 5],
+    "sockets": 2,
+    "itemTypes": ["Body Armor"],
+    "level": 17,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["Magic Damage Reduced by 3", "+6 to Dexterity", "+15 to Maximum Stamina", "Poison Resist +30%", "Regenerate Mana 15%", "25% Faster Run/Walk", "25% Faster Cast Rate", "25% Faster Hit Recovery"],
+      "zh": ["魔法伤害减少 3", "+6 敏捷", "+15 最大耐力", "毒素抗性 +30%", "法力恢复速度 +15%", "25% 高速跑步/行走", "25% 高速施法", "25% 高速打击恢复"]
+    }
+  },
+  {
+    "slug": "spirit",
+    "name": { "en": "Spirit", "zh": "精神" },
+    "runes": ["Tal", "Thul", "Ort", "Amn"],
+    "runeNumbers": [7, 10, 9, 11],
+    "sockets": 4,
+    "itemTypes": ["Swords", "Shields"],
+    "level": 25,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.11",
+    "effects": {
+      "en": ["+2 to All Skills", "+25-35% Faster Cast Rate", "+55% Faster Hit Recovery", "+250 Defense vs. Missile", "+22 to Vitality", "+89-112 to Mana", "+3-8 Magic Absorb"],
+      "zh": ["+2 所有技能", "+25-35% 高速施法", "+55% 高速打击恢复", "+250 远程防御", "+22 体力", "+89-112 法力", "+3-8 魔法吸收"]
+    },
+    "bestFor": ["Paladin", "Sorceress"]
+  },
+  {
+    "slug": "enigma",
+    "name": { "en": "Enigma", "zh": "谜团" },
+    "runes": ["Jah", "Ith", "Ber"],
+    "runeNumbers": [31, 6, 30],
+    "sockets": 3,
+    "itemTypes": ["Body Armor"],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["+2 to All Skills", "+45% Faster Run/Walk", "+1 to Teleport", "+750-775 Defense", "+0-74 to Strength", "+5% to Maximum Life", "Damage Reduced by 8%", "+14 Life after each Kill"],
+      "zh": ["+2 所有技能", "+45% 高速跑步/行走", "+1 传送", "+750-775 防御", "+0-74 力量", "+5% 最大生命值", "伤害减少 8%", "每杀一个敌人获得 +14 生命"]
+    },
+    "bestFor": ["Paladin", "Barbarian", "Necromancer"]
+  },
+  {
+    "slug": "infinity",
+    "name": { "en": "Infinity", "zh": "无限" },
+    "runes": ["Ber", "Mal", "Ber", "Ist"],
+    "runeNumbers": [30, 23, 30, 24],
+    "sockets": 4,
+    "itemTypes": ["Polearms", "Staves"],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["50% Chance to Cast Level 20 Chain Lightning When You Kill an Enemy", "Level 12 Conviction Aura When Equipped", "+35% Faster Run/Walk", "+255-325% Enhanced Damage", "50% Chance of Crushing Blow"],
+      "zh": ["50% 机会在杀死敌人时施展20级连环闪电", "装备后获得12级信念光环", "+35% 高速跑步/行走", "+255-325% 增强伤害", "50% 机会造成碾压性打击"]
+    },
+    "bestFor": ["Mercenary"]
+  },
+  {
+    "slug": "insight",
+    "name": { "en": "Insight", "zh": "眼光" },
+    "runes": ["Ral", "Tir", "Tal", "Sol"],
+    "runeNumbers": [8, 3, 7, 12],
+    "sockets": 4,
+    "itemTypes": ["Polearms", "Staves"],
+    "level": 27,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["Level 12-17 Meditation Aura When Equipped", "+35% Faster Cast Rate", "+200-260% Enhanced Damage", "+9 to Minimum Damage", "+5 to All Attributes"],
+      "zh": ["装备后获得12-17级冥思光环", "+35% 高速施法", "+200-260% 增强伤害", "+9 最小伤害", "+5 所有属性"]
+    },
+    "bestFor": ["Mercenary"]
+  },
+  {
+    "slug": "heart-of-the-oak",
+    "name": { "en": "Heart of the Oak", "zh": "橡树之心" },
+    "runes": ["Ko", "Vex", "Pul", "Thul"],
+    "runeNumbers": [18, 26, 21, 10],
+    "sockets": 4,
+    "itemTypes": ["Staves", "Maces"],
+    "level": 55,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["+3 to All Skills", "+40% Faster Cast Rate", "+75% Damage to Demons", "+10 to Dexterity", "All Resistances +30-40", "+15% to Maximum Mana"],
+      "zh": ["+3 所有技能", "+40% 高速施法", "+75% 对恶魔伤害", "+10 敏捷", "所有抗性 +30-40", "+15% 最大法力"]
+    },
+    "bestFor": ["Sorceress", "Druid", "Paladin"]
+  },
+  {
+    "slug": "call-to-arms",
+    "name": { "en": "Call to Arms", "zh": "战争召唤" },
+    "runes": ["Amn", "Ral", "Mal", "Ist", "Ohm"],
+    "runeNumbers": [11, 8, 23, 24, 27],
+    "sockets": 5,
+    "itemTypes": ["Weapons"],
+    "level": 57,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["+1 to All Skills", "+40% Increased Attack Speed", "+250-290% Enhanced Damage", "+2-6 to Battle Orders", "+1-6 to Battle Command"],
+      "zh": ["+1 所有技能", "+40% 提升攻击速度", "+250-290% 增强伤害", "+2-6 战斗体制", "+1-6 战斗指令"]
+    },
+    "bestFor": ["All Classes"]
+  },
+  {
+    "slug": "grief",
+    "name": { "en": "Grief", "zh": "悲痛" },
+    "runes": ["Eth", "Tir", "Lo", "Mal", "Ral"],
+    "runeNumbers": [5, 3, 28, 23, 8],
+    "sockets": 5,
+    "itemTypes": ["Swords", "Axes"],
+    "level": 59,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["+340-400 Damage", "-25% Target Defense", "20% Chance of Crushing Blow", "+5% to Maximum Poison Resist"],
+      "zh": ["+340-400 伤害", "-25% 目标防御", "20% 机会造成碾压性打击", "+5% 最大毒素抗性"]
+    },
+    "bestFor": ["Paladin", "Barbarian", "Assassin"]
+  },
+  {
+    "slug": "faith",
+    "name": { "en": "Faith", "zh": "信心" },
+    "runes": ["Ohm", "Jah", "Lem", "Eld"],
+    "runeNumbers": [27, 31, 20, 2],
+    "sockets": 4,
+    "itemTypes": ["Bows", "Crossbows"],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": ["Level 12-15 Fanaticism Aura When Equipped", "+1-2 to All Skills", "+330% Enhanced Damage", "Ignore Target Defense", "All Resistances +15"],
+      "zh": ["装备后获得12-15级狂热光环", "+1-2 所有技能", "+330% 增强伤害", "无视目标防御", "所有抗性 +15"]
+    },
+    "bestFor": ["Amazon", "Mercenary"]
+  }
+]

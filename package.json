@@ -1,0 +1,31 @@
+{
+  "name": "d2r-runewords",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "scrape:runes": "tsx scripts/scraper/scrape-runes.ts",
+    "scrape:runewords": "tsx scripts/scraper/scrape-runewords.ts",
+    "scrape:base-items": "tsx scripts/scraper/scrape-base-items.ts",
+    "scrape:all": "npm run scrape:runes && npm run scrape:runewords && npm run scrape:base-items"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "nuxt": "^3.17.7",
+    "tailwindcss": "^4.3.0",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^9.5.6",
+    "@nuxtjs/sitemap": "^7.3.1",
+    "cheerio": "^1.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.28"
+  }
+}

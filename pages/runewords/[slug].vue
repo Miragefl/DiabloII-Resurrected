@@ -1,0 +1,125 @@
+<script setup lang="ts">
+const route = useRoute()
+const { locale, t } = useI18n()
+const localePath = useLocalePath()
+const { runewords, load, getBySlug, getSlugs } = useRunewords()
+const { load: loadRunes } = useRunes()
+const { baseItems, load: loadBaseItems } = useBaseItems()
+
+await load()
+await loadRunes()
+await loadBaseItems()
+
+const slug = route.params.slug as string
+const runeword = getBySlug(slug)
+
+if (!runeword) {
+  throw createError({ statusCode: 404, message: 'Runeword not found' })
+}
+
+const displayName = computed(() =>
+  locale.value === 'zh' ? runeword.name.zh : runeword.name.en,
+)
+
+const displayEffects = computed(() =>
+  locale.value === 'zh' ? runeword.effects.zh : runeword.effects.en,
+)
+
+const allSlugs = getSlugs()
+const currentIdx = allSlugs.indexOf(slug)
+const prevSlug = currentIdx > 0 ? allSlugs[currentIdx - 1] : null
+const nextSlug = currentIdx < allSlugs.length - 1 ? allSlugs[currentIdx + 1] : null
+
+const compatibleBases = computed(() =>
+  baseItems.value.filter(i => i.compatibleRunewords.includes(slug)),
+)
+
+useHead({
+  title: `${displayName.value} - D2R Runewords`,
+  meta: [
+    { name: 'description', content: displayEffects.value.slice(0, 3).join(', ') },
+  ],
+})
+</script>
+
+<template>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <NuxtLink :to="localePath('/runewords')" class="text-d2r-muted text-sm hover:text-d2r-primary transition-colors no-underline">
+      &larr; {{ t('common.backToList') }}
+    </NuxtLink>
+
+    <div class="mt-6 mb-8">
+      <div class="flex items-center gap-3 mb-2">
+        <h1 class="text-4xl font-heading text-d2r-accent">{{ displayName }}</h1>
+        <span v-if="runeword.ladderOnly" class="d2r-badge d2r-badge-red">Ladder</span>
+        <span v-if="runeword.d2rOnly" class="d2r-badge d2r-badge-purple">D2R</span>
+      </div>
+      <p class="text-d2r-muted">
+        {{ runeword.itemTypes.join(', ') }} &middot; {{ runeword.sockets }} {{ t('runewords.sockets') }} &middot; Lv.{{ runeword.level }} &middot; Patch {{ runeword.patch }}
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-xl font-heading text-d2r-accent mb-4">{{ t('runewords.runes') }}</h2>
+        <div class="space-y-2">
+          <RuneSlot
+            v-for="(rune, idx) in runeword.runes"
+            :key="idx"
+            :rune-name="rune"
+            :rune-number="runeword.runeNumbers[idx]"
+          />
+        </div>
+
+        <div v-if="runeword.bestFor?.length" class="mt-6">
+          <h3 class="text-sm font-semibold text-d2r-accent mb-2">{{ t('runewords.bestFor') }}</h3>
+          <div class="flex flex-wrap gap-2">
+            <span v-for="cls in runeword.bestFor" :key="cls" class="d2r-badge d2r-badge-gold">
+              {{ cls }}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-heading text-d2r-accent mb-4">{{ t('runewords.effects') }}</h2>
+        <EffectList :effects="displayEffects" />
+      </div>
+    </div>
+
+    <div v-if="compatibleBases.length > 0" class="mt-10">
+      <h2 class="text-xl font-heading text-d2r-accent mb-4">{{ t('runewords.compatibleBases') }}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <NuxtLink
+          v-for="item in compatibleBases"
+          :key="item.slug"
+          :to="localePath(`/base-items/${item.slug}`)"
+          class="d2r-card p-3 no-underline"
+        >
+          <div class="flex items-center justify-between">
+            <span class="text-d2r-text">{{ locale === 'zh' ? item.name.zh : item.name.en }}</span>
+            <span class="text-d2r-muted text-sm">{{ item.maxSockets }}S</span>
+          </div>
+        </NuxtLink>
+      </div>
+    </div>
+
+    <div class="flex justify-between mt-10 pt-6 border-t border-d2r-border">
+      <NuxtLink
+        v-if="prevSlug"
+        :to="localePath(`/runewords/${prevSlug}`)"
+        class="text-d2r-muted hover:text-d2r-primary transition-colors no-underline"
+      >
+        &larr; {{ t('runewords.prev') }}
+      </NuxtLink>
+      <span v-else />
+      <NuxtLink
+        v-if="nextSlug"
+        :to="localePath(`/runewords/${nextSlug}`)"
+        class="text-d2r-muted hover:text-d2r-primary transition-colors no-underline"
+      >
+        {{ t('runewords.next') }} &rarr;
+      </NuxtLink>
+    </div>
+  </div>
+</template>
