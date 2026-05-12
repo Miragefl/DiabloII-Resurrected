@@ -2,6 +2,8 @@
 const { baseItems, load, getTypes } = useBaseItems()
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
+const { getItemIconPath } = useItemIcon()
+const { translateType } = useTypeTranslation()
 
 await load()
 
@@ -45,12 +47,15 @@ const grouped = computed(() => {
         :class="selectedType === type ? 'bg-d2r-primary text-white' : 'bg-d2r-card text-d2r-muted border border-d2r-border hover:border-d2r-primary'"
         @click="selectedType = type"
       >
-        {{ type }}
+        {{ translateType(type) }}
       </button>
     </div>
 
     <div v-for="(items, type) in grouped" :key="type" class="mb-8">
-      <h2 v-if="!selectedType" class="text-xl font-heading text-d2r-accent mb-3">{{ type }}</h2>
+      <h2 v-if="!selectedType" class="text-xl font-heading text-d2r-accent mb-3 flex items-center gap-2">
+        <img :src="getItemIconPath(type)" :alt="type" class="w-6 h-6 opacity-80" />
+        {{ translateType(type) }}
+      </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         <NuxtLink
           v-for="item in items"
@@ -59,11 +64,14 @@ const grouped = computed(() => {
           class="d2r-card p-4 no-underline"
         >
           <div class="flex items-center justify-between mb-1">
-            <h3 class="text-d2r-text font-medium">{{ locale === 'zh' ? item.name.zh : item.name.en }}</h3>
+            <div class="flex items-center gap-2">
+              <img :src="getItemIconPath(item.type)" :alt="item.type" class="w-6 h-6 opacity-80" />
+              <h3 class="text-d2r-text font-medium">{{ locale === 'zh' ? item.name.zh : item.name.en }}</h3>
+            </div>
             <span class="d2r-badge d2r-badge-gold">{{ item.maxSockets }}S</span>
           </div>
           <div class="text-d2r-muted text-xs space-x-3">
-            <span>{{ item.type }}</span>
+            <span>{{ translateType(item.type) }}</span>
             <span>Lv.{{ item.level }}</span>
             <span v-if="item.strength">Str:{{ item.strength }}</span>
           </div>

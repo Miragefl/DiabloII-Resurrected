@@ -6,19 +6,31 @@ const props = defineProps<{
 
 const sizeClass = computed(() => {
   switch (props.size || 'md') {
-    case 'sm': return 'w-5 h-5 text-[10px]'
-    case 'md': return 'w-8 h-8 text-xs'
-    case 'lg': return 'w-12 h-12 text-sm'
+    case 'sm': return 'w-6 h-6'
+    case 'md': return 'w-10 h-10'
+    case 'lg': return 'w-16 h-16'
   }
 })
+
+const imgSize = computed(() => {
+  switch (props.size || 'md') {
+    case 'sm': return 24
+    case 'md': return 40
+    case 'lg': return 64
+  }
+})
+
+const runeImage = computed(() => `/images/runes/${props.name.toLowerCase()}.png`)
 </script>
 
 <template>
-  <span
-    class="inline-flex items-center justify-center rounded-sm bg-d2r-card border border-d2r-accent/30 text-d2r-accent font-bold"
+  <img
+    :src="runeImage"
+    :alt="name"
+    :width="imgSize"
+    :height="imgSize"
+    class="inline-block"
     :class="sizeClass"
     :title="name"
-  >
-    {{ name.slice(0, 2) }}
-  </span>
+  />
 </template>

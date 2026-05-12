@@ -72,7 +72,7 @@ const showMobileFilter = ref(false)
             class="w-full mt-4 py-2 bg-d2r-primary text-white rounded cursor-pointer"
             @click="showMobileFilter = false"
           >
-            Done
+            {{ t('common.done') }}
           </button>
         </div>
       </div>

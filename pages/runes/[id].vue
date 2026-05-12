@@ -17,6 +17,8 @@ if (!rune) {
 
 const usedInRunewords = getByRune(rune.name)
 
+const runeImage = computed(() => `/images/runes/${rune.name.toLowerCase()}.png`)
+
 useHead({
   title: `${rune.name} (#${rune.id}) - D2R Runes`,
 })
@@ -29,7 +31,12 @@ useHead({
     </NuxtLink>
 
     <div class="mt-6 mb-8 text-center">
-      <RuneIcon :name="rune.name" size="lg" class="mx-auto mb-3" />
+      <img
+        :src="runeImage"
+        :alt="rune.name"
+        class="w-24 h-24 mx-auto mb-3 drop-shadow-lg"
+        style="filter: drop-shadow(0 0 8px rgba(212, 160, 23, 0.4));"
+      />
       <h1 class="text-4xl font-heading text-d2r-accent">{{ rune.name }}</h1>
       <p class="text-d2r-muted mt-1">#{{ rune.id }} &middot; {{ rune.nameZh }} &middot; Lv.{{ rune.level }}</p>
     </div>
@@ -77,7 +84,10 @@ useHead({
           class="d2r-card p-3 no-underline"
         >
           <div class="flex items-center justify-between">
-            <span class="text-d2r-text font-medium">{{ locale === 'zh' ? rw.name.zh : rw.name.en }}</span>
+            <div class="flex items-center gap-2">
+              <RuneIcon v-for="r in rw.runes" :key="r" :name="r" size="sm" />
+              <span class="text-d2r-text font-medium">{{ locale === 'zh' ? rw.name.zh : rw.name.en }}</span>
+            </div>
             <span class="text-d2r-muted text-sm">{{ rw.sockets }}S &middot; Lv.{{ rw.level }}</span>
           </div>
         </NuxtLink>

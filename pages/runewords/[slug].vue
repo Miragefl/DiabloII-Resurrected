@@ -5,6 +5,8 @@ const localePath = useLocalePath()
 const { runewords, load, getBySlug, getSlugs } = useRunewords()
 const { load: loadRunes } = useRunes()
 const { baseItems, load: loadBaseItems } = useBaseItems()
+const { getItemIconPath } = useItemIcon()
+const { translateType, translateClass } = useTypeTranslation()
 
 await load()
 await loadRunes()
@@ -34,6 +36,10 @@ const compatibleBases = computed(() =>
   baseItems.value.filter(i => i.compatibleRunewords.includes(slug)),
 )
 
+const itemIcons = computed(() =>
+  runeword.itemTypes.map(type => ({ type, icon: getItemIconPath(type) })),
+)
+
 useHead({
   title: `${displayName.value} - D2R Runewords`,
   meta: [
@@ -49,14 +55,27 @@ useHead({
     </NuxtLink>
 
     <div class="mt-6 mb-8">
-      <div class="flex items-center gap-3 mb-2">
-        <h1 class="text-4xl font-heading text-d2r-accent">{{ displayName }}</h1>
-        <span v-if="runeword.ladderOnly" class="d2r-badge d2r-badge-red">Ladder</span>
-        <span v-if="runeword.d2rOnly" class="d2r-badge d2r-badge-purple">D2R</span>
+      <div class="flex items-start gap-4 mb-2">
+        <div class="flex gap-2">
+          <img
+            v-for="ii in itemIcons"
+            :key="ii.type"
+            :src="ii.icon"
+            :alt="ii.type"
+            class="w-14 h-14"
+          />
+        </div>
+        <div>
+          <div class="flex items-center gap-3 mb-1">
+            <h1 class="text-4xl font-heading text-d2r-accent">{{ displayName }}</h1>
+            <span v-if="runeword.ladderOnly" class="d2r-badge d2r-badge-red">{{ t('common.ladder') }}</span>
+            <span v-if="runeword.d2rOnly" class="d2r-badge d2r-badge-purple">{{ t('common.d2rOnly') }}</span>
+          </div>
+          <p class="text-d2r-muted">
+            {{ runeword.itemTypes.map(translateType).join(', ') }} &middot; {{ runeword.sockets }} {{ t('runewords.sockets') }} &middot; Lv.{{ runeword.level }} &middot; {{ t('common.patch') }} {{ runeword.patch }}
+          </p>
+        </div>
       </div>
-      <p class="text-d2r-muted">
-        {{ runeword.itemTypes.join(', ') }} &middot; {{ runeword.sockets }} {{ t('runewords.sockets') }} &middot; Lv.{{ runeword.level }} &middot; Patch {{ runeword.patch }}
-      </p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-8">
@@ -75,7 +94,7 @@ useHead({
           <h3 class="text-sm font-semibold text-d2r-accent mb-2">{{ t('runewords.bestFor') }}</h3>
           <div class="flex flex-wrap gap-2">
             <span v-for="cls in runeword.bestFor" :key="cls" class="d2r-badge d2r-badge-gold">
-              {{ cls }}
+              {{ translateClass(cls) }}
             </span>
           </div>
         </div>
@@ -96,9 +115,16 @@ useHead({
           :to="localePath(`/base-items/${item.slug}`)"
           class="d2r-card p-3 no-underline"
         >
-          <div class="flex items-center justify-between">
-            <span class="text-d2r-text">{{ locale === 'zh' ? item.name.zh : item.name.en }}</span>
-            <span class="text-d2r-muted text-sm">{{ item.maxSockets }}S</span>
+          <div class="flex items-center gap-3">
+            <img
+              :src="getItemIconPath(item.type)"
+              :alt="item.type"
+              class="w-8 h-8 opacity-80"
+            />
+            <div class="flex-1 flex items-center justify-between">
+              <span class="text-d2r-text">{{ locale === 'zh' ? item.name.zh : item.name.en }}</span>
+              <span class="text-d2r-muted text-sm">{{ item.maxSockets }}S</span>
+            </div>
           </div>
         </NuxtLink>
       </div>

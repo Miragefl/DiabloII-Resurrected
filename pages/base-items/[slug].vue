@@ -4,6 +4,8 @@ const { locale, t } = useI18n()
 const localePath = useLocalePath()
 const { baseItems, load, getBySlug } = useBaseItems()
 const { runewords, load: loadRunewords } = useRunewords()
+const { getItemIconPath } = useItemIcon()
+const { translateType } = useTypeTranslation()
 
 await load()
 await loadRunewords()
@@ -34,16 +36,19 @@ useHead({
       &larr; {{ t('common.backToList') }}
     </NuxtLink>
 
-    <div class="mt-6 mb-8">
-      <h1 class="text-4xl font-heading text-d2r-accent">{{ displayName }}</h1>
-      <p class="text-d2r-muted mt-2">
-        {{ item.type }} &middot; Lv.{{ item.level }} &middot; {{ item.maxSockets }} {{ t('baseItems.maxSockets') }}
-      </p>
+    <div class="mt-6 mb-8 flex items-start gap-4">
+      <img :src="getItemIconPath(item.type)" :alt="item.type" class="w-14 h-14" />
+      <div>
+        <h1 class="text-4xl font-heading text-d2r-accent">{{ displayName }}</h1>
+        <p class="text-d2r-muted mt-2">
+          {{ translateType(item.type) }} &middot; Lv.{{ item.level }} &middot; {{ item.maxSockets }} {{ t('baseItems.maxSockets') }}
+        </p>
+      </div>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 mb-10">
       <div class="d2r-card p-4 space-y-2">
-        <h3 class="text-d2r-accent font-semibold mb-3">Stats</h3>
+        <h3 class="text-d2r-accent font-semibold mb-3">{{ t('common.stats') }}</h3>
         <div v-if="item.strength" class="flex justify-between text-sm">
           <span class="text-d2r-muted">{{ t('baseItems.strength') }}</span>
           <span class="text-d2r-text">{{ item.strength }}</span>

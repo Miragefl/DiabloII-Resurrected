@@ -10,6 +10,7 @@ const emit = defineEmits<{
 }>()
 
 const { t } = useI18n()
+const { translateType } = useTypeTranslation()
 
 const socketOptions = [2, 3, 4, 5, 6]
 const itemTypeOptions = [
@@ -67,7 +68,7 @@ function toggleItemType(type: string) {
             : 'bg-d2r-card text-d2r-muted border border-d2r-border hover:border-d2r-primary'"
           @click="toggleItemType(type)"
         >
-          {{ type }}
+          {{ translateType(type) }}
         </button>
       </div>
     </div>
@@ -103,14 +104,14 @@ function toggleItemType(type: string) {
           :class="modelValue.ladderOnly === true ? 'bg-d2r-danger text-white' : 'bg-d2r-card text-d2r-muted border border-d2r-border'"
           @click="emit('update:modelValue', { ...modelValue, ladderOnly: true })"
         >
-          Ladder
+          {{ t('common.ladder') }}
         </button>
         <button
           class="px-3 py-1 rounded text-sm cursor-pointer transition-colors"
           :class="modelValue.ladderOnly === false ? 'bg-d2r-primary text-white' : 'bg-d2r-card text-d2r-muted border border-d2r-border'"
           @click="emit('update:modelValue', { ...modelValue, ladderOnly: false })"
         >
-          Non-Ladder
+          {{ t('common.nonLadder') }}
         </button>
       </div>
     </div>

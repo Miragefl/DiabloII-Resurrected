@@ -59,6 +59,46 @@
   "common": {
     "backToList": "返回列表",
     "all": "全部",
-    "clear": "清除筛选"
+    "clear": "清除筛选",
+    "more": "还有 {count} 条...",
+    "done": "完成",
+    "patch": "版本",
+    "stats": "属性",
+    "ladder": "天梯",
+    "nonLadder": "非天梯",
+    "d2rOnly": "D2R专属",
+    "level": "等级"
+  },
+  "types": {
+    "Swords": "剑",
+    "Axes": "斧",
+    "Maces": "锤矛",
+    "Polearms": "长柄武器",
+    "Staves": "法杖",
+    "Bows": "弓",
+    "Crossbows": "弩",
+    "Shields": "盾牌",
+    "Body Armor": "护甲",
+    "Weapons": "武器",
+    "Claws": "爪",
+    "Clubs": "棍棒",
+    "Hammers": "锤",
+    "Helms": "头盔",
+    "Melee Weapons": "近战武器",
+    "Missile Weapons": "远程武器",
+    "Paladin Shields": "圣骑士盾牌",
+    "Scepters": "权杖",
+    "Wands": "法杖",
+    " Daggers": "匕首",
+    "Spears": "长矛"
+  },
+  "classes": {
+    "Amazon": "亚马逊",
+    "Assassin": "刺客",
+    "Barbarian": "野蛮人",
+    "Druid": "德鲁伊",
+    "Necromancer": "死灵法师",
+    "Paladin": "圣骑士",
+    "Sorceress": "女法师"
   }
 }

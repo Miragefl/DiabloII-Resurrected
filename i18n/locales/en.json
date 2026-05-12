@@ -59,6 +59,46 @@
   "common": {
     "backToList": "Back to List",
     "all": "All",
-    "clear": "Clear Filters"
+    "clear": "Clear Filters",
+    "more": "+{count} more...",
+    "done": "Done",
+    "patch": "Patch",
+    "stats": "Stats",
+    "ladder": "Ladder",
+    "nonLadder": "Non-Ladder",
+    "d2rOnly": "D2R",
+    "level": "Level"
+  },
+  "types": {
+    "Swords": "Swords",
+    "Axes": "Axes",
+    "Maces": "Maces",
+    "Polearms": "Polearms",
+    "Staves": "Staves",
+    "Bows": "Bows",
+    "Crossbows": "Crossbows",
+    "Shields": "Shields",
+    "Body Armor": "Body Armor",
+    "Weapons": "Weapons",
+    "Claws": "Claws",
+    "Clubs": "Clubs",
+    "Hammers": "Hammers",
+    "Helms": "Helms",
+    "Melee Weapons": "Melee Weapons",
+    "Missile Weapons": "Missile Weapons",
+    "Paladin Shields": "Paladin Shields",
+    "Scepters": "Scepters",
+    "Wands": "Wands",
+    "Daggers": "Daggers",
+    "Spears": "Spears"
+  },
+  "classes": {
+    "Amazon": "Amazon",
+    "Assassin": "Assassin",
+    "Barbarian": "Barbarian",
+    "Druid": "Druid",
+    "Necromancer": "Necromancer",
+    "Paladin": "Paladin",
+    "Sorceress": "Sorceress"
   }
 }
