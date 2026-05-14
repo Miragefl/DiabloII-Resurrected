@@ -112,8 +112,8 @@ const grouped = computed(() => {
           class="d2r-card p-4 no-underline"
         >
           <div class="flex items-center justify-between mb-1">
-            <div class="flex items-center gap-2">
-              <img :src="getItemIconPath(item.type, item.slug)" :alt="item.type" class="w-6 h-6 opacity-80" />
+            <div class="flex items-center gap-2.5">
+              <img :src="getItemIconPath(item.type, item.slug)" :alt="item.type" class="w-9 h-9 opacity-80" />
               <h3 class="text-d2r-text font-medium">{{ locale === 'zh' ? item.name.zh : item.name.en }}</h3>
             </div>
             <div class="flex items-center gap-1.5">
@@ -124,7 +124,6 @@ const grouped = computed(() => {
             </div>
           </div>
           <div class="text-d2r-muted text-xs space-x-3">
-            <span>{{ translateType(item.type) }}</span>
             <span>Lv.{{ item.level }}</span>
             <span v-if="item.strength">Str:{{ item.strength }}</span>
           </div>

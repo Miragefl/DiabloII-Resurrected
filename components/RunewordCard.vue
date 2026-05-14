@@ -162,25 +162,15 @@ function highlightEffect(text: string): string {
 <template>
   <NuxtLink :to="localePath(`/runewords/${runeword.slug}`)" class="block no-underline">
     <div class="d2r-card p-4 h-full flex flex-col">
-      <div class="flex items-start gap-2.5 mb-2">
-        <img
-          :src="itemIcon"
-          :alt="primaryType"
-          class="w-11 h-11 flex-shrink-0 opacity-80"
-        />
-        <div class="flex-1 min-w-0">
-          <div class="flex items-center justify-between gap-1">
-            <h3 class="text-d2r-accent font-heading text-lg leading-tight">{{ displayName }}</h3>
-            <div class="flex gap-1 flex-shrink-0">
-              <span v-if="runeword.popular" class="d2r-badge d2r-badge-orange">HOT</span>
-              <span v-if="runeword.ladderOnly" class="d2r-badge d2r-badge-red">{{ t('common.ladder') }}</span>
-              <span v-if="runeword.d2rOnly" class="d2r-badge d2r-badge-purple">{{ t('common.d2rOnly') }}</span>
-            </div>
-          </div>
-          <div class="flex items-center gap-3 text-sm text-d2r-muted mt-1">
-            <span>{{ runeword.sockets }}S</span>
-            <span>Lv.{{ runeword.level }}</span>
-          </div>
+      <div class="flex items-center justify-between gap-1 mb-2">
+        <div class="flex items-center gap-2">
+          <h3 class="text-d2r-accent font-heading text-lg leading-tight">{{ displayName }}</h3>
+          <span class="text-d2r-muted text-sm">Lv.{{ runeword.level }}</span>
+        </div>
+        <div class="flex gap-1 flex-shrink-0">
+          <span v-if="runeword.popular" class="d2r-badge d2r-badge-orange">HOT</span>
+          <span v-if="runeword.ladderOnly" class="d2r-badge d2r-badge-red">{{ t('common.ladder') }}</span>
+          <span v-if="runeword.d2rOnly" class="d2r-badge d2r-badge-purple">{{ t('common.d2rOnly') }}</span>
         </div>
       </div>
 
@@ -195,9 +185,8 @@ function highlightEffect(text: string): string {
         <span
           v-for="type in runeword.itemTypes"
           :key="type"
-          class="inline-flex items-center gap-1 px-2 py-0.5 bg-d2r-bg-alt border border-d2r-border rounded text-sm text-d2r-muted"
+          class="px-2 py-0.5 bg-d2r-bg-alt border border-d2r-border rounded text-sm text-d2r-muted"
         >
-          <img :src="getItemIconPath(type)" :alt="type" class="w-4 h-4 opacity-70" />
           {{ translateType(type) }}
         </span>
       </div>
