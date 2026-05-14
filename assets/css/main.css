@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -71,5 +72,42 @@
     background-color: rgba(220, 38, 38, 0.2);
     color: var(--color-d2r-danger);
     border: 1px solid rgba(220, 38, 38, 0.3);
+  }
+  .d2r-badge-orange {
+    background-color: rgba(249, 115, 22, 0.2);
+    color: #f97316;
+    border: 1px solid rgba(249, 115, 22, 0.3);
+  }
+
+  .d2r-highlight {
+    color: #22d3ee;
+    font-weight: 500;
+  }
+
+  .d2r-hl-skill {
+    color: #a78bfa;
+    font-weight: 500;
+  }
+  .d2r-hl-cast {
+    color: #818cf8;
+    font-weight: 500;
+  }
+  .d2r-hl-offense {
+    color: #fb923c;
+    font-weight: 500;
+  }
+  .d2r-hl-defense {
+    color: #4ade80;
+    font-weight: 500;
+  }
+  .d2r-hl-move {
+    color: #22d3ee;
+    font-weight: 500;
+  }
+
+  .d2r-keyword-active {
+    background-color: rgba(139, 92, 246, 0.25);
+    color: #c4b5fd;
+    border: 1px solid rgba(139, 92, 246, 0.4);
   }
 }

@@ -7,6 +7,9 @@
     "weaponEffect": "+50 to Attack Rating, +1 Light Radius",
     "armorEffect": "+15 Defense, +1 Light Radius",
     "shieldEffect": "+15 Defense, +1 Light Radius",
+    "weaponEffectZh": "+50 命中率, +1 照亮范围",
+    "armorEffectZh": "+15 防御, +1 照亮范围",
+    "shieldEffectZh": "+15 防御, +1 照亮范围",
     "dropLevel": {
       "normal": 1,
       "nightmare": 2,
@@ -21,6 +24,9 @@
     "weaponEffect": "+75% Damage to Undead, +50 Attack Rating against Undead",
     "armorEffect": "15% Slower Stamina Drain",
     "shieldEffect": "15% Increased Chance of Blocking",
+    "weaponEffectZh": "+75% 伤害对不死系, +50 命中率对不死系",
+    "armorEffectZh": "15% 减缓精力消耗",
+    "shieldEffectZh": "15% 增加格挡几率",
     "dropLevel": {
       "normal": 3,
       "nightmare": 4,
@@ -35,6 +41,9 @@
     "weaponEffect": "+2 to Mana after each Kill",
     "armorEffect": "+2 to Mana after each Kill",
     "shieldEffect": "+2 to Mana after each Kill",
+    "weaponEffectZh": "+2 点法力在每杀一个敌人后取得",
+    "armorEffectZh": "+2 点法力在每杀一个敌人后取得",
+    "shieldEffectZh": "+2 点法力在每杀一个敌人后取得",
     "dropLevel": {
       "normal": 4,
       "nightmare": 6,
@@ -49,6 +58,9 @@
     "weaponEffect": "Knockback",
     "armorEffect": "+30 Defense vs. Missile",
     "shieldEffect": "+30 Defense vs. Missile",
+    "weaponEffectZh": "击退",
+    "armorEffectZh": "+30 对飞射性防御",
+    "shieldEffectZh": "+30 对飞射性防御",
     "dropLevel": {
       "normal": 6,
       "nightmare": 8,
@@ -63,6 +75,9 @@
     "weaponEffect": "-25% Target Defense",
     "armorEffect": "+15% Mana Regeneration",
     "shieldEffect": "+15% Mana Regeneration",
+    "weaponEffectZh": "-25% 目标防御",
+    "armorEffectZh": "+15% 法力回复",
+    "shieldEffectZh": "+15% 法力回复",
     "dropLevel": {
       "normal": 7,
       "nightmare": 10,
@@ -77,6 +92,9 @@
     "weaponEffect": "+9 to Maximum Damage",
     "armorEffect": "15% Damage Taken goes to Mana",
     "shieldEffect": "15% Damage Taken goes to Mana",
+    "weaponEffectZh": "+9 最大伤害",
+    "armorEffectZh": "15% 受损的生命移至法力",
+    "shieldEffectZh": "15% 受损的生命移至法力",
     "dropLevel": {
       "normal": 9,
       "nightmare": 12,
@@ -91,6 +109,9 @@
     "weaponEffect": "+75 Poison Damage over 5 seconds",
     "armorEffect": "Poison Resist +30%",
     "shieldEffect": "Poison Resist +35%",
+    "weaponEffectZh": "+75 毒伤害，效果持续 5 秒",
+    "armorEffectZh": "防毒 +30%",
+    "shieldEffectZh": "防毒 +35%",
     "dropLevel": {
       "normal": 10,
       "nightmare": 14,
@@ -105,6 +126,9 @@
     "weaponEffect": "Adds 5-30 Fire Damage",
     "armorEffect": "Fire Resist +30%",
     "shieldEffect": "Fire Resist +35%",
+    "weaponEffectZh": "+5-30 火焰伤害",
+    "armorEffectZh": "防火 +30%",
+    "shieldEffectZh": "防火 +35%",
     "dropLevel": {
       "normal": 12,
       "nightmare": 16,
@@ -119,6 +143,9 @@
     "weaponEffect": "Adds 1-50 Lightning Damage",
     "armorEffect": "Lightning Resist +30%",
     "shieldEffect": "Lightning Resist +35%",
+    "weaponEffectZh": "+1-50 闪电伤害",
+    "armorEffectZh": "防电 +30%",
+    "shieldEffectZh": "防电 +35%",
     "dropLevel": {
       "normal": 13,
       "nightmare": 18,
@@ -133,6 +160,9 @@
     "weaponEffect": "Adds 3-14 Cold Damage, 3 second Duration",
     "armorEffect": "Cold Resist +30%",
     "shieldEffect": "Cold Resist +35%",
+    "weaponEffectZh": "+3-14 冰冻伤害，效果持续 3 秒",
+    "armorEffectZh": "防冰 +30%",
+    "shieldEffectZh": "防冰 +35%",
     "dropLevel": {
       "normal": 15,
       "nightmare": 20,
@@ -147,6 +177,9 @@
     "weaponEffect": "7% Life Stolen Per Hit",
     "armorEffect": "Attacker Takes Damage of 14",
     "shieldEffect": "Attacker Takes Damage of 14",
+    "weaponEffectZh": "每次命中偷取 7% 生命",
+    "armorEffectZh": "攻击者受到伤害 14",
+    "shieldEffectZh": "攻击者受到伤害 14",
     "dropLevel": {
       "normal": 16,
       "nightmare": 22,
@@ -161,6 +194,9 @@
     "weaponEffect": "+9 to Minimum Damage",
     "armorEffect": "Damage Reduced by 7",
     "shieldEffect": "Damage Reduced by 7",
+    "weaponEffectZh": "+9 最小伤害",
+    "armorEffectZh": "伤害减少 7",
+    "shieldEffectZh": "伤害减少 7",
     "dropLevel": {
       "normal": 18,
       "nightmare": 24,
@@ -175,6 +211,9 @@
     "weaponEffect": "20% Increased Attack Speed",
     "armorEffect": "20% Faster Hit Recovery",
     "shieldEffect": "20% Faster Block Rate",
+    "weaponEffectZh": "20% 增加攻击速度",
+    "armorEffectZh": "20% 快速恢复打击",
+    "shieldEffectZh": "20% 快速格挡率",
     "dropLevel": {
       "normal": 19,
       "nightmare": 26,
@@ -189,6 +228,9 @@
     "weaponEffect": "Hit Causes Monster to Flee 25%",
     "armorEffect": "Replenish Life +7",
     "shieldEffect": "Replenish Life +7",
+    "weaponEffectZh": "命中使怪物逃跑 25%",
+    "armorEffectZh": "恢复生命 +7",
+    "shieldEffectZh": "恢复生命 +7",
     "dropLevel": {
       "normal": 21,
       "nightmare": 28,
@@ -203,6 +245,9 @@
     "weaponEffect": "Requirements -20%",
     "armorEffect": "Requirements -15%",
     "shieldEffect": "Requirements -15%",
+    "weaponEffectZh": "需求 -20%",
+    "armorEffectZh": "需求 -15%",
+    "shieldEffectZh": "需求 -15%",
     "dropLevel": {
       "normal": 22,
       "nightmare": 30,
@@ -217,6 +262,9 @@
     "weaponEffect": "+10 to Vitality",
     "armorEffect": "+10 to Vitality",
     "shieldEffect": "+10 to Vitality",
+    "weaponEffectZh": "+10 活力",
+    "armorEffectZh": "+10 活力",
+    "shieldEffectZh": "+10 活力",
     "dropLevel": {
       "normal": 24,
       "nightmare": 32,
@@ -231,6 +279,9 @@
     "weaponEffect": "+10 to Energy",
     "armorEffect": "+10 to Energy",
     "shieldEffect": "+10 to Energy",
+    "weaponEffectZh": "+10 精力",
+    "armorEffectZh": "+10 精力",
+    "shieldEffectZh": "+10 精力",
     "dropLevel": {
       "normal": 25,
       "nightmare": 34,
@@ -245,6 +296,9 @@
     "weaponEffect": "+10 to Dexterity",
     "armorEffect": "+10 to Dexterity",
     "shieldEffect": "+10 to Dexterity",
+    "weaponEffectZh": "+10 敏捷",
+    "armorEffectZh": "+10 敏捷",
+    "shieldEffectZh": "+10 敏捷",
     "dropLevel": {
       "normal": 27,
       "nightmare": 36,
@@ -259,6 +313,9 @@
     "weaponEffect": "+10 to Strength",
     "armorEffect": "+10 to Strength",
     "shieldEffect": "+10 to Strength",
+    "weaponEffectZh": "+10 力量",
+    "armorEffectZh": "+10 力量",
+    "shieldEffectZh": "+10 力量",
     "dropLevel": {
       "normal": 28,
       "nightmare": 38,
@@ -273,6 +330,9 @@
     "weaponEffect": "75% Extra Gold from Monsters",
     "armorEffect": "50% Extra Gold from Monsters",
     "shieldEffect": "50% Extra Gold from Monsters",
+    "weaponEffectZh": "75% 额外金币从怪物身上取得",
+    "armorEffectZh": "50% 额外金币从怪物身上取得",
+    "shieldEffectZh": "50% 额外金币从怪物身上取得",
     "dropLevel": {
       "normal": 30,
       "nightmare": 40,
@@ -287,6 +347,9 @@
     "weaponEffect": "+75% Damage to Demons, +100 Attack Rating against Demons",
     "armorEffect": "+30% Enhanced Defense",
     "shieldEffect": "+30% Enhanced Defense",
+    "weaponEffectZh": "+75% 伤害对恶魔系, +100 命中率对恶魔系",
+    "armorEffectZh": "+30% 防御强化",
+    "shieldEffectZh": "+30% 防御强化",
     "dropLevel": {
       "normal": 31,
       "nightmare": 42,
@@ -301,6 +364,9 @@
     "weaponEffect": "25% Chance of Open Wounds",
     "armorEffect": "All Resistances +15",
     "shieldEffect": "All Resistances +22",
+    "weaponEffectZh": "25% 机会造成伤口",
+    "armorEffectZh": "所有抗性 +15",
+    "shieldEffectZh": "所有抗性 +22",
     "dropLevel": {
       "normal": 33,
       "nightmare": 44,
@@ -315,6 +381,9 @@
     "weaponEffect": "Prevent Monster Heal",
     "armorEffect": "Magic Damage Reduced by 7",
     "shieldEffect": "Magic Damage Reduced by 7",
+    "weaponEffectZh": "防止怪物自疗",
+    "armorEffectZh": "魔法伤害减少 7",
+    "shieldEffectZh": "魔法伤害减少 7",
     "dropLevel": {
       "normal": 34,
       "nightmare": 46,
@@ -329,6 +398,9 @@
     "weaponEffect": "30% Better Chance of Getting Magic Items",
     "armorEffect": "25% Better Chance of Getting Magic Items",
     "shieldEffect": "25% Better Chance of Getting Magic Items",
+    "weaponEffectZh": "30% 更佳的机会取得魔法装备",
+    "armorEffectZh": "25% 更佳的机会取得魔法装备",
+    "shieldEffectZh": "25% 更佳的机会取得魔法装备",
     "dropLevel": {
       "normal": 36,
       "nightmare": 48,
@@ -343,6 +415,9 @@
     "weaponEffect": "20% Bonus to Attack Rating",
     "armorEffect": "5% to Maximum Poison Resist",
     "shieldEffect": "5% to Maximum Poison Resist",
+    "weaponEffectZh": "20% 额外命中率",
+    "armorEffectZh": "5% 最大毒系抗性",
+    "shieldEffectZh": "5% 最大毒系抗性",
     "dropLevel": {
       "normal": 37,
       "nightmare": 50,
@@ -357,6 +432,9 @@
     "weaponEffect": "7% Mana Stolen Per Hit",
     "armorEffect": "5% to Maximum Fire Resist",
     "shieldEffect": "5% to Maximum Fire Resist",
+    "weaponEffectZh": "每次命中偷取 7% 法力",
+    "armorEffectZh": "5% 最大火系抗性",
+    "shieldEffectZh": "5% 最大火系抗性",
     "dropLevel": {
       "normal": 39,
       "nightmare": 52,
@@ -371,6 +449,9 @@
     "weaponEffect": "+50% Enhanced Damage",
     "armorEffect": "5% to Maximum Lightning Resist",
     "shieldEffect": "5% to Maximum Lightning Resist",
+    "weaponEffectZh": "+50% 伤害强化",
+    "armorEffectZh": "5% 最大电系抗性",
+    "shieldEffectZh": "5% 最大电系抗性",
     "dropLevel": {
       "normal": 40,
       "nightmare": 54,
@@ -385,6 +466,9 @@
     "weaponEffect": "20% Deadly Strike",
     "armorEffect": "5% to Maximum Lightning Resist",
     "shieldEffect": "5% to Maximum Lightning Resist",
+    "weaponEffectZh": "20% 致命打击",
+    "armorEffectZh": "5% 最大电系抗性",
+    "shieldEffectZh": "5% 最大电系抗性",
     "dropLevel": {
       "normal": 42,
       "nightmare": 56,
@@ -399,6 +483,9 @@
     "weaponEffect": "20% Chance of Crushing Blow",
     "armorEffect": "+5% to Maximum Mana",
     "shieldEffect": "+50 to Mana",
+    "weaponEffectZh": "20% 机会碾压打击",
+    "armorEffectZh": "+5% 最大法力",
+    "shieldEffectZh": "+50 法力",
     "dropLevel": {
       "normal": 43,
       "nightmare": 58,
@@ -413,6 +500,9 @@
     "weaponEffect": "20% Chance of Crushing Blow",
     "armorEffect": "Damage Reduced by 8%",
     "shieldEffect": "Damage Reduced by 8%",
+    "weaponEffectZh": "20% 机会碾压打击",
+    "armorEffectZh": "伤害减少 8%",
+    "shieldEffectZh": "伤害减少 8%",
     "dropLevel": {
       "normal": 45,
       "nightmare": 60,
@@ -427,6 +517,9 @@
     "weaponEffect": "Ignore Target Defense",
     "armorEffect": "+5% to Maximum Life",
     "shieldEffect": "+50 to Life",
+    "weaponEffectZh": "无视目标防御",
+    "armorEffectZh": "+5% 最大生命",
+    "shieldEffectZh": "+50 生命",
     "dropLevel": {
       "normal": 46,
       "nightmare": 62,
@@ -441,6 +534,9 @@
     "weaponEffect": "Freeze Target +3",
     "armorEffect": "Cannot Be Frozen",
     "shieldEffect": "Cannot Be Frozen",
+    "weaponEffectZh": "冰冻目标 +3",
+    "armorEffectZh": "无法冰冻",
+    "shieldEffectZh": "无法冰冻",
     "dropLevel": {
       "normal": 48,
       "nightmare": 64,
@@ -455,6 +551,9 @@
     "weaponEffect": "Indestructible",
     "armorEffect": "Indestructible",
     "shieldEffect": "Indestructible",
+    "weaponEffectZh": "无法破坏",
+    "armorEffectZh": "无法破坏",
+    "shieldEffectZh": "无法破坏",
     "dropLevel": {
       "normal": 49,
       "nightmare": 66,

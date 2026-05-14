@@ -37,11 +37,15 @@ useHead({
     </NuxtLink>
 
     <div class="mt-6 mb-8 flex items-start gap-4">
-      <img :src="getItemIconPath(item.type)" :alt="item.type" class="w-14 h-14" />
+      <img :src="getItemIconPath(item.type, item.slug)" :alt="item.type" class="w-14 h-14" />
       <div>
         <h1 class="text-4xl font-heading text-d2r-accent">{{ displayName }}</h1>
         <p class="text-d2r-muted mt-2">
-          {{ translateType(item.type) }} &middot; Lv.{{ item.level }} &middot; {{ item.maxSockets }} {{ t('baseItems.maxSockets') }}
+          {{ translateType(item.type) }}
+          <span v-if="(item as any).tier" class="font-medium" :class="(item as any).tier === 'elite' ? 'text-yellow-400' : (item as any).tier === 'exceptional' ? 'text-blue-400' : ''">
+            &middot; {{ locale === 'zh' ? (item as any).tierZh : (item as any).tier }}
+          </span>
+          &middot; Lv.{{ item.level }} &middot; {{ item.maxSockets }} {{ t('baseItems.maxSockets') }}
         </p>
       </div>
     </div>

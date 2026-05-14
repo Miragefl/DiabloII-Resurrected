@@ -1,170 +1,4876 @@
 [
   {
-    "slug": "steel",
-    "name": { "en": "Steel", "zh": "钢铁" },
-    "runes": ["Tir", "El"],
-    "runeNumbers": [3, 1],
+    "slug": "nadir",
+    "name": {
+      "en": "Nadir",
+      "zh": "天底"
+    },
+    "runes": [
+      "Nef",
+      "Tir"
+    ],
+    "runeNumbers": [
+      4,
+      3
+    ],
     "sockets": 2,
-    "itemTypes": ["Swords", "Axes", "Maces"],
+    "itemTypes": [
+      "Helms"
+    ],
     "level": 13,
     "ladderOnly": false,
     "d2rOnly": false,
-    "patch": "1.10",
+    "patch": "1.07",
     "effects": {
-      "en": ["+20% Enhanced Damage", "+3 to Minimum Damage", "+3 to Maximum Damage", "+50 to Attack Rating", "50% Chance of Open Wounds", "+2 to Mana after each Kill", "+1 Light Radius"],
-      "zh": ["+20% 增强伤害", "+3 最小伤害", "+3 最大伤害", "+50 攻击命中率", "50% 机会造成撕裂伤口", "每杀一个敌人获得 +2 法力", "+1 照亮范围"]
+      "en": [
+        "+50% Enhanced Defense",
+        "+10 Defense",
+        "+30 Defense vs. Missile",
+        "Level 13 Cloak of Shadows (9 Charges)",
+        "+2 To Mana After Each Kill",
+        "+5 To Strength",
+        "-33% Extra Gold From Monsters",
+        "-3 To Light Radius"
+      ],
+      "zh": [
+        "+50% 防御强化",
+        "+10 防御",
+        "+30 对飞射性防御",
+        "等级 13 魔影斗篷 (9 次)",
+        "+2 点法力在每杀一个敌人后取得",
+        "+5 力量",
+        "-33% 额外金币从怪物身上取得",
+        "-3 照亮范围"
+      ]
+    }
+  },
+  {
+    "slug": "steel",
+    "name": {
+      "en": "Steel",
+      "zh": "钢铁"
+    },
+    "runes": [
+      "Tir",
+      "El"
+    ],
+    "runeNumbers": [
+      3,
+      1
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Swords",
+      "Axes",
+      "Maces"
+    ],
+    "level": 13,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "20% Enhanced Damage",
+        "+3 To Minimum Damage",
+        "+3 To Maximum Damage",
+        "+50 To Attack Rating",
+        "50% Chance Of Open Wounds",
+        "25% Increased Attack Speed",
+        "+2 To Mana After Each Kill",
+        "+1 To Light Radius"
+      ],
+      "zh": [
+        "20% 增强伤害",
+        "+3 最小伤害",
+        "+3 最大伤害",
+        "+50 准确率",
+        "50% 撕开伤口机会",
+        "25% 增加攻击速度",
+        "+2 点法力在每杀一个敌人后取得",
+        "+1 照亮范围"
+      ]
+    }
+  },
+  {
+    "slug": "malice",
+    "name": {
+      "en": "Malice",
+      "zh": "恶意"
+    },
+    "runes": [
+      "Ith",
+      "El",
+      "Eth"
+    ],
+    "runeNumbers": [
+      6,
+      1,
+      5
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "level": 15,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+33% Enhanced Damage",
+        "+9 To Maximum Damage",
+        "100% Chance Of Open Wounds",
+        "-25% Target Defense",
+        "-100 To Monster Defense Per Hit",
+        "Prevent Monster Heal",
+        "+50 To Attack Rating",
+        "Drain Life -5"
+      ],
+      "zh": [
+        "+33% 增强伤害",
+        "+9 最大伤害",
+        "100% 撕开伤口机会",
+        "-25% 目标防御",
+        "-100 每击中减怪物防御",
+        "防止怪物自疗",
+        "+50 准确率",
+        "消耗生命 -5"
+      ]
     }
   },
   {
     "slug": "stealth",
-    "name": { "en": "Stealth", "zh": "隐秘" },
-    "runes": ["Tal", "Eth"],
-    "runeNumbers": [7, 5],
+    "name": {
+      "en": "Stealth",
+      "zh": "隐秘"
+    },
+    "runes": [
+      "Tal",
+      "Eth"
+    ],
+    "runeNumbers": [
+      7,
+      5
+    ],
     "sockets": 2,
-    "itemTypes": ["Body Armor"],
+    "itemTypes": [
+      "Body Armor"
+    ],
     "level": 17,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "Magic Damage Reduced By 3",
+        "+6 To Dexterity",
+        "+15 To Maximum Stamina",
+        "Poison Resist +30%",
+        "Regenerate Mana 15%",
+        "25% Faster Run/Walk",
+        "25% Faster Cast Rate",
+        "25% Faster Hit Recovery"
+      ],
+      "zh": [
+        "法术伤害减少 3",
+        "+6 敏捷",
+        "+15 耐力最大值",
+        "抗毒 +30%",
+        "法力重生 15%",
+        "25% 高速跑步/行走",
+        "25% 高速施展速度",
+        "25% 快速再度攻击"
+      ]
+    }
+  },
+  {
+    "slug": "leaf",
+    "name": {
+      "en": "Leaf",
+      "zh": "叶"
+    },
+    "runes": [
+      "Tir",
+      "Ral"
+    ],
+    "runeNumbers": [
+      3,
+      8
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Staves"
+    ],
+    "level": 19,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "Adds 5-30 Fire Damage",
+        "+3 To Fire Skills",
+        "+3 To Fire Bolt (Sorceress Only)",
+        "+3 To Inferno (Sorceress Only)",
+        "+3 To Warmth (Sorceress Only)",
+        "+2 To Mana After Each Kill",
+        "+ (2 Per Character Level) +2-198 To Defense (Based On Character Level)",
+        "Cold Resist +33%"
+      ],
+      "zh": [
+        "增加 5-30 火焰伤害",
+        "+3 火焰技能",
+        "+3 火弹 (限法师使用)",
+        "+3 地狱火 (限法师使用)",
+        "+3 暖气 (限法师使用)",
+        "+2 点法力在每杀一个敌人后取得",
+        "+(2 每角色等级) +2-198 防御 (以角色等级决定)",
+        "抗寒 +33%"
+      ]
+    }
+  },
+  {
+    "slug": "ancients-pledge",
+    "name": {
+      "en": "Ancient's Pledge",
+      "zh": "远古誓言"
+    },
+    "runes": [
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "runeNumbers": [
+      8,
+      9,
+      7
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Shields"
+    ],
+    "level": 21,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+50% Enhanced Defense",
+        "Cold Resist +43%",
+        "Fire Resist +48%",
+        "Lightning Resist +48%",
+        "Poison Resist +48%",
+        "10% Damage Goes To Mana"
+      ],
+      "zh": [
+        "+50% 防御强化",
+        "抗寒 +43%",
+        "抗火 +48%",
+        "抗闪电 +48%",
+        "抗毒 +48%",
+        "10% 受损的生命移至法力"
+      ]
+    }
+  },
+  {
+    "slug": "holy-thunder",
+    "name": {
+      "en": "Holy Thunder",
+      "zh": "圣雷"
+    },
+    "runes": [
+      "Eth",
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "runeNumbers": [
+      5,
+      8,
+      9,
+      7
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Scepters"
+    ],
+    "level": 21,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+60% Enhanced Damage",
+        "-25% Target Defense",
+        "Adds 5-30 Fire Damage",
+        "Adds 21-110 Lightning Damage",
+        "+75 Poison Damage Over 5 Seconds",
+        "+10 To Maximum Damage",
+        "Lightning Resistance +60%",
+        "+5 To Maximum Lightning Resistance",
+        "+3 To Holy Shock (Paladin Only)",
+        "Level 7 Chain Lightning (60 Charges)"
+      ],
+      "zh": [
+        "+60% 增强伤害",
+        "-25% 目标防御",
+        "+5-30 火焰伤害",
+        "+21-110 闪电伤害",
+        "+75 毒素伤害, 持续时间 5 秒",
+        "+10 最大伤害",
+        "抗闪电 +60%",
+        "+5 抗闪电上限",
+        "+3 神圣撞击 (限圣骑士使用)",
+        "等级 7 连锁闪电 (60 次)"
+      ]
+    }
+  },
+  {
+    "slug": "zephyr",
+    "name": {
+      "en": "Zephyr",
+      "zh": "和风"
+    },
+    "runes": [
+      "Ort",
+      "Eth"
+    ],
+    "runeNumbers": [
+      9,
+      5
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "level": 21,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+33% Enhanced Damage",
+        "+66 To Attack Rating",
+        "Adds 1-50 Lightning Damage",
+        "-25% Target Defense",
+        "+25 Defense",
+        "25% Faster Run/Walk",
+        "25% Increased Attack Speed",
+        "7% Chance To Cast Level 1 Twister When Struck"
+      ],
+      "zh": [
+        "+33% 增强伤害",
+        "+66 准确率",
+        "+1-50 闪电伤害",
+        "-25% 目标防御",
+        "+25 防御",
+        "25% 高速跑步/行走",
+        "25% 增加攻击速度",
+        "攻击时有 7% 几率施展等级 1 小旋风"
+      ]
+    }
+  },
+  {
+    "slug": "pattern",
+    "name": {
+      "en": "Pattern",
+      "zh": "花样"
+    },
+    "runes": [
+      "Tal",
+      "Ort",
+      "Thul"
+    ],
+    "runeNumbers": [
+      7,
+      9,
+      10
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Claws"
+    ],
+    "level": 23,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.4",
+    "effects": {
+      "en": [
+        "+30% Faster Block Rate",
+        "+40-80% Enhanced Damage (varies)",
+        "10% Bonus to Attack Rating",
+        "Adds 17-62 Fire Damage",
+        "Adds 1-50 Lightning Damage",
+        "Adds 3-14 Cold Damage",
+        "+75 Poison Damage Over 5 Seconds",
+        "+6 to Strength",
+        "+6 to Dexterity",
+        "All Resistances +15"
+      ],
+      "zh": [
+        "+30% 快速格挡率",
+        "+40-80% 增强伤害 (可变)",
+        "10% 额外攻击准确率",
+        "增加 17-62 火焰伤害",
+        "增加 1-50 闪电伤害",
+        "增加 3-14 冰冷伤害",
+        "+75 毒素伤害持续 5 秒",
+        "+6 力量",
+        "+6 敏捷",
+        "所有抗性 +15"
+      ]
+    }
+  },
+  {
+    "slug": "kings-grace",
+    "name": {
+      "en": "King's Grace",
+      "zh": "国王之恩典"
+    },
+    "runes": [
+      "Amn",
+      "Ral",
+      "Thul"
+    ],
+    "runeNumbers": [
+      11,
+      8,
+      10
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Swords",
+      "Scepters"
+    ],
+    "level": 25,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+100% Enhanced Damage",
+        "+100% Damage To Demons",
+        "+50% Damage To Undead",
+        "Adds 5-30 Fire Damage",
+        "Adds 3-14 Cold Damage - 3 Second Duration",
+        "+150 To Attack Rating",
+        "+100 To Attack Rating Against Demons",
+        "+100 To Attack Rating Against Undead",
+        "7% Life Stolen Per Hit"
+      ],
+      "zh": [
+        "+100% 增强伤害",
+        "+100% 对恶魔的伤害",
+        "+50% 对不死生物的伤害",
+        "+5-30 火焰伤害",
+        "+3-14 冰冷伤害, 3 秒持续时间",
+        "+150 准确率",
+        "+100 对恶魔的准确率",
+        "+100 对不死生物的准确率",
+        "7% 击中偷取生命"
+      ]
+    }
+  },
+  {
+    "slug": "strength",
+    "name": {
+      "en": "Strength",
+      "zh": "力量"
+    },
+    "runes": [
+      "Amn",
+      "Tir"
+    ],
+    "runeNumbers": [
+      11,
+      3
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "level": 25,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "35% Enhanced Damage",
+        "25% Chance Of Crushing Blow",
+        "7% Life Stolen Per Hit",
+        "+2 To Mana After Each Kill",
+        "+20 To Strength",
+        "+10 To Vitality"
+      ],
+      "zh": [
+        "35% 增强伤害",
+        "25% 造成压碎性打击的概率",
+        "7% 击中偷取生命",
+        "+2 点法力在每杀一个敌人后取得",
+        "+20 力量",
+        "+10 体力"
+      ]
+    }
+  },
+  {
+    "slug": "edge",
+    "name": {
+      "en": "Edge",
+      "zh": "锋芒"
+    },
+    "runes": [
+      "Tir",
+      "Tal",
+      "Amn"
+    ],
+    "runeNumbers": [
+      3,
+      7,
+      11
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "level": 25,
     "ladderOnly": false,
     "d2rOnly": false,
     "patch": "1.10",
     "effects": {
-      "en": ["Magic Damage Reduced by 3", "+6 to Dexterity", "+15 to Maximum Stamina", "Poison Resist +30%", "Regenerate Mana 15%", "25% Faster Run/Walk", "25% Faster Cast Rate", "25% Faster Hit Recovery"],
-      "zh": ["魔法伤害减少 3", "+6 敏捷", "+15 最大耐力", "毒素抗性 +30%", "法力恢复速度 +15%", "25% 高速跑步/行走", "25% 高速施法", "25% 高速打击恢复"]
+      "en": [
+        "Level 15 Thorns Aura When Equipped",
+        "+35% Increased Attack Speed",
+        "+320-380% Damage To Demons (varies)",
+        "+280% Damage To Undead",
+        "+75 Poison Damage Over 5 Seconds",
+        "7% Life Stolen Per Hit",
+        "Prevent Monster Heal",
+        "+5-10 To All Attributes (varies)",
+        "+2 To Mana After Each Kill",
+        "Reduces All Vendor Prices 15%!!!*"
+      ],
+      "zh": [
+        "当装备后拥有 15 级 荆棘灵气",
+        "35% 提升攻击速度",
+        "+320-380% 伤害力对恶魔系怪物 (可变)",
+        "+280% 伤害力对不死系怪物",
+        "+75 毒伤害，效果持续 5 秒",
+        "每次命中偷取 7% 生命",
+        "+5-10 所有属性 (可变)",
+        "防止怪物治疗",
+        "每杀一个怪物 +2 法力",
+        "降低所有 NPC 价格 15%"
+      ]
     }
   },
   {
     "slug": "spirit",
-    "name": { "en": "Spirit", "zh": "精神" },
-    "runes": ["Tal", "Thul", "Ort", "Amn"],
-    "runeNumbers": [7, 10, 9, 11],
+    "name": {
+      "en": "Spirit",
+      "zh": "精神"
+    },
+    "runes": [
+      "Tal",
+      "Thul",
+      "Ort",
+      "Amn"
+    ],
+    "runeNumbers": [
+      7,
+      10,
+      9,
+      11
+    ],
     "sockets": 4,
-    "itemTypes": ["Swords", "Shields"],
+    "itemTypes": [
+      "Swords",
+      "Shields"
+    ],
+    "level": 25,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "Weapons",
+        "+2 To All Skills",
+        "+25-35% Faster Cast Rate (varies)",
+        "+55% Faster Hit Recovery",
+        "Adds 1-50 Lightning Damage",
+        "Adds 3-14 Cold Damage 3 Second Duration (Normal)",
+        "+75 Poison Damage Over 5 Seconds",
+        "7% Life Stolen Per Hit",
+        "+250 Defense Vs. Missile",
+        "+22 To Vitality",
+        "+89-112 To Mana (varies)",
+        "+3-8 Magic Absorb (varies)",
+        "Shields",
+        "+2 To All Skills",
+        "+25-35% Faster Cast Rate (varies)",
+        "+55% Faster Hit Recovery",
+        "+250 Defense Vs. Missile",
+        "+22 To Vitality",
+        "+89-112 To Mana (varies)",
+        "Cold Resist +35%",
+        "Lightning Resist +35%",
+        "Poison Resist +35%",
+        "+3-8 Magic Absorb (varies)",
+        "Attacker Takes Damage of 14"
+      ],
+      "zh": [
+        "+2 级所有技能",
+        "+25-35% 快速施放法术 (可变)",
+        "+55% 快速恢复打击",
+        "+250 防御力对远程攻击",
+        "+22 活力",
+        "+89-112 法力 (可变)",
+        "攻击者受到反伤害 14 (盾牌) / 每次命中偷取 7% 生命 (剑)",
+        "防冰 +35% (盾牌) / +3-14 冰伤害 (剑)",
+        "防毒 +35% (盾牌) / +75 毒伤害，效果持续 5 秒 (剑)",
+        "防电 +35% (盾牌) / +1-50 电伤害 (剑)",
+        "+3-8 魔法吸收 (可变)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "myth",
+    "name": {
+      "en": "Myth (Barbarian)",
+      "zh": "神话（野蛮人）"
+    },
+    "runes": [
+      "Hel",
+      "Amn",
+      "Nef"
+    ],
+    "runeNumbers": [
+      15,
+      11,
+      4
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
     "level": 25,
     "ladderOnly": false,
     "d2rOnly": false,
     "patch": "1.11",
     "effects": {
-      "en": ["+2 to All Skills", "+25-35% Faster Cast Rate", "+55% Faster Hit Recovery", "+250 Defense vs. Missile", "+22 to Vitality", "+89-112 to Mana", "+3-8 Magic Absorb"],
-      "zh": ["+2 所有技能", "+25-35% 高速施法", "+55% 高速打击恢复", "+250 远程防御", "+22 体力", "+89-112 法力", "+3-8 魔法吸收"]
-    },
-    "bestFor": ["Paladin", "Sorceress"]
+      "en": [
+        "3% Chance To Cast Level 1 Howl When Struck",
+        "10% Chance To Cast Level 1 Taunt On Striking",
+        "+2 To Barbarian Skill Levels",
+        "+30 Defense Vs. Missile",
+        "Replenish Life +10",
+        "Attacker Takes Damage of 14",
+        "Requirements -15%"
+      ],
+      "zh": [
+        "3% 概率在被击中时施展等级 1 狂嗥",
+        "10% 概率在击中目标时施展等级 1 嘲弄",
+        "+2 野蛮人技能",
+        "+30 对飞射性防御",
+        "生命补满 +10",
+        "攻击者受到伤害 14",
+        "需求 -15%"
+      ]
+    }
   },
   {
-    "slug": "enigma",
-    "name": { "en": "Enigma", "zh": "谜团" },
-    "runes": ["Jah", "Ith", "Ber"],
-    "runeNumbers": [31, 6, 30],
+    "slug": "honor",
+    "name": {
+      "en": "Honor",
+      "zh": "荣耀"
+    },
+    "runes": [
+      "Amn",
+      "El",
+      "Ith",
+      "Tir",
+      "Sol"
+    ],
+    "runeNumbers": [
+      11,
+      1,
+      6,
+      3,
+      12
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "level": 27,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+160% Enhanced Damage",
+        "+9 To Minimum Damage",
+        "+9 To Maximum Damage",
+        "25% Deadly Strike",
+        "+250 To Attack Rating",
+        "+1 to All Skills",
+        "7% Life Stolen Per Hit",
+        "Replenish Life +10",
+        "+10 To Strength",
+        "+1 To Light Radius",
+        "+2 To Mana After Each Kill"
+      ],
+      "zh": [
+        "+160% 增强伤害",
+        "+9 最小伤害",
+        "+9 最大伤害",
+        "25% 致命攻击",
+        "+250 准确率",
+        "+1 所有技能",
+        "7% 击中偷取生命",
+        "生命补满 +10",
+        "+10 力量",
+        "+1 照亮范围",
+        "+2 点法力在每杀一个敌人后取得"
+      ]
+    }
+  },
+  {
+    "slug": "lore",
+    "name": {
+      "en": "Lore",
+      "zh": "学识"
+    },
+    "runes": [
+      "Ort",
+      "Sol"
+    ],
+    "runeNumbers": [
+      9,
+      12
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 27,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+1 To All Skill Levels",
+        "+10 To Energy",
+        "+2 To Mana After Each Kill",
+        "Lightning Resist +30%",
+        "Damage Reduced By 7",
+        "+2 To Light Radius"
+      ],
+      "zh": [
+        "+1 所有技能",
+        "+10 精力",
+        "+2 点法力在每杀一个敌人后取得",
+        "抗闪电 +30%",
+        "伤害减少 7",
+        "+2 照亮范围"
+      ]
+    }
+  },
+  {
+    "slug": "radiance",
+    "name": {
+      "en": "Radiance",
+      "zh": "光辉"
+    },
+    "runes": [
+      "Nef",
+      "Sol",
+      "Ith"
+    ],
+    "runeNumbers": [
+      4,
+      12,
+      6
+    ],
     "sockets": 3,
-    "itemTypes": ["Body Armor"],
-    "level": 65,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 27,
     "ladderOnly": false,
     "d2rOnly": false,
-    "patch": "1.10",
+    "patch": "1.07",
     "effects": {
-      "en": ["+2 to All Skills", "+45% Faster Run/Walk", "+1 to Teleport", "+750-775 Defense", "+0-74 to Strength", "+5% to Maximum Life", "Damage Reduced by 8%", "+14 Life after each Kill"],
-      "zh": ["+2 所有技能", "+45% 高速跑步/行走", "+1 传送", "+750-775 防御", "+0-74 力量", "+5% 最大生命值", "伤害减少 8%", "每杀一个敌人获得 +14 生命"]
-    },
-    "bestFor": ["Paladin", "Barbarian", "Necromancer"]
-  },
-  {
-    "slug": "infinity",
-    "name": { "en": "Infinity", "zh": "无限" },
-    "runes": ["Ber", "Mal", "Ber", "Ist"],
-    "runeNumbers": [30, 23, 30, 24],
-    "sockets": 4,
-    "itemTypes": ["Polearms", "Staves"],
-    "level": 63,
-    "ladderOnly": false,
-    "d2rOnly": false,
-    "patch": "1.10",
-    "effects": {
-      "en": ["50% Chance to Cast Level 20 Chain Lightning When You Kill an Enemy", "Level 12 Conviction Aura When Equipped", "+35% Faster Run/Walk", "+255-325% Enhanced Damage", "50% Chance of Crushing Blow"],
-      "zh": ["50% 机会在杀死敌人时施展20级连环闪电", "装备后获得12级信念光环", "+35% 高速跑步/行走", "+255-325% 增强伤害", "50% 机会造成碾压性打击"]
-    },
-    "bestFor": ["Mercenary"]
+      "en": [
+        "+75% Enhanced Defense",
+        "+30 Defense Vs. Missile",
+        "+10 To Energy",
+        "+10 To Vitality",
+        "15% Damage Goes To Mana",
+        "Magic Damage Reduced By 3",
+        "+33 To Mana",
+        "Damage Reduced By 7",
+        "+5 To Light Radius"
+      ],
+      "zh": [
+        "+75% 防御强化",
+        "+30 对飞射性防御",
+        "+10 精力",
+        "+10 体力",
+        "15% 受损的生命移至法力",
+        "法术伤害减少 3",
+        "+33 法力",
+        "伤害减少 7",
+        "+5 照亮范围"
+      ]
+    }
   },
   {
     "slug": "insight",
-    "name": { "en": "Insight", "zh": "眼光" },
-    "runes": ["Ral", "Tir", "Tal", "Sol"],
-    "runeNumbers": [8, 3, 7, 12],
+    "name": {
+      "en": "Insight",
+      "zh": "眼光"
+    },
+    "runes": [
+      "Ral",
+      "Tir",
+      "Tal",
+      "Sol"
+    ],
+    "runeNumbers": [
+      8,
+      3,
+      7,
+      12
+    ],
     "sockets": 4,
-    "itemTypes": ["Polearms", "Staves"],
+    "itemTypes": [
+      "Polearms",
+      "Staves"
+    ],
     "level": 27,
     "ladderOnly": false,
     "d2rOnly": false,
     "patch": "1.10",
     "effects": {
-      "en": ["Level 12-17 Meditation Aura When Equipped", "+35% Faster Cast Rate", "+200-260% Enhanced Damage", "+9 to Minimum Damage", "+5 to All Attributes"],
-      "zh": ["装备后获得12-17级冥思光环", "+35% 高速施法", "+200-260% 增强伤害", "+9 最小伤害", "+5 所有属性"]
+      "en": [
+        "Level 12-17 Meditation Aura When Equipped (varies)",
+        "+35% Faster Cast Rate",
+        "+200-260% Enhanced Damage (varies)",
+        "+9 To Minimum Damage",
+        "180-250% Bonus to Attack Rating (varies)",
+        "Adds 5-30 Fire Damage",
+        "+75 Poison Damage Over 5 Seconds",
+        "+1-6 To Critical Strike (varies)",
+        "+5 To All Attributes",
+        "+2 To Mana After Each Kill",
+        "23% Better Chance of Getting Magic Items"
+      ],
+      "zh": [
+        "当装备后拥有 12-17 级 冥思灵气 (可变)",
+        "+35% 快速施放法术",
+        "+200-260% 伤害力 (可变)",
+        "+9 最小伤害",
+        "180-250% 提升攻击命中率 (可变)",
+        "+5-30 火伤害",
+        "+75 毒伤害，效果持续 5 秒",
+        "+1-6 级 双倍打击 (可变)",
+        "+5 所有属性",
+        "每杀一个敌人 +2 法力",
+        "提升 23% 魔法装备出现概率"
+      ]
     },
-    "bestFor": ["Mercenary"]
+    "popular": true
   },
   {
-    "slug": "heart-of-the-oak",
-    "name": { "en": "Heart of the Oak", "zh": "橡树之心" },
-    "runes": ["Ko", "Vex", "Pul", "Thul"],
-    "runeNumbers": [18, 26, 21, 10],
+    "slug": "rhyme",
+    "name": {
+      "en": "Rhyme",
+      "zh": "节奏"
+    },
+    "runes": [
+      "Shael",
+      "Eth"
+    ],
+    "runeNumbers": [
+      13,
+      5
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Shields"
+    ],
+    "level": 29,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "20% Increased Chance of Blocking",
+        "40% Faster Block Rate",
+        "All Resistances +25",
+        "Regenerate Mana 15%",
+        "Cannot Be Frozen",
+        "50% Extra Gold From Monsters",
+        "25% Better Chance Of Getting Magic Items"
+      ],
+      "zh": [
+        "20% 快速再度攻击",
+        "40% 较快速格挡率",
+        "所有抗性 +25",
+        "法力重生 15%",
+        "无法冰冻",
+        "50% 额外金币从怪物身上取得",
+        "25% 更佳的机会取得魔法装备"
+      ]
+    }
+  },
+  {
+    "slug": "peace",
+    "name": {
+      "en": "Peace (Amazon)",
+      "zh": "和平（亚马逊）"
+    },
+    "runes": [
+      "Shael",
+      "Thul",
+      "Amn"
+    ],
+    "runeNumbers": [
+      13,
+      10,
+      11
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 29,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.11",
+    "effects": {
+      "en": [
+        "4% Chance To Cast Level 5 Slow Missiles When Struck",
+        "2% Chance To Cast level 15 Valkyrie On Striking",
+        "+2 To Amazon Skill Levels",
+        "+20% Faster Hit Recovery",
+        "+2 To Critical Strike",
+        "Cold Resist +30%",
+        "Attacker Takes Damage of 14"
+      ],
+      "zh": [
+        "4% 概率在被击中时施展等级 5 慢速箭",
+        "2% 概率在击中目标时施展等级 15 女武神",
+        "+2 亚玛逊技能",
+        "+2 致命攻击",
+        "20% 快速打击恢复",
+        "+30% 冰抗",
+        "敌人受到反伤害 14"
+      ]
+    }
+  },
+  {
+    "slug": "black",
+    "name": {
+      "en": "Black",
+      "zh": "黑色"
+    },
+    "runes": [
+      "Thul",
+      "Io",
+      "Nef"
+    ],
+    "runeNumbers": [
+      10,
+      16,
+      4
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Clubs",
+      "Hammers",
+      "Maces"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+120% Enhanced Damage",
+        "40% Chance Of Crushing Blow",
+        "+200 To Attack Rating",
+        "Adds 3-14 Cold Damage - Cold Duration 3 Seconds",
+        "+10 To Vitality",
+        "15% Increased Attack Speed",
+        "Knockback",
+        "Magic Damage Reduced By 2",
+        "Level 4 Corpse Explosion (12 Charges)"
+      ],
+      "zh": [
+        "+120% 增强伤害",
+        "40% 造成压碎性打击的概率",
+        "+200 准确率",
+        "+3-14 冰冷伤害, 3 秒持续时间",
+        "+10 体力",
+        "15% 增加攻击速度",
+        "击退",
+        "法术伤害减少 2",
+        "等级 4 尸体爆炸 (12 次)"
+      ]
+    }
+  },
+  {
+    "slug": "white",
+    "name": {
+      "en": "White",
+      "zh": "白色"
+    },
+    "runes": [
+      "Dol",
+      "Io"
+    ],
+    "runeNumbers": [
+      14,
+      16
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Wands"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "Hit Causes Monster To Flee 25%",
+        "+10 To Vitality",
+        "+3 To Poison And Bone Skills (Necromancer Only)",
+        "+3 To Bone Armor (Necromancer Only)",
+        "+2 To Bone Spear (Necromancer Only)",
+        "+4 To Skeleton Mastery (Necromancer Only)",
+        "Magic Damage Reduced By 4",
+        "20% Faster Cast Rate",
+        "+13 To Mana"
+      ],
+      "zh": [
+        "击中使怪物逃跑概率 25%",
+        "+10 体力",
+        "+3 毒系和白骨法术技能 (限死灵法师使用)",
+        "+3 白骨装甲 (限死灵法师使用)",
+        "+2 骨矛 (限死灵法师使用)",
+        "+4 支配骷髅 (限死灵法师使用)",
+        "法术伤害减少 4",
+        "20% 高速施展速度",
+        "+13 法力"
+      ]
+    }
+  },
+  {
+    "slug": "bulwark",
+    "name": {
+      "en": "Bulwark",
+      "zh": "壁垒"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Sol"
+    ],
+    "runeNumbers": [
+      13,
+      16,
+      12
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "+20% Faster Hit Recovery",
+        "+4-6% Life stolen per hit",
+        "+75-100% Enhanced Defense",
+        "+10 to Vitality",
+        "Increase Maximum Life 5%",
+        "Replenish Life +30",
+        "Damage Reduced by 7",
+        "Physical Damage Received Reduced by 10-15%"
+      ],
+      "zh": [
+        "+20% 快速再度攻击",
+        "+4-6% 击中偷取生命",
+        "+75-100% 防御强化",
+        "+10 体力",
+        "增加生命上限 5%",
+        "生命补满 +30",
+        "伤害减少 7",
+        "物理伤害减少 10-15%"
+      ]
+    }
+  },
+  {
+    "slug": "cure",
+    "name": {
+      "en": "Cure",
+      "zh": "治疗"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Tal"
+    ],
+    "runeNumbers": [
+      13,
+      16,
+      7
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "Level 1 Cleansing Aura when Equipped",
+        "+20% Faster Hit Recovery",
+        "+75-100% Enhanced Defense",
+        "+10 to Vitality",
+        "Increase Maximum Life 5%",
+        "Poison Resist +40-60%",
+        "Poison Length Reduced by 50%"
+      ],
+      "zh": [
+        "等级 1 净化灵气赋予",
+        "+20% 快速再度攻击",
+        "+75-100% 防御强化",
+        "+10 体力",
+        "增加生命上限 5%",
+        "抗毒 +40-60%",
+        "中毒持续时间减少 50%"
+      ]
+    }
+  },
+  {
+    "slug": "ground",
+    "name": {
+      "en": "Ground",
+      "zh": "大地"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Ort"
+    ],
+    "runeNumbers": [
+      13,
+      16,
+      9
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "+20% Faster Hit Recovery",
+        "+75-100% Enhanced Defense",
+        "+10 to Vitality",
+        "Increase Maximum Life 5%",
+        "Lightning Resist +40-60%",
+        "Lightning Absorb +10-15%"
+      ],
+      "zh": [
+        "+20% 快速再度攻击",
+        "+75-100% 防御强化",
+        "+10 体力",
+        "增加生命上限 5%",
+        "抗闪电 +40-60%",
+        "闪电吸收 +10-15%"
+      ]
+    }
+  },
+  {
+    "slug": "hearth",
+    "name": {
+      "en": "Hearth",
+      "zh": "炉心"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Thul"
+    ],
+    "runeNumbers": [
+      13,
+      16,
+      10
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "+20% Faster Hit Recovery",
+        "+75-100% Enhanced Defense",
+        "+10 to Vitality",
+        "Increase Maximum Life 5%",
+        "Cold Resist +40-60%",
+        "Cold Absorb +10-15%",
+        "Cannot be Frozen"
+      ],
+      "zh": [
+        "+20% 快速再度攻击",
+        "+75-100% 防御强化",
+        "+10 体力",
+        "增加生命上限 5%",
+        "抗寒 +40-60%",
+        "冰冷吸收 +10-15%",
+        "无法冰冻"
+      ]
+    }
+  },
+  {
+    "slug": "temper",
+    "name": {
+      "en": "Temper",
+      "zh": "淬炼"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Ral"
+    ],
+    "runeNumbers": [
+      13,
+      16,
+      8
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "+20% Faster Hit Recovery",
+        "+75-100% Enhanced Defense",
+        "+10 to Vitality",
+        "Increase Maximum Life 5%",
+        "Fire Resist +40-60%",
+        "Fire Absorb +10-15%"
+      ],
+      "zh": [
+        "+20% 快速再度攻击",
+        "+75-100% 防御强化",
+        "+10 体力",
+        "增加生命上限 5%",
+        "抗火 +40-60%",
+        "火焰吸收 +10-15%"
+      ]
+    }
+  },
+  {
+    "slug": "memory",
+    "name": {
+      "en": "Memory",
+      "zh": "记忆"
+    },
+    "runes": [
+      "Lum",
+      "Io",
+      "Sol",
+      "Eth"
+    ],
+    "runeNumbers": [
+      17,
+      16,
+      12,
+      5
+    ],
     "sockets": 4,
-    "itemTypes": ["Staves", "Maces"],
+    "itemTypes": [
+      "Staves"
+    ],
+    "level": 37,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+3 to Sorceress Skill Levels",
+        "33% Faster Cast Rate",
+        "Increase Maximum Mana 20%",
+        "+3 Energy Shield (Sorceress Only)",
+        "+2 Static Field (Sorceress Only)",
+        "+10 To Energy",
+        "+10 To Vitality",
+        "+9 To Minimum Damage",
+        "-25% Target Defense",
+        "Magic Damage Reduced By 7",
+        "+50% Enhanced Defense"
+      ],
+      "zh": [
+        "+3 法师技能",
+        "33% 高速施展速度",
+        "增加法力上限 20%",
+        "+3 能量护盾 (限法师使用)",
+        "+2 静态力场 (限法师使用)",
+        "+10 精力",
+        "+10 体力",
+        "+9 最小伤害",
+        "-25% 目标防御",
+        "法术伤害减少 7",
+        "+50% 防御强化"
+      ]
+    }
+  },
+  {
+    "slug": "smoke",
+    "name": {
+      "en": "Smoke",
+      "zh": "烟尘"
+    },
+    "runes": [
+      "Nef",
+      "Lum"
+    ],
+    "runeNumbers": [
+      4,
+      17
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 37,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+75% Enhanced Defense",
+        "+280 Defense Vs. Missile",
+        "All Resistances +50",
+        "20% Faster Hit Recovery",
+        "Level 6 Weaken (18 Charges)",
+        "+10 To Energy",
+        "-1 To Light Radius"
+      ],
+      "zh": [
+        "+75% 防御强化",
+        "+280 对飞射性防御",
+        "所有抗性 +50",
+        "20% 快速再度攻击",
+        "等级 6 削弱 (18 次)",
+        "+10 精力",
+        "-1 照亮范围"
+      ]
+    }
+  },
+  {
+    "slug": "splendor",
+    "name": {
+      "en": "Splendor",
+      "zh": "灿烂"
+    },
+    "runes": [
+      "Eth",
+      "Lum"
+    ],
+    "runeNumbers": [
+      5,
+      17
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Shields"
+    ],
+    "level": 37,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+1 To All Skills",
+        "+10% Faster Cast Rate",
+        "+20% Faster Block Rate",
+        "+60-100% Enhanced Defense (varies)",
+        "+10 To Energy",
+        "Regenerate Mana 15%",
+        "50% Extra Gold From Monsters",
+        "20% Better Chance of Getting Magic Items",
+        "+3 To Light Radius"
+      ],
+      "zh": [
+        "+1 所有技能",
+        "+10% 高速施展速度",
+        "+20% 较快速格挡率",
+        "+60-100% 防御强化 (可变)",
+        "+10 精力",
+        "法力重生 15%",
+        "50% 额外金币从怪物身上取得",
+        "20% 更佳的机会取得魔法装备",
+        "+3 照亮范围"
+      ]
+    }
+  },
+  {
+    "slug": "melody",
+    "name": {
+      "en": "Melody",
+      "zh": "旋律"
+    },
+    "runes": [
+      "Shael",
+      "Ko",
+      "Nef"
+    ],
+    "runeNumbers": [
+      13,
+      18,
+      4
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "level": 39,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+50% Enhanced Damage",
+        "+300% Damage To Undead",
+        "+3 To Bow and Crossbow Skills (Amazon Only)",
+        "+3 To Critical Strike (Amazon Only)",
+        "+3 To Dodge (Amazon Only)",
+        "+3 To Slow Missiles (Amazon Only)",
+        "20% Increased Attack Speed",
+        "+10 To Dexterity",
+        "Knockback"
+      ],
+      "zh": [
+        "+50% 增强伤害",
+        "+300% 对不死生物的伤害",
+        "+3 弓和十字弓技能 (限亚马逊使用)",
+        "+3 致命攻击 (限亚马逊使用)",
+        "+3 闪避 (限亚马逊使用)",
+        "+3 慢速箭 (限亚马逊使用)",
+        "20% 增加攻击速度",
+        "+10 敏捷",
+        "击退"
+      ]
+    }
+  },
+  {
+    "slug": "harmony",
+    "name": {
+      "en": "Harmony",
+      "zh": "和谐"
+    },
+    "runes": [
+      "Tir",
+      "Ith",
+      "Sol",
+      "Ko"
+    ],
+    "runeNumbers": [
+      3,
+      6,
+      12,
+      18
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "level": 39,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "Level 10 Vigor Aura When Equipped",
+        "+200-275% Enhanced Damage (varies)",
+        "+9 To Minimum Damage",
+        "+9 To Maximum Damage",
+        "Adds 55-160 Lightning Damage",
+        "Adds 55-160 Fire Damage",
+        "Adds 55-160 Cold Damage",
+        "+2-6 To Valkyrie (varies)",
+        "+10 To Dexterity",
+        "Regenerate Mana 20%",
+        "+2 To Mana After Each Kill",
+        "+2 To Light Radius",
+        "Level 20 Revive (25 Charges)"
+      ],
+      "zh": [
+        "当装备后拥有 10 级 活力灵气",
+        "+200-275% 伤害力 (可变)",
+        "+9 最小伤害",
+        "+9 最大伤害",
+        "+55-160 火伤害",
+        "+55-160 电伤害",
+        "+55-160 冰伤害",
+        "+2-6 级 女武神 (可变)",
+        "+10 敏捷",
+        "提升法力恢复速度 20%",
+        "每杀一个怪物 +2 法力",
+        "+2 光明度",
+        "等级 20 重生 (25 次)"
+      ]
+    }
+  },
+  {
+    "slug": "hustle",
+    "name": {
+      "en": "Hustle",
+      "zh": "奔波"
+    },
+    "runes": [
+      "Shael",
+      "Ko",
+      "Eld"
+    ],
+    "runeNumbers": [
+      13,
+      18,
+      2
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor",
+      "Weapons"
+    ],
+    "level": 39,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "Armor",
+        "+65% Faster Run/Walk",
+        "+40% Increased Attack Speed",
+        "+20% Faster Hit Recovery",
+        "+6 to Evade",
+        "+10 to Dexterity",
+        "50% Slower Stamina Drain",
+        "+All Resistances +10",
+        "Weapons",
+        "5% Chance to cast level 1 9 Burst of Speed on striking",
+        "Level 1 Fanaticism Aura",
+        "+30% Increased Attack Speed",
+        "+180-200% Enhanced Damage",
+        "+75% Damage to Undead",
+        "+50 to Attack Rating against Undead",
+        "+10 to Dexterity"
+      ],
+      "zh": [
+        "盔甲属性:",
+        "+65% 高速跑步/行走",
+        "+40% 增加攻击速度",
+        "+20% 快速再度攻击",
+        "+6 闪避",
+        "+10 敏捷",
+        "50% 减缓耐力消耗",
+        "所有抗性 +10",
+        "",
+        "武器属性:",
+        "5% 几率击中时施展等级 1 爆发速度",
+        "等级 1 狂热灵气赋予",
+        "+30% 增加攻击速度",
+        "+180-200% 增强伤害",
+        "+75% 对不死生物的伤害",
+        "+50 对不死生物的准确率",
+        "+10 敏捷"
+      ]
+    }
+  },
+  {
+    "slug": "lionheart",
+    "name": {
+      "en": "Lionheart",
+      "zh": "狮心"
+    },
+    "runes": [
+      "Hel",
+      "Lum",
+      "Fal"
+    ],
+    "runeNumbers": [
+      15,
+      17,
+      19
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 41,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+20% Enhanced Damage",
+        "Requirements -15%",
+        "+25 To Strength",
+        "+10 To Energy",
+        "+20 To Vitality",
+        "+15 To Dexterity",
+        "+50 To Life",
+        "All Resistances +30"
+      ],
+      "zh": [
+        "+20% 增强伤害",
+        "需求 -15%",
+        "+25 力量",
+        "+10 精力",
+        "+20 体力",
+        "+15 敏捷",
+        "+50 生命",
+        "所有抗性 +30"
+      ]
+    }
+  },
+  {
+    "slug": "obedience",
+    "name": {
+      "en": "Obedience",
+      "zh": "服从"
+    },
+    "runes": [
+      "Hel",
+      "Ko",
+      "Thul",
+      "Eth",
+      "Fal"
+    ],
+    "runeNumbers": [
+      15,
+      18,
+      10,
+      5,
+      19
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Polearms"
+    ],
+    "level": 41,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "30% Chance To Cast Level 21 Enchant When You Kill An Enemy",
+        "40% Faster Hit Recovery",
+        "+370% Enhanced Damage",
+        "-25% Target Defense",
+        "Adds 3-14 Cold Damage 3 Second Duration (Normal)",
+        "-25% To Enemy Fire Resistance",
+        "40% Chance of Crushing Blow",
+        "+200-300 Defense (varies)",
+        "+10 To Strength",
+        "+10 To Dexterity",
+        "All Resistances +20-30 (varies)",
+        "Requirements -20%"
+      ],
+      "zh": [
+        "30% 概率当你杀死敌人时施放出 21 级 火焰强化",
+        "40% 快速恢复打击",
+        "+370% 伤害力",
+        "-25% 目标防御",
+        "+3-14 冰伤害",
+        "-25% 敌人防火",
+        "40% 概率决定性打击",
+        "+200-300 防御力 (可变)",
+        "+10 强壮",
+        "+10 敏捷",
+        "四防 +20-30 (可变)",
+        "装备要求 -20%"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "unbending-will",
+    "name": {
+      "en": "Unbending Will",
+      "zh": "不屈意志"
+    },
+    "runes": [
+      "Fal",
+      "Io",
+      "Ith",
+      "Eld",
+      "El",
+      "Hel"
+    ],
+    "runeNumbers": [
+      19,
+      16,
+      6,
+      2,
+      1,
+      15
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "Swords"
+    ],
+    "level": 41,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.4",
+    "effects": {
+      "en": [
+        "18% Chance to cast Level 18 Taunt on striking",
+        "+3 To Combat Skills (Barbarian Only)",
+        "+20-30% Increased Attack Speed (varies)",
+        "+300-350% Enhanced Damage (varies)",
+        "+9 To Maximum Damage",
+        "+50 To Attack Rating",
+        "+75% Damage to Undead",
+        "+50 Attack Rating Against Undead",
+        "8-10% Life Stolen Per Hit (varies)",
+        "Prevent Monster Heal",
+        "+10 To Strength",
+        "+10 To Vitality",
+        "Damage Reduced By 8",
+        "+1 Light Radius",
+        "Requirements -20%"
+      ],
+      "zh": [
+        "18% 几率击中时施展等级 18 嘲弄",
+        "+3 战斗技能 (限野蛮人使用)",
+        "+20-30% 增加攻击速度 (可变)",
+        "+300-350% 增强伤害 (可变)",
+        "+9 最大伤害",
+        "+50 准确率",
+        "+75% 对不死生物的伤害",
+        "+50 对不死生物的准确率",
+        "8-10% 击中偷取生命 (可变)",
+        "防止怪物自疗",
+        "+10 力量",
+        "+10 体力",
+        "伤害减少 8",
+        "+1 照亮范围",
+        "需求 -20%"
+      ]
+    }
+  },
+  {
+    "slug": "wealth",
+    "name": {
+      "en": "Wealth",
+      "zh": "财富"
+    },
+    "runes": [
+      "Lem",
+      "Ko",
+      "Tir"
+    ],
+    "runeNumbers": [
+      20,
+      18,
+      3
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "300% Extra Gold From Monsters",
+        "100% Better Chance Of Getting Magic Items",
+        "+2 To Mana After Each Kill",
+        "+10 To Dexterity"
+      ],
+      "zh": [
+        "300% 额外金币从怪物身上取得",
+        "100% 更佳的机会取得魔法装备",
+        "+2 点法力在每杀一个敌人后取得",
+        "+10 敏捷"
+      ]
+    }
+  },
+  {
+    "slug": "lawbringer",
+    "name": {
+      "en": "Lawbringer",
+      "zh": "执法者"
+    },
+    "runes": [
+      "Amn",
+      "Lem",
+      "Ko"
+    ],
+    "runeNumbers": [
+      11,
+      20,
+      18
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Swords",
+      "Hammers",
+      "Scepters"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "20% Chance To Cast Level 15 Decrepify On Striking",
+        "Level 16-18 Sanctuary Aura When Equipped (varies)",
+        "-50% Target Defense",
+        "Adds 150-210 Fire Damage",
+        "Adds 130-180 Cold Damage",
+        "7% Life Stolen Per Hit",
+        "Slain Monsters Rest In Peace",
+        "+200-250 Defense Vs. Missile (varies)",
+        "+10 To Dexterity",
+        "75% Extra Gold From Monsters"
+      ],
+      "zh": [
+        "20% 概率在击中目标时施放出 15 级 衰老",
+        "当装备后拥有 16-18 级 庇护所灵气 (可变)",
+        "-50% 目标防御",
+        "+150-210 火伤害",
+        "+130-180 冰伤害",
+        "每次命中偷取 7% 生命",
+        "让怪物死后恢复平静",
+        "+200-250 防御力对远程攻击 (可变)",
+        "+10 敏捷",
+        "从怪物身上得到 75% 额外金钱"
+      ]
+    }
+  },
+  {
+    "slug": "voice-of-reason",
+    "name": {
+      "en": "Voice of Reason",
+      "zh": "理智之声"
+    },
+    "runes": [
+      "Lem",
+      "Ko",
+      "El",
+      "Eld"
+    ],
+    "runeNumbers": [
+      20,
+      18,
+      1,
+      2
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Swords",
+      "Maces"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "15% Chance To Cast Level 13 Frozen Orb On Striking",
+        "18% Chance To Cast Level 20 Ice Blast On Striking",
+        "+50 To Attack Rating",
+        "+220-350% Damage To Demons",
+        "+355-375% Damage To Undead (varies)",
+        "+50 To Attack Rating Against Undead",
+        "Adds 100-220 Cold Damage",
+        "-24% To Enemy Cold Resistance",
+        "+10 To Dexterity",
+        "Cannot Be Frozen",
+        "75% Extra Gold From Monsters",
+        "+1 To Light Radius"
+      ],
+      "zh": [
+        "15% 概率在击中目标时施放出 13 级 冰封球",
+        "18% 概率在击中目标时施放出 20 级 冰风暴",
+        "+50 攻击命中率",
+        "+(220-350)% 伤害力对恶魔系怪物 (可变)",
+        "+(355-375)% 伤害力对不死系怪物 (可变)",
+        "+50 攻击命中率对不死系怪物",
+        "+100-220 冰伤害",
+        "-24% 敌人防冰",
+        "+10 敏捷",
+        "无法冰冻",
+        "从怪物身上得到 75% 额外金钱",
+        "+1 光明度"
+      ]
+    }
+  },
+  {
+    "slug": "passion",
+    "name": {
+      "en": "Passion",
+      "zh": "热情"
+    },
+    "runes": [
+      "Dol",
+      "Ort",
+      "Eld",
+      "Lem"
+    ],
+    "runeNumbers": [
+      14,
+      9,
+      2,
+      20
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+25% Increased Attack Speed",
+        "+160-210% Enhanced Damage (varies)",
+        "50-80% Bonus To Attack Rating (varies)",
+        "+75% Damage To Undead",
+        "+50 To Attack Rating Against Undead",
+        "Adds 1-50 Lightning Damage",
+        "+1 To Berserk",
+        "+1 To Zeal",
+        "Hit Blinds Target +10",
+        "Hit Causes Monster To Flee 25%",
+        "75% Extra Gold From Monsters",
+        "Level 3 Heart of Wolverine (12 Charges)"
+      ],
+      "zh": [
+        "+25% 增加攻击速度",
+        "+160-210% 增强伤害 (可变)",
+        "50-80% 额外的攻击准确率加成 (可变)",
+        "+75% 对不死生物的伤害",
+        "+50 对不死生物的准确率",
+        "+1-50 闪电伤害",
+        "+1 狂暴",
+        "+1 热诚",
+        "击中使目标目盲 +10",
+        "击中使怪物逃跑 25%",
+        "75% 额外金币从怪物身上取得",
+        "等级 3 狼灌之心 (12 次)"
+      ]
+    }
+  },
+  {
+    "slug": "treachery",
+    "name": {
+      "en": "Treachery (Assassin)",
+      "zh": "背叛（刺客）"
+    },
+    "runes": [
+      "Shael",
+      "Thul",
+      "Lem"
+    ],
+    "runeNumbers": [
+      13,
+      10,
+      20
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.11",
+    "effects": {
+      "en": [
+        "5% Chance To Cast Level 15 Fade When Struck",
+        "25% Chance To Cast level 15 Venom On Striking",
+        "+2 To Assassin Skills",
+        "+45% Increased Attack Speed",
+        "+20% Faster Hit Recovery",
+        "Cold Resist +30%",
+        "50% Extra Gold From Monsters"
+      ],
+      "zh": [
+        "5% 概率在被击中时施展等级 15 能量消解",
+        "25% 概率在击中目标时施展等级 15 毒牙",
+        "+2 刺客技能",
+        "45% 提高攻击速度",
+        "20% 快速打击恢复",
+        "+30% 抗冰",
+        "50% 额外金币取得"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "enlightenment",
+    "name": {
+      "en": "Enlightenment (Sorceress)",
+      "zh": "启示（女巫）"
+    },
+    "runes": [
+      "Pul",
+      "Ral",
+      "Sol"
+    ],
+    "runeNumbers": [
+      21,
+      8,
+      12
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 45,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.11",
+    "effects": {
+      "en": [
+        "5% Chance To Cast Level 15 Blaze When Struck",
+        "5% Chance To Cast level 15 Fire Ball On Striking",
+        "+2 To Sorceress Skill Levels",
+        "+1 To Warmth",
+        "+30% Enhanced Defense",
+        "Fire Resist +30%",
+        "Damage Reduced By 7"
+      ],
+      "zh": [
+        "5% 概率在被击中时施展等级 15 冰尖柱",
+        "5% 概率在击中目标时施展等级 15 火球",
+        "+2 法师技能",
+        "+1 暖气",
+        "+30% 防御强化",
+        "抗火 +30%",
+        "伤害减少 7"
+      ]
+    }
+  },
+  {
+    "slug": "wisdom",
+    "name": {
+      "en": "Wisdom",
+      "zh": "智慧"
+    },
+    "runes": [
+      "Pul",
+      "Ith",
+      "Eld"
+    ],
+    "runeNumbers": [
+      21,
+      6,
+      2
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 45,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.4",
+    "effects": {
+      "en": [
+        "+33% Piercing Attack",
+        "+15-25% Bonus to Attack Rating (varies)",
+        "4-8% Mana Stolen Per Hit (varies)",
+        "+30% Enhanced Defense",
+        "+10 Energy",
+        "15% Slower Stamina Drain",
+        "Cannot Be Frozen",
+        "+5 Mana After Each Kill",
+        "15% Damage Taken Goes to Mana"
+      ],
+      "zh": [
+        "+33% 穿透攻击",
+        "+15-25% 额外攻击准确率 (可变)",
+        "4-8% 击中偷取法力 (可变)",
+        "+30% 防御强化",
+        "+10 精力",
+        "15% 减缓耐力消耗",
+        "无法冰冻",
+        "+5 法力在每杀一个敌人后取得",
+        "15% 受损的生命移至法力"
+      ]
+    }
+  },
+  {
+    "slug": "crescent-moon",
+    "name": {
+      "en": "Crescent Moon",
+      "zh": "新月"
+    },
+    "runes": [
+      "Shael",
+      "Um",
+      "Tir"
+    ],
+    "runeNumbers": [
+      13,
+      22,
+      3
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Axes",
+      "Swords",
+      "Polearms"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "10% Chance To Cast Level 17 Chain Lightning On Striking",
+        "7% Chance To Cast Level 13 Static Field On Striking",
+        "+20% Increased Attack Speed",
+        "+180-220% Enhanced Damage (varies)",
+        "Ignore Target's Defense",
+        "-35% To Enemy Lightning Resistance",
+        "25% Chance of Open Wounds",
+        "+9-11 Magic Absorb (varies)",
+        "+2 To Mana After Each Kill",
+        "Level 18 Summon Spirit Wolf (30 Charges)"
+      ],
+      "zh": [
+        "10% 概率在击中目标时施展等级 17 连锁闪电",
+        "7% 概率在击中目标时施展等级 13 静态力场",
+        "+20% 增加攻击速度",
+        "+180-220% 增强伤害 (可变)",
+        "无视目标防御",
+        "-35% 敌人闪电抗性",
+        "25% 撕开伤口机会",
+        "+9-11 魔法吸收 (可变)",
+        "+2 点法力在每杀一个敌人后取得",
+        "等级 18 召唤灵狼 (30 次)"
+      ]
+    }
+  },
+  {
+    "slug": "duress",
+    "name": {
+      "en": "Duress",
+      "zh": "强压"
+    },
+    "runes": [
+      "Shael",
+      "Um",
+      "Thul"
+    ],
+    "runeNumbers": [
+      13,
+      22,
+      10
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+40% Faster Hit Recovery",
+        "+10-20% Enhanced Damage (varies)",
+        "Adds 37-133 Cold Damage 2 sec. Duration (Normal)",
+        "15% Chance of Crushing Blow",
+        "33% Chance of Open Wounds",
+        "+150-200% Enhanced Defense (varies)",
+        "-20% Slower Stamina Drain",
+        "Cold Resist +45%",
+        "Lightning Resist +15%",
+        "Fire Resist +15%",
+        "Poison Resist +15%"
+      ],
+      "zh": [
+        "+40% 快速再度攻击",
+        "+10-20% 增强伤害 (可变)",
+        "+37-133 冰冷伤害, 2 秒持续时间 (普通)",
+        "15% 造成压碎性打击的概率",
+        "33% 撕开伤口机会",
+        "+150-200% 防御强化 (可变)",
+        "-20% 减缓耐力消耗",
+        "抗寒 +45%",
+        "抗闪电 +15%",
+        "抗火 +15%",
+        "抗毒 +15%"
+      ]
+    }
+  },
+  {
+    "slug": "gloom",
+    "name": {
+      "en": "Gloom",
+      "zh": "幽暗"
+    },
+    "runes": [
+      "Fal",
+      "Um",
+      "Pul"
+    ],
+    "runeNumbers": [
+      19,
+      22,
+      21
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "15% Chance To Cast Level 3 Dim Vision When Struck",
+        "+10% Faster Hit Recovery",
+        "+200-260% Enhanced Defense (varies)",
+        "+10 To Strength",
+        "All Resistances +45",
+        "Half Freeze Duration",
+        "5% Damage Taken Goes To Mana",
+        "-3 To Light Radius"
+      ],
+      "zh": [
+        "15% 概率在被击中时施展等级 3 微暗视力",
+        "+10% 快速再度攻击",
+        "+200-260% 防御强化 (可变)",
+        "+10 力量",
+        "所有抗性 +45",
+        "冰冻时间减半",
+        "5% 受损的生命移至法力",
+        "-3 照亮范围"
+      ]
+    }
+  },
+  {
+    "slug": "stone",
+    "name": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "runes": [
+      "Shael",
+      "Um",
+      "Pul",
+      "Lum"
+    ],
+    "runeNumbers": [
+      13,
+      22,
+      21,
+      17
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+60% Faster Hit Recovery",
+        "+250-290% Enhanced Defense (varies)",
+        "+300 Defense Vs. Missile",
+        "+16 To Strength",
+        "+16 To Vitality",
+        "+10 To Energy",
+        "All Resistances +15",
+        "Level 16 Molten Boulder (80 Charges)",
+        "Level 16 Clay Golem (16 Charges)"
+      ],
+      "zh": [
+        "+60% 快速再度攻击",
+        "+250-290% 防御强化 (可变)",
+        "+300 对飞射性防御",
+        "+16 力量",
+        "+16 体力",
+        "+10 精力",
+        "所有抗性 +15",
+        "等级 16 熔浆巨岩 (80 次)",
+        "等级 16 粘土石魔 (16 次)"
+      ]
+    }
+  },
+  {
+    "slug": "bone",
+    "name": {
+      "en": "Bone (Necromancer)",
+      "zh": "白骨（死灵法师）"
+    },
+    "runes": [
+      "Sol",
+      "Um",
+      "Um"
+    ],
+    "runeNumbers": [
+      12,
+      22,
+      22
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.11",
+    "effects": {
+      "en": [
+        "15% Chance To Cast level 10 Bone Armor When Struck",
+        "15% Chance To Cast level 10 Bone Spear On Striking",
+        "+2 To Necromancer Skill Levels",
+        "+100-150 To Mana (varies)",
+        "All Resistances +30",
+        "Damage Reduced By 7"
+      ],
+      "zh": [
+        "15% 几率在被击中时施展等级 10 白骨装甲",
+        "15% 几率在击中目标时施展等级 10 骨矛",
+        "+2 死灵法师技能",
+        "+100-150 法力 (可变)",
+        "所有抗性 +30",
+        "伤害减少 7"
+      ]
+    }
+  },
+  {
+    "slug": "venom",
+    "name": {
+      "en": "Venom",
+      "zh": "毒液"
+    },
+    "runes": [
+      "Tal",
+      "Dol",
+      "Mal"
+    ],
+    "runeNumbers": [
+      7,
+      14,
+      23
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "Hit Causes Monster To Flee 25%",
+        "Prevent Monster Heal",
+        "Ignore Target's Defense",
+        "7% Mana Stolen Per Hit",
+        "Level 15 Poison Explosion (27 Charges)",
+        "Level 13 Poison Nova (11 Charges)",
+        "+273 Poison Damage Over 6 seconds"
+      ],
+      "zh": [
+        "击中使怪物逃跑概率 25%",
+        "防止怪物自疗",
+        "无视目标防御",
+        "7% 击中偷取法力",
+        "等级 15 毒爆 (27 次)",
+        "等级 13 剧毒新星 (11 次)",
+        "+273 毒素伤害, 持续时间 6 秒"
+      ]
+    }
+  },
+  {
+    "slug": "oath",
+    "name": {
+      "en": "Oath",
+      "zh": "誓言"
+    },
+    "runes": [
+      "Shael",
+      "Pul",
+      "Mal",
+      "Lum"
+    ],
+    "runeNumbers": [
+      13,
+      21,
+      23,
+      17
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Swords",
+      "Axes",
+      "Maces"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "30% Chance To Cast Level 20 Bone Spirit On Striking",
+        "Indestructible",
+        "+50% Increased Attack Speed",
+        "+210-340% Enhanced Damage (varies)",
+        "+75% Damage To Demons",
+        "+100 To Attack Rating Against Demons",
+        "Prevent Monster Heal",
+        "+10 To Energy",
+        "+10-15 Magic Absorb (varies)",
+        "Level 16 Heart Of Wolverine (20 Charges)",
+        "Level 17 Iron Golem (14 Charges)"
+      ],
+      "zh": [
+        "30% 概率在击中目标时施放出 20 级 骨魂",
+        "永不磨损",
+        "50% 提升攻击速度",
+        "+210-340% 伤害力 (可变)",
+        "+75% 伤害力对恶魔系怪物",
+        "+100 攻击命中率对恶魔系怪物",
+        "防止怪物自疗",
+        "+10 能量",
+        "+10-15 魔法吸收 (可变)",
+        "等级 16 狼獾之心 (20 次)",
+        "等级 17 钢铁石魔 (14 次)"
+      ]
+    }
+  },
+  {
+    "slug": "prudence",
+    "name": {
+      "en": "Prudence",
+      "zh": "审慎"
+    },
+    "runes": [
+      "Mal",
+      "Tir"
+    ],
+    "runeNumbers": [
+      23,
+      3
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+25% Faster Hit Recovery",
+        "+140-170% Enhanced Defense (varies)",
+        "All Resistances +25-35 (varies)",
+        "Damage Reduced by 3",
+        "Magic Damage Reduced by 17",
+        "+2 To Mana After Each Kill",
+        "+1 To Light Radius",
+        "Repairs Durability 1 In 4 Seconds"
+      ],
+      "zh": [
+        "+25% 快速恢复打击",
+        "+140-170% 防御强化 (可变)",
+        "所有抗性 +25-35 (可变)",
+        "伤害减少 3",
+        "法术伤害减少 17",
+        "+2 点法力在每杀一个敌人后取得",
+        "+1 照亮范围",
+        "回复装备耐久度 1 于 14 秒内"
+      ]
+    }
+  },
+  {
+    "slug": "sanctuary",
+    "name": {
+      "en": "Sanctuary",
+      "zh": "避难所"
+    },
+    "runes": [
+      "Ko",
+      "Ko",
+      "Mal"
+    ],
+    "runeNumbers": [
+      18,
+      18,
+      23
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Shields"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+20% Faster Hit Recovery",
+        "+20% Faster Block Rate",
+        "20% Increased Chance of Blocking",
+        "+130-160% Enhanced Defense (varies)",
+        "+250 Defense vs. Missile",
+        "+20 To Dexterity",
+        "All Resistances +50-70 (varies)",
+        "Magic Damage Reduced By 7",
+        "Level 12 Slow Missiles (60 Charges)"
+      ],
+      "zh": [
+        "+20% 快速再度攻击",
+        "+20% 较快速格挡率",
+        "20% 增加格挡可能性",
+        "+130-160% 防御强化 (可变)",
+        "+250 对飞射性防御",
+        "+20 敏捷",
+        "所有抗性 +50-70 (可变)",
+        "法术伤害减少 7",
+        "等级 12 慢速箭 (60 次)"
+      ]
+    }
+  },
+  {
+    "slug": "rain",
+    "name": {
+      "en": "Rain (Druid)",
+      "zh": "雨（德鲁伊）"
+    },
+    "runes": [
+      "Ort",
+      "Mal",
+      "Ith"
+    ],
+    "runeNumbers": [
+      9,
+      23,
+      6
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.11",
+    "effects": {
+      "en": [
+        "5% Chance To Cast Level 15 Cyclone Armor When Struck",
+        "5% Chance To Cast Level 15 Twister On Striking",
+        "+2 To Druid Skills",
+        "+100-150 To Mana (varies)",
+        "Lightning Resist +30%",
+        "Magic Damage Reduced By 7",
+        "15% Damage Taken Goes to Mana"
+      ],
+      "zh": [
+        "5% 概率在被击中时施展等级 15 飓风装甲",
+        "5% 概率在击中目标时施展等级 15 小旋风",
+        "+2 德鲁依技能",
+        "法力 +100-150 (可变)",
+        "+30% 抗电",
+        "抵消魔法伤害 7",
+        "15% 受损生命伤害转化到法力"
+      ]
+    }
+  },
+  {
+    "slug": "delirium",
+    "name": {
+      "en": "Delirium",
+      "zh": "妄想"
+    },
+    "runes": [
+      "Lem",
+      "Ist",
+      "Io"
+    ],
+    "runeNumbers": [
+      20,
+      24,
+      16
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 51,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "1% Chance To Cast Level 50 Delirium* (morph) When Struck",
+        "6% Chance To Cast Level 14 Mind Blast When Struck",
+        "14% Chance To Cast Level 13 Terror When Struck",
+        "11% Chance To Cast Level 18 Confuse On Striking",
+        "+2 To All Skills",
+        "+261 Defense",
+        "+10 To Vitality",
+        "50% Extra Gold From Monsters",
+        "25% Better Chance of Getting Magic Items",
+        "Level 17 Attract (60 Charges)"
+      ],
+      "zh": [
+        "1% 概率在被击中时施展等级 50 迪勒瑞姆",
+        "6% 概率在被击中时施展等级 14 心灵爆震",
+        "14% 概率在被击中时施展等级 13 毒牙",
+        "11% 概率在击中目标时施展等级 18 迷乱",
+        "+2 所有技能",
+        "+261 防御",
+        "+10 体力",
+        "50% 额外金币从怪物身上取得",
+        "25% 更佳的机会取得魔法装备",
+        "等级 17 吸引 (60 次)"
+      ]
+    }
+  },
+  {
+    "slug": "rift",
+    "name": {
+      "en": "Rift",
+      "zh": "裂隙"
+    },
+    "runes": [
+      "Hel",
+      "Ko",
+      "Lem",
+      "Gul"
+    ],
+    "runeNumbers": [
+      15,
+      18,
+      20,
+      25
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Polearms",
+      "Scepters"
+    ],
+    "level": 53,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "20% Chance To Cast Level 16 Tornado On Striking",
+        "16% Chance To Cast Level 21 Frozen Orb On Attack",
+        "20% Bonus To Attack Rating",
+        "Adds 160-250 Magic Damage",
+        "Adds 60-180 Fire Damage",
+        "+5-10 To All Stats (varies)",
+        "+10 To Dexterity",
+        "38% Damage Taken Goes To Mana",
+        "75% Extra Gold From Monsters",
+        "Level 15 Iron Maiden (40 Charges)",
+        "Requirements -20%"
+      ],
+      "zh": [
+        "20% 概率在击中目标时施放出 16 级 龙卷风",
+        "16% 概率在攻击时施放出 21 级 冰封球",
+        "20% 提升攻击命中率",
+        "+160-250 魔法伤害",
+        "+60-180 火伤害",
+        "+5-10 所有属性 (可变)",
+        "38% 受损的生命转换成法力的提高",
+        "从怪物身上得到 75% 额外金钱",
+        "+10 敏捷",
+        "等级 15 攻击反噬 (40 次)",
+        "装备要求 -20%"
+      ]
+    }
+  },
+  {
+    "slug": "kingslayer",
+    "name": {
+      "en": "Kingslayer",
+      "zh": "弑君者"
+    },
+    "runes": [
+      "Mal",
+      "Um",
+      "Gul",
+      "Fal"
+    ],
+    "runeNumbers": [
+      23,
+      22,
+      25,
+      19
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "level": 53,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+30% Increased Attack Speed",
+        "+230-270% Enhanced Damage (varies)",
+        "-25% Target Defense",
+        "20% Bonus To Attack Rating",
+        "33% Chance of Crushing Blow",
+        "50% Chance of Open Wounds",
+        "+1 To Vengeance",
+        "Prevent Monster Heal",
+        "+10 To Strength",
+        "40% Extra Gold From Monsters"
+      ],
+      "zh": [
+        "+30% 增加攻击速度",
+        "+230-270% 增强伤害 (可变)",
+        "-25% 目标防御",
+        "20% 额外的攻击准确率加成",
+        "33% 造成压碎性打击的概率",
+        "50% 撕开伤口机会",
+        "+1 复仇",
+        "防止怪物自疗",
+        "+10 力量",
+        "40% 额外金币从怪物身上取得"
+      ]
+    }
+  },
+  {
+    "slug": "principle",
+    "name": {
+      "en": "Principle (Paladin)",
+      "zh": "信念（圣骑士）"
+    },
+    "runes": [
+      "Ral",
+      "Gul",
+      "Eld"
+    ],
+    "runeNumbers": [
+      8,
+      25,
+      2
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 53,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.11",
+    "effects": {
+      "en": [
+        "100% Chance To Cast Level 5 Holy Bolt On Striking",
+        "+2 To Paladin Skill Levels",
+        "+50% Damage to Undead",
+        "+100-150 To Life (varies)",
+        "15% Slower Stamina Drain",
+        "+5% To Maximum Poison Resist",
+        "Fire Resist +30%"
+      ],
+      "zh": [
+        "100% 概率在击中目标时施展等级 5 圣光弹",
+        "+2 圣骑士技能",
+        "+30% 火抗",
+        "+5% 最大毒抗",
+        "15% 减少体力消耗"
+      ]
+    }
+  },
+  {
+    "slug": "mosaic",
+    "name": {
+      "en": "Mosaic",
+      "zh": "马赛克"
+    },
+    "runes": [
+      "Mal",
+      "Gul",
+      "Amn"
+    ],
+    "runeNumbers": [
+      23,
+      25,
+      11
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Claws"
+    ],
+    "level": 53,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "+50% chance for finishing moves to not consume charges",
+        "When a finisher is executed this way, it now refreshes the expiration timer of the stack",
+        "+2 to Martial Arts (Assassin only)",
+        "+20% Increased Attack Speed",
+        "+200-250% Enhanced Damage",
+        "+20% Bonus to Attack Rating",
+        "7% Life Steal",
+        "+8-15% to Cold Skill Damage",
+        "+8-15% to Lightning Skill Damage",
+        "+8-15% to Fire Skill Damage",
+        "Prevent Monster Heal"
+      ],
+      "zh": [
+        "+50% 几率终结技不消耗聚气",
+        "以此方式施展终结技时，刷新连击计时器",
+        "+2 武学技能 (限刺客使用)",
+        "+20% 增加攻击速度",
+        "+200-250% 增强伤害",
+        "+20% 额外攻击准确率",
+        "7% 击中偷取生命",
+        "+8-15% 冰冷技能伤害",
+        "+8-15% 闪电技能伤害",
+        "+8-15% 火焰技能伤害",
+        "防止怪物自疗"
+      ]
+    }
+  },
+  {
+    "slug": "silence",
+    "name": {
+      "en": "Silence",
+      "zh": "寂静"
+    },
+    "runes": [
+      "Dol",
+      "Eld",
+      "Hel",
+      "Ist",
+      "Tir",
+      "Vex"
+    ],
+    "runeNumbers": [
+      14,
+      2,
+      15,
+      24,
+      3,
+      26
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "level": 55,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "200% Enhanced Damage",
+        "+75% Damage To Undead",
+        "Requirements -20%",
+        "20% Increased Attack Speed",
+        "+50 To Attack Rating Against Undead",
+        "+2 To All Skills",
+        "All Resistances +75",
+        "20% Faster Hit Recovery",
+        "11% Mana Stolen Per Hit",
+        "Hit Causes Monster To Flee 25%",
+        "Hit Blinds Target +33",
+        "+2 To Mana After Each Kill",
+        "30% Better Chance Of Getting Magic Items"
+      ],
+      "zh": [
+        "200% 增强伤害",
+        "+75% 对不死生物的伤害",
+        "需求 -20%",
+        "20% 增加攻击速度",
+        "+50 对不死生物的准确率",
+        "+2 所有技能",
+        "所有抗性 +75",
+        "20% 快速再度攻击",
+        "11% 击中偷取法力",
+        "击中使怪物逃跑概率 25%",
+        "击中使目标目盲 +33",
+        "+2 点法力在每杀一个敌人后取得",
+        "30% 更佳的机会取得魔法装备"
+      ]
+    }
+  },
+  {
+    "slug": "death",
+    "name": {
+      "en": "Death",
+      "zh": "死亡"
+    },
+    "runes": [
+      "Hel",
+      "El",
+      "Vex",
+      "Ort",
+      "Gul"
+    ],
+    "runeNumbers": [
+      15,
+      1,
+      26,
+      9,
+      25
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
     "level": 55,
     "ladderOnly": false,
     "d2rOnly": false,
     "patch": "1.10",
     "effects": {
-      "en": ["+3 to All Skills", "+40% Faster Cast Rate", "+75% Damage to Demons", "+10 to Dexterity", "All Resistances +30-40", "+15% to Maximum Mana"],
-      "zh": ["+3 所有技能", "+40% 高速施法", "+75% 对恶魔伤害", "+10 敏捷", "所有抗性 +30-40", "+15% 最大法力"]
+      "en": [
+        "100% Chance To Cast Level 44 Chain Lightning When You Die",
+        "25% Chance To Cast Level 18 Glacial Spike On Attack",
+        "Indestructible",
+        "+300-385% Enhanced Damage (varies)",
+        "20% Bonus To Attack Rating",
+        "+50 To Attack Rating",
+        "Adds 1-50 Lightning Damage",
+        "7% Mana Stolen Per Hit",
+        "50% Chance of Crushing Blow",
+        "+(0.5 per Character Level) 0.5-49.5% Deadly Strike (Based on Character Level)",
+        "+1 To Light Radius",
+        "Level 22 Blood Golem (15 Charges)",
+        "Requirements -20%"
+      ],
+      "zh": [
+        "100% 概率当你死亡时施放出 44 级 连锁闪电",
+        "25% 概率在攻击时施放出 18 级 冰尖柱",
+        "永不磨损",
+        "+300-385% 伤害力 (可变)",
+        "20% 提升攻击命中率",
+        "+50 攻击命中率",
+        "+1-50 电伤害",
+        "每次命中偷取 7% 法力",
+        "50% 概率决定性打击",
+        "+0.5% 概率(每级) 0.5-49.5% 双倍打击 (在角色级别基础上)",
+        "+1 光明度",
+        "等级 22 血魔 (15 次)",
+        "装备要求 -20%"
+      ]
     },
-    "bestFor": ["Sorceress", "Druid", "Paladin"]
+    "popular": true
+  },
+  {
+    "slug": "heart-of-the-oak",
+    "name": {
+      "en": "Heart of the Oak",
+      "zh": "橡树之心"
+    },
+    "runes": [
+      "Ko",
+      "Vex",
+      "Pul",
+      "Thul"
+    ],
+    "runeNumbers": [
+      18,
+      26,
+      21,
+      10
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Staves",
+      "Maces"
+    ],
+    "level": 55,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+3 To All Skills",
+        "+40% Faster Cast Rate",
+        "+75% Damage To Demons",
+        "+100 To Attack Rating Against Demons",
+        "Adds 3-14 Cold Damage, 3 sec. Duration (Normal)",
+        "7% Mana Stolen Per Hit",
+        "+10 To Dexterity",
+        "Replenish Life +20",
+        "Increase Maximum Mana 15%",
+        "All Resistances +30-40 (varies)",
+        "Level 4 Oak Sage (25 Charges)",
+        "Level 14 Raven (60 Charges)"
+      ],
+      "zh": [
+        "+3 所有技能",
+        "+40% 高速施展速度",
+        "+75% 对恶魔的伤害",
+        "+100 对恶魔的准确率",
+        "+3-14 冰冷伤害, 3 秒持续时间 (普通)",
+        "7% 击中偷取法力",
+        "+10 敏捷",
+        "生命补满 +20",
+        "增加法力上限 15%",
+        "所有抗性 +30-40 (可变)",
+        "等级 4 橡木智者 (25 次)",
+        "等级 14 乌鸦 (60 次)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "flickering-flame",
+    "name": {
+      "en": "Flickering Flame",
+      "zh": "闪烁之焰"
+    },
+    "runes": [
+      "Nef",
+      "Pul",
+      "Vex"
+    ],
+    "runeNumbers": [
+      4,
+      21,
+      26
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 55,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.4",
+    "effects": {
+      "en": [
+        "Level 4-8 Resist Fire Aura When Equipped (varies)",
+        "+3 To Fire Skills",
+        "-10-15% to Enemy Fire Resistance (varies)",
+        "+30% Enhanced Defense",
+        "+30 Defense Vs. Missile",
+        "+50-75 To Mana (varies)",
+        "Half Freeze Duration",
+        "+5% To Maximum Fire Resist",
+        "Poison Length Reduced by 50%"
+      ],
+      "zh": [
+        "等级 4-8 抗火灵气赋予 (可变)",
+        "+3 火焰技能",
+        "-10-15% 敌人火焰抗性 (可变)",
+        "+30% 防御强化",
+        "+30 对飞射性防御",
+        "+50-75 法力 (可变)",
+        "冰冻时间减半",
+        "+5% 抗火上限",
+        "中毒持续时间减少 50%"
+      ]
+    }
   },
   {
     "slug": "call-to-arms",
-    "name": { "en": "Call to Arms", "zh": "战争召唤" },
-    "runes": ["Amn", "Ral", "Mal", "Ist", "Ohm"],
-    "runeNumbers": [11, 8, 23, 24, 27],
+    "name": {
+      "en": "Call To Arms",
+      "zh": "战争召唤"
+    },
+    "runes": [
+      "Amn",
+      "Ral",
+      "Mal",
+      "Ist",
+      "Ohm"
+    ],
+    "runeNumbers": [
+      11,
+      8,
+      23,
+      24,
+      27
+    ],
     "sockets": 5,
-    "itemTypes": ["Weapons"],
+    "itemTypes": [
+      "Weapons"
+    ],
     "level": 57,
     "ladderOnly": false,
     "d2rOnly": false,
     "patch": "1.10",
     "effects": {
-      "en": ["+1 to All Skills", "+40% Increased Attack Speed", "+250-290% Enhanced Damage", "+2-6 to Battle Orders", "+1-6 to Battle Command"],
-      "zh": ["+1 所有技能", "+40% 提升攻击速度", "+250-290% 增强伤害", "+2-6 战斗体制", "+1-6 战斗指令"]
+      "en": [
+        "+1 To All Skills",
+        "+40% Increased Attack Speed",
+        "+250-290% Enhanced Damage (varies)",
+        "Adds 5-30 Fire Damage",
+        "7% Life Stolen Per Hit",
+        "+2-6 To Battle Command (varies)*",
+        "+1-6 To Battle Orders (varies)*",
+        "+1-4 To Battle Cry (varies)*",
+        "Prevent Monster Heal",
+        "Replenish Life +12",
+        "30% Better Chance of Getting Magic Items"
+      ],
+      "zh": [
+        "+1 所有技能",
+        "+40% 增加攻击速度",
+        "+250-290% 增强伤害 (可变)",
+        "+5-30 火焰伤害",
+        "7% 击中偷取生命",
+        "+2-6 战斗指挥 (可变)",
+        "+1-6 战斗体制 (可变)",
+        "+1-4 战斗狂嗥 (可变)",
+        "防止怪物自疗",
+        "生命补满 +12",
+        "30% 更佳的机会取得魔法装备"
+      ]
     },
-    "bestFor": ["All Classes"]
+    "popular": true
   },
   {
-    "slug": "grief",
-    "name": { "en": "Grief", "zh": "悲痛" },
-    "runes": ["Eth", "Tir", "Lo", "Mal", "Ral"],
-    "runeNumbers": [5, 3, 28, 23, 8],
-    "sockets": 5,
-    "itemTypes": ["Swords", "Axes"],
+    "slug": "chaos",
+    "name": {
+      "en": "Chaos",
+      "zh": "混沌"
+    },
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Um"
+    ],
+    "runeNumbers": [
+      19,
+      27,
+      22
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Claws"
+    ],
+    "level": 57,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "9% Chance To Cast Level 11 Frozen Orb On Striking",
+        "11% Chance To Cast Level 9 Charged Bolt On Striking",
+        "+35% Increased Attack Speed",
+        "+290-340% Enhanced Damage (varies)",
+        "Adds 216-471 Magic Damage",
+        "25% Chance of Open Wounds",
+        "+1 To Whirlwind",
+        "+10 To Strength",
+        "+15 Life After Each Demon Kill"
+      ],
+      "zh": [
+        "9% 概率在击中目标时施展等级 11 冰封球",
+        "11% 概率在击中目标时施展等级 9 充能弹",
+        "+35% 增加攻击速度",
+        "+290-340% 增强伤害 (可变)",
+        "增加 216-471 魔法伤害",
+        "25% 撕开伤口机会",
+        "+1 旋风",
+        "+10 力量",
+        "+15 点生命在每杀一个恶魔敌人后取得"
+      ]
+    }
+  },
+  {
+    "slug": "exile",
+    "name": {
+      "en": "Exile",
+      "zh": "流放"
+    },
+    "runes": [
+      "Vex",
+      "Ohm",
+      "Ist",
+      "Dol"
+    ],
+    "runeNumbers": [
+      26,
+      27,
+      24,
+      14
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Paladin Shields"
+    ],
+    "level": 57,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "15% Chance To Cast Level 5 Life Tap On Striking",
+        "Level 13-16 Defiance Aura When Equipped (varies)",
+        "+2 To Offensive Auras (Paladin Only)",
+        "+30% Faster Block Rate",
+        "Freezes Target",
+        "+220-260% Enhanced Defense (varies)",
+        "Replenish Life +7",
+        "+5% To Maximum Cold Resist",
+        "+5% To Maximum Fire Resist",
+        "25% Better Chance Of Getting Magic Items",
+        "Repairs 1 Durability in 4 Seconds"
+      ],
+      "zh": [
+        "15% 概率在击中目标时施展等级 5 偷取生命",
+        "等级 13-16 反抗灵气赋予 (可变)",
+        "+2 进攻灵气 (限圣骑士使用)",
+        "+30% 较快速格挡率",
+        "冰冻目标",
+        "+220-260% 防御强化 (可变)",
+        "生命补满 +7",
+        "+5% 抗寒上限",
+        "+5% 抗火上限",
+        "25% 更佳的机会取得魔法装备",
+        "回复装备耐久度 1 于 4 秒内"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "fortitude",
+    "name": {
+      "en": "Fortitude",
+      "zh": "刚毅"
+    },
+    "runes": [
+      "El",
+      "Sol",
+      "Dol",
+      "Lo"
+    ],
+    "runeNumbers": [
+      1,
+      12,
+      14,
+      28
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons",
+      "Body Armor"
+    ],
     "level": 59,
     "ladderOnly": false,
     "d2rOnly": false,
     "patch": "1.10",
     "effects": {
-      "en": ["+340-400 Damage", "-25% Target Defense", "20% Chance of Crushing Blow", "+5% to Maximum Poison Resist"],
-      "zh": ["+340-400 伤害", "-25% 目标防御", "20% 机会造成碾压性打击", "+5% 最大毒素抗性"]
+      "en": [
+        "Weapons",
+        "20% Chance To Cast Level 15 Chilling Armor when Struck",
+        "+25% Faster Cast Rate",
+        "+300% Enhanced Damage",
+        "+9 To Minimum Damage",
+        "+50 To Attack Rating",
+        "20% Deadly Strike",
+        "Hit Causes Monster To Flee 25%",
+        "+200% Enhanced Defense",
+        "+X To Life (Based on Character Level)*",
+        "All Resistances +25-30 (varies)",
+        "12% Damage Taken Goes To Mana",
+        "+1 To Light Radius",
+        "Body Armor",
+        "20% Chance To Cast Level 15 Chilling Armor when Struck",
+        "+25% Faster Cast Rate",
+        "+300% Enhanced Damage",
+        "+200% Enhanced Defense",
+        "+15 Defense",
+        "+X To Life (Based on Character Level)*",
+        "Replenish Life +7",
+        "+5% To Maximum Lightning Resist",
+        "All Resistances +25-30 (varies)",
+        "Damage Reduced By 7",
+        "12% Damage Taken Goes To Mana",
+        "+1 To Light Radius"
+      ],
+      "zh": [
+        "20% 概率当被击中时施放出 15 级 寒冰装甲",
+        "+25% 快速施放法术",
+        "+300% 伤害力",
+        "+200% 防御力",
+        "+(1-1.5)(每级) 生命 (在角色级别基础上) (可变)",
+        "+15 防御力 (盔甲) / +50 命中率 (武器)",
+        "自动恢复生命速度 +7 (盔甲) / 命中时 25% 概率吓跑怪物 (武器)",
+        "+5% 防电上限 (盔甲) / +20% 概率双倍打击 (武器)",
+        "抵消物理伤害 7 (盔甲) / +9 最小伤害力 (武器)",
+        "四防 +25-30 (可变)",
+        "12% 伤害力转化为法力的提高",
+        "+1 光明度"
+      ]
     },
-    "bestFor": ["Paladin", "Barbarian", "Assassin"]
+    "popular": true
   },
   {
-    "slug": "faith",
-    "name": { "en": "Faith", "zh": "信心" },
-    "runes": ["Ohm", "Jah", "Lem", "Eld"],
-    "runeNumbers": [27, 31, 20, 2],
+    "slug": "grief",
+    "name": {
+      "en": "Grief",
+      "zh": "悲痛"
+    },
+    "runes": [
+      "Eth",
+      "Tir",
+      "Lo",
+      "Mal",
+      "Ral"
+    ],
+    "runeNumbers": [
+      5,
+      3,
+      28,
+      23,
+      8
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "level": 59,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "35% Chance To Cast Level 15 Venom On Striking",
+        "+30-40% Increased Attack Speed (varies)",
+        "Damage +340-400 (varies)",
+        "Ignore Target's Defense",
+        "-25% Target Defense",
+        "+(1.875 per character level) 1.875-185.625% Damage To Demons (Based on Character Level)",
+        "Adds 5-30 Fire Damage",
+        "-20-25% To Enemy Poison Resistance (varies)",
+        "20% Deadly Strike",
+        "Prevent Monster Heal",
+        "+2 To Mana After Each Kill",
+        "+10-15 Life After Each Kill (varies)"
+      ],
+      "zh": [
+        "35% 概率在击中目标时施放出 15 级 毒牙",
+        "30-40% 提升攻击速度 (可变)",
+        "伤害力 +340-400 (可变)",
+        "忽略目标防御",
+        "-25% 目标防御力",
+        "+1.875 (每级)% 伤害力对恶魔系怪物 (在角色级别基础上)",
+        "+5-30 火伤害",
+        "-(20-25)% 敌人防毒 (可变)",
+        "20% 概率双倍打击",
+        "防止怪物自疗",
+        "+2 法力每杀一个怪物",
+        "+(10-15) 生命 (可变)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "dragon",
+    "name": {
+      "en": "Dragon",
+      "zh": "龙"
+    },
+    "runes": [
+      "Sur",
+      "Lo",
+      "Sol"
+    ],
+    "runeNumbers": [
+      29,
+      28,
+      12
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor",
+      "Shields"
+    ],
+    "level": 61,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "20% Chance to Cast Level 18 Venom When Struck",
+        "12% Chance To Cast Level 15 Hydra On Striking",
+        "Level 14 Holy Fire Aura When Equipped",
+        "+360 Defense",
+        "+230 Defense Vs. Missile",
+        "+3-5 To All Attributes (varies)",
+        "+0.375-37.125 To Strength (Based on Character Level)",
+        "Increase Maximum Mana 5% (Armor Only)",
+        "+50 To Mana (Shields Only)",
+        "+5% To Maximum Lightning Resist",
+        "Damage Reduced by 7"
+      ],
+      "zh": [
+        "20% 概率在被击中时施放出 18 级 毒牙",
+        "12% 概率在击中目标时施放出 15 级 九头海蛇",
+        "当装备后拥有 14 级 神圣火焰灵气",
+        "+360 防御力",
+        "+230 防御力对远程攻击",
+        "+3-5 所有属性 (可变)",
+        "+0.375 (每级) 强壮 (在角色级别基础上)",
+        "提升法力上限 5% (盔甲) / +50 点法力 (盾牌)",
+        "+5% 防电上限",
+        "抵消物理伤害 7"
+      ]
+    }
+  },
+  {
+    "slug": "bramble",
+    "name": {
+      "en": "Bramble",
+      "zh": "野蔷薇"
+    },
+    "runes": [
+      "Ral",
+      "Ohm",
+      "Sur",
+      "Eth"
+    ],
+    "runeNumbers": [
+      8,
+      27,
+      29,
+      5
+    ],
     "sockets": 4,
-    "itemTypes": ["Bows", "Crossbows"],
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 61,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "Level 15-21 Thorns Aura When Equipped (varies)",
+        "+50% Faster Hit Recovery",
+        "+25-50% To Poison Skill Damage (varies)",
+        "+300 Defense",
+        "Increase Maximum Mana 5%",
+        "Regenerate Mana 15%",
+        "+5% To Maximum Cold Resist",
+        "Fire Resist +30%",
+        "Poison Resist +100%",
+        "+13 Life After Each Kill",
+        "Level 13 Spirit of Barbs (33 Charges)"
+      ],
+      "zh": [
+        "等级 15-21 刺针灵气赋予 (可变)",
+        "+50% 快速再度攻击",
+        "+25-50% 毒素技能伤害 (可变)",
+        "+300 防御",
+        "增加法力上限 5%",
+        "法力重生 15%",
+        "+5% 抗寒上限",
+        "抗火 +30%",
+        "抗毒 +100%",
+        "+13 点生命在每杀一个敌人后取得",
+        "等级 13 棘灵 (33 次)"
+      ]
+    }
+  },
+  {
+    "slug": "wind",
+    "name": {
+      "en": "Wind",
+      "zh": "风"
+    },
+    "runes": [
+      "Sur",
+      "El"
+    ],
+    "runeNumbers": [
+      29,
+      1
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "level": 61,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "10% Chance To Cast Level 9 Tornado On Striking",
+        "+20% Faster Run/Walk",
+        "+40% Increased Attack Speed",
+        "+15% Faster Hit Recovery",
+        "+120-160% Enhanced Damage (varies)",
+        "-50% Target Defense",
+        "+50 To Attack Rating",
+        "Hit Blinds Target",
+        "+1 To Light Radius",
+        "Level 13 Twister (127 Charges)"
+      ],
+      "zh": [
+        "打击时有 10% 几率施展等级 9 龙卷风",
+        "+20% 高速跑步/行走",
+        "+40% 增加攻击速度",
+        "+15% 快速再度攻击",
+        "+120-160% 增强伤害 (可变)",
+        "-50% 目标防御",
+        "+50 准确率",
+        "击中使目标目盲",
+        "+1 照亮范围",
+        "等级 13 小旋风 (127 次)"
+      ]
+    }
+  },
+  {
+    "slug": "infinity",
+    "name": {
+      "en": "Infinity",
+      "zh": "无限"
+    },
+    "runes": [
+      "Ber",
+      "Mal",
+      "Ber",
+      "Ist"
+    ],
+    "runeNumbers": [
+      30,
+      23,
+      30,
+      24
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Polearms"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy",
+        "Level 12 Conviction Aura When Equipped",
+        "+35% Faster Run/Walk",
+        "+255-325% Enhanced Damage (varies)",
+        "-(45-55)% To Enemy Lightning Resistance (varies)",
+        "40% Chance of Crushing Blow",
+        "Prevent Monster Heal",
+        "0.5-49.5 To Vitality (Based on Character Level)",
+        "30% Better Chance of Getting Magic Items",
+        "Level 21 Cyclone Armor (30 Charges)"
+      ],
+      "zh": [
+        "50% 概率当你杀死敌人时施放出 20 级 连锁闪电",
+        "当装备后拥有 12 级 审判灵气",
+        "+35% 快速移动/奔跑",
+        "+255-325% 伤害力 (可变)",
+        "-(45-55)% 敌人电防 (可变)",
+        "40% 概率决定性打击",
+        "防止怪物自疗",
+        "+0.5 (每级) 活力 (在角色级别基础上)",
+        "30% 提升魔法装备出现概率",
+        "等级 21 飓风装甲 (30 次)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "wrath",
+    "name": {
+      "en": "Wrath",
+      "zh": "愤怒"
+    },
+    "runes": [
+      "Pul",
+      "Lum",
+      "Ber",
+      "Mal"
+    ],
+    "runeNumbers": [
+      21,
+      17,
+      30,
+      23
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "30% Chance To Cast Level 1 Decrepify On Striking",
+        "5% Chance To Cast Level 10 Life Tap On Striking",
+        "+375% Damage To Demons",
+        "+100 To Attack Rating Against Demons",
+        "+250-300% Damage To Undead (varies)",
+        "Adds 85-120 Magic Damage",
+        "Adds 41-240 Lightning Damage",
+        "20% Chance of Crushing Blow",
+        "Prevent Monster Heal",
+        "+10 To Energy",
+        "Cannot Be Frozen"
+      ],
+      "zh": [
+        "30% 概率在击中目标时施放出 1 级 衰老",
+        "5% 概率在击中目标时施放出 10 级 偷取生命",
+        "+375% 伤害力对恶魔系怪物",
+        "+100 攻击命中率对恶魔系怪物",
+        "+250-300% 伤害力对不死系怪物 (可变)",
+        "+85-120 魔法伤害",
+        "+41-240 电伤害",
+        "20% 概率决定性打击",
+        "防止怪物自疗",
+        "+10 能量",
+        "无法冰冻"
+      ]
+    }
+  },
+  {
+    "slug": "beast",
+    "name": {
+      "en": "Beast",
+      "zh": "野兽"
+    },
+    "runes": [
+      "Ber",
+      "Tir",
+      "Um",
+      "Mal",
+      "Lum"
+    ],
+    "runeNumbers": [
+      30,
+      3,
+      22,
+      23,
+      17
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Axes",
+      "Scepters",
+      "Hammers"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "Level 9 Fanaticism Aura When Equipped",
+        "+40% Increased Attack Speed",
+        "+240-270% Enhanced Damage (varies)",
+        "20% Chance of Crushing Blow",
+        "25% Chance of Open Wounds",
+        "+3 To Werebear",
+        "+3 To Lycanthropy",
+        "Prevent Monster Heal",
+        "+25-40 To Strength (varies)",
+        "+10 To Energy",
+        "+2 To Mana After Each Kill",
+        "Level 13 Summon Grizzly (5 Charges)"
+      ],
+      "zh": [
+        "等级 9 狂热灵气赋予",
+        "+40% 增加攻击速度",
+        "+240-270% 增强伤害 (可变)",
+        "20% 造成压碎性打击的概率",
+        "25% 撕开伤口机会",
+        "+3 熊人变化",
+        "+3 变形术",
+        "防止怪物自疗",
+        "+25-40 力量 (可变)",
+        "+10 精力",
+        "+2 点法力在每杀一个敌人后取得",
+        "等级 13 召唤灰熊 (5 次)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "chains-of-honor",
+    "name": {
+      "en": "Chains of Honor",
+      "zh": "荣耀之链"
+    },
+    "runes": [
+      "Dol",
+      "Um",
+      "Ber",
+      "Ist"
+    ],
+    "runeNumbers": [
+      14,
+      22,
+      30,
+      24
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+2 To All Skills",
+        "+200% Damage To Demons",
+        "+100% Damage To Undead",
+        "8% Life Stolen Per Hit",
+        "+70% Enhanced Defense",
+        "+20 To Strength",
+        "Replenish Life +7",
+        "All Resistances +65",
+        "Damage Reduced By 8%",
+        "25% Better Chance of Getting Magic Items"
+      ],
+      "zh": [
+        "+2 所有技能",
+        "+200% 对恶魔的伤害",
+        "+100% 对不死生物的伤害",
+        "8% 击中偷取生命",
+        "+70% 防御强化",
+        "+20 力量",
+        "生命补满 +7",
+        "所有抗性 +65",
+        "伤害减少 8%",
+        "25% 更佳的机会取得魔法装备"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "eternity",
+    "name": {
+      "en": "Eternity",
+      "zh": "永恒"
+    },
+    "runes": [
+      "Amn",
+      "Ber",
+      "Ist",
+      "Sol",
+      "Sur"
+    ],
+    "runeNumbers": [
+      11,
+      30,
+      24,
+      12,
+      29
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "Indestructible",
+        "+260-310% Enhanced Damage (varies)",
+        "+9 To Minimum Damage",
+        "7% Life Stolen Per Hit",
+        "20% Chance of Crushing Blow",
+        "Hit Blinds Target",
+        "Slows Target By 33%",
+        "Regenerate Mana 16%",
+        "Replenish Life +16",
+        "Cannot Be Frozen",
+        "30% Better Chance Of Getting Magic Items",
+        "Level 8 Revive (88 Charges)"
+      ],
+      "zh": [
+        "无法破坏",
+        "+260-310% 增强伤害 (可变)",
+        "+9 最小伤害",
+        "7% 击中偷取生命",
+        "20% 造成压碎性打击的概率",
+        "击中使目标目盲",
+        "使目标减慢 33%",
+        "法力重生 16%",
+        "生命补满 +16",
+        "无法冰冻",
+        "30% 更佳的机会取得魔法装备",
+        "等级 8 复苏 (88 次)"
+      ]
+    }
+  },
+  {
+    "slug": "fury",
+    "name": {
+      "en": "Fury",
+      "zh": "狂怒"
+    },
+    "runes": [
+      "Jah",
+      "Gul",
+      "Eth"
+    ],
+    "runeNumbers": [
+      31,
+      25,
+      5
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.07",
+    "effects": {
+      "en": [
+        "+209% Enhanced Damage",
+        "40% Increased Attack Speed",
+        "Prevent Monster Heal",
+        "66% Chance Of Open Wounds",
+        "33% Deadly Strike",
+        "Ignore Target's Defense",
+        "-25% Target Defense",
+        "20% Bonus To Attack Rating",
+        "6% Life Stolen Per Hit",
+        "+5 To Frenzy (Barbarian Only)"
+      ],
+      "zh": [
+        "+209% 增强伤害",
+        "40% 增加攻击速度",
+        "防止怪物自疗",
+        "66% 撕开伤口机会",
+        "33% 致命攻击",
+        "无视目标防御",
+        "-25% 目标防御",
+        "20% 额外的攻击准确率加成",
+        "6% 击中偷取生命",
+        "+5 狂乱 (限野蛮人使用)"
+      ]
+    }
+  },
+  {
+    "slug": "brand",
+    "name": {
+      "en": "Brand",
+      "zh": "品牌"
+    },
+    "runes": [
+      "Jah",
+      "Lo",
+      "Mal",
+      "Gul"
+    ],
+    "runeNumbers": [
+      31,
+      28,
+      23,
+      25
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
     "level": 65,
     "ladderOnly": false,
     "d2rOnly": false,
     "patch": "1.10",
     "effects": {
-      "en": ["Level 12-15 Fanaticism Aura When Equipped", "+1-2 to All Skills", "+330% Enhanced Damage", "Ignore Target Defense", "All Resistances +15"],
-      "zh": ["装备后获得12-15级狂热光环", "+1-2 所有技能", "+330% 增强伤害", "无视目标防御", "所有抗性 +15"]
+      "en": [
+        "35% Chance To Cast Level 14 Amplify Damage When Struck",
+        "100% Chance To Cast Level 18 Bone Spear On Striking",
+        "+260-340% Enhanced Damage (varies)",
+        "Ignore Target's Defense",
+        "20% Bonus to Attack Rating",
+        "+280-330% Damage To Demons (varies)",
+        "20% Deadly Strike",
+        "Prevent Monster Heal",
+        "Knockback",
+        "Fires Explosive Arrows or Bolts (15)"
+      ],
+      "zh": [
+        "35% 概率当被击中时施放出 14 级 伤害加深",
+        "100% 概率在击中目标时施放出 18 级 骨矛",
+        "射出爆裂箭矢",
+        "+260-340% 伤害力 (可变)",
+        "忽略目标防御",
+        "20% 提升命中率",
+        "+280-330% 伤害力对恶魔系怪物 (可变)",
+        "20% 概率双倍打击",
+        "防止怪物自疗",
+        "击退"
+      ]
+    }
+  },
+  {
+    "slug": "destruction",
+    "name": {
+      "en": "Destruction",
+      "zh": "毁灭"
     },
-    "bestFor": ["Amazon", "Mercenary"]
+    "runes": [
+      "Vex",
+      "Lo",
+      "Ber",
+      "Jah",
+      "Ko"
+    ],
+    "runeNumbers": [
+      26,
+      28,
+      30,
+      31,
+      18
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Polearms",
+      "Swords"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "23% Chance To Cast Level 12 Volcano On Striking",
+        "5% Chance To Cast Level 23 Molten Boulder On Striking",
+        "100% Chance To Cast level 45 Meteor When You Die",
+        "15% Chance To Cast Level 22 Nova On Attack",
+        "+350% Enhanced Damage",
+        "Ignore Target's Defense",
+        "Adds 100-180 Magic Damage",
+        "7% Mana Stolen Per Hit",
+        "20% Chance Of Crushing Blow",
+        "20% Deadly Strike",
+        "Prevent Monster Heal",
+        "+10 To Dexterity"
+      ],
+      "zh": [
+        "23% 概率在击中目标时施放出 12 级 火山",
+        "5% 概率在击中目标时施放出 23 级 熔浆巨岩",
+        "100% 概率当你死亡时施放出 45 级 陨石",
+        "15% 概率在攻击时施放出 22 级 新星",
+        "+350% 伤害力",
+        "忽略目标防御",
+        "+100-180 魔法伤害",
+        "每次命中偷取 7% 法力",
+        "20% 概率决定性打击",
+        "20% 概率双倍打击",
+        "防止怪物自疗",
+        "+10 敏捷"
+      ]
+    }
+  },
+  {
+    "slug": "dream",
+    "name": {
+      "en": "Dream",
+      "zh": "梦想"
+    },
+    "runes": [
+      "Io",
+      "Jah",
+      "Pul"
+    ],
+    "runeNumbers": [
+      16,
+      31,
+      21
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms",
+      "Shields"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "10% Chance To Cast Level 15 Confuse When Struck",
+        "Level 15 Holy Shock Aura When Equipped",
+        "+20-30% Faster Hit Recovery (varies)",
+        "+30% Enhanced Defense",
+        "+150-220 Defense (varies)",
+        "+10 To Vitality",
+        "Increase Maximum Life 5% (Helms Only)",
+        "+50 To Life (Shields Only)",
+        "+0.625-61.875 To Mana (Based On Character Level)",
+        "All Resistances +5-20 (varies)",
+        "12-25% Better Chance of Getting Magic Items (varies)"
+      ],
+      "zh": [
+        "10% 概率当被击中时施放出 15 级 迷乱",
+        "当装备后拥有 15 级 神圣冲击灵气",
+        "+20-30% 快速打击恢复 (可变)",
+        "+30% 防御力",
+        "+150-220 防御力 (可变)",
+        "+10 活力",
+        "提升生命上限 5% (头盔) / +50 生命 (盾牌)",
+        "+0.625 (每级) 法力 (在角色级别基础上)",
+        "四防 +5-20 (可变)",
+        "12-25% 提升魔法装备出现概率 (可变)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "faith",
+    "name": {
+      "en": "Faith",
+      "zh": "信心"
+    },
+    "runes": [
+      "Ohm",
+      "Jah",
+      "Lem",
+      "Eld"
+    ],
+    "runeNumbers": [
+      27,
+      31,
+      20,
+      2
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "Level 12-15 Fanaticism Aura When Equipped (varies)",
+        "+1-2 To All Skills (varies)",
+        "+330% Enhanced Damage",
+        "Ignore Target's Defense",
+        "300% Bonus To Attack Rating",
+        "+75% Damage To Undead",
+        "+50 To Attack Rating Against Undead",
+        "+120 Fire Damage",
+        "All Resistances +15",
+        "10% Reanimate As: Returned",
+        "75% Extra Gold From Monsters"
+      ],
+      "zh": [
+        "当装备后拥有 12-15 级 狂热灵气 (可变)",
+        "+1-2 级所有技能 (可变)",
+        "+330% 伤害力",
+        "忽略目标防御",
+        "300% 提升命中率",
+        "+75% 伤害力对不死系怪物",
+        "+50 攻击命中率对不死系怪物",
+        "+120 火伤害",
+        "四防 +15",
+        "10% 概率将杀死的怪物转换为复活尸",
+        "从怪物身上得到 75% 额外金钱"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "ice",
+    "name": {
+      "en": "Ice",
+      "zh": "冰"
+    },
+    "runes": [
+      "Amn",
+      "Shael",
+      "Jah",
+      "Lo"
+    ],
+    "runeNumbers": [
+      11,
+      13,
+      31,
+      28
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "100% Chance To Cast Level 40 Blizzard When You Level-up",
+        "25% Chance To Cast Level 22 Frost Nova On Striking",
+        "Level 18 Holy Freeze Aura When Equipped",
+        "+20% Increased Attack Speed",
+        "+140-210% Enhanced Damage (varies)",
+        "Ignore Target's Defense",
+        "+25-30% To Cold Skill Damage (varies)",
+        "-20% To Enemy Cold Resistance",
+        "7% Life Stolen Per Hit",
+        "20% Deadly Strike",
+        "3.125-309.375 Extra Gold From Monsters (Based on Character Level)"
+      ],
+      "zh": [
+        "100% 概率当你升级时施放出 40 级 暴风雪",
+        "25% 概率在击中目标时施放出 22 级 霜之新星",
+        "当装备后拥有 18 级 神圣冰冻灵气",
+        "20% 提升攻击速度",
+        "+140-210% 伤害力 (可变)",
+        "忽略目标防御",
+        "+25-30% 冰技能伤害",
+        "-20% 敌人冰防",
+        "每次命中偷取 7% 生命",
+        "20% 概率双倍打击",
+        "+3.125 (每级) 额外获得金钱 (在角色级别基础上)"
+      ]
+    }
+  },
+  {
+    "slug": "last-wish",
+    "name": {
+      "en": "Last Wish",
+      "zh": "最后的愿望"
+    },
+    "runes": [
+      "Jah",
+      "Mal",
+      "Jah",
+      "Sur",
+      "Jah",
+      "Ber"
+    ],
+    "runeNumbers": [
+      31,
+      23,
+      31,
+      29,
+      31,
+      30
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "Swords",
+      "Hammers",
+      "Axes"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "6% Chance To Cast Level 11 Fade When Struck",
+        "10% Chance To Cast Level 18 Life Tap On Striking",
+        "20% Chance To Cast Level 20 Charged Bolt On Attack",
+        "Level 17 Might Aura When Equipped",
+        "+330-375% Enhanced Damage (varies)",
+        "Ignore Target's Defense",
+        "60-70% Chance of Crushing Blow (varies)",
+        "Prevent Monster Heal",
+        "Hit Blinds Target",
+        "+(0.5 per character level) 0.5-49.5% Chance of Getting Magic Items (Based on Character Level)"
+      ],
+      "zh": [
+        "6% 概率当被击中时施放出 11 级 能量消解",
+        "10% 概率在击中目标时施放出 18 级 偷取生命",
+        "20% 概率在攻击时施放出 20 级 充能弹",
+        "当装备后拥有 17 级 力量灵气",
+        "+330-375% 伤害力 (可变)",
+        "忽略目标防御",
+        "60-70% 概率决定性打击 (可变)",
+        "防止怪物自疗",
+        "使目标失明",
+        "0.5 (每级)% 概率提升魔法装备出现概率 (在角色级别基础上)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "phoenix",
+    "name": {
+      "en": "Phoenix",
+      "zh": "凤凰"
+    },
+    "runes": [
+      "Vex",
+      "Vex",
+      "Lo",
+      "Jah"
+    ],
+    "runeNumbers": [
+      26,
+      26,
+      28,
+      31
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons",
+      "Shields"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "Weapons",
+        "100% Chance To Cast level 40 Blaze When You Level-up",
+        "40% Chance To Cast Level 22 Firestorm On Striking",
+        "Level 10-15 Redemption Aura When Equipped (varies)",
+        "+350-400% Enhanced Damage (varies)",
+        "Ignores Target's Defense",
+        "14% Mana Stolen Per Hit",
+        "-28% To Enemy Fire Resistance",
+        "20% Deadly Strike",
+        "+350-400 Defense Vs. Missile (varies)",
+        "+15-21 Fire Absorb (varies)",
+        "Shields",
+        "100% Chance To Cast level 40 Blaze When You Level-up",
+        "40% Chance To Cast Level 22 Firestorm On Striking",
+        "Level 10-15 Redemption Aura When Equipped (varies)",
+        "+350-400 Defense Vs. Missile (varies)",
+        "+350-400% Enhanced Damage (varies)",
+        "-28% To Enemy Fire Resistance",
+        "+50 To Life",
+        "+5% To Maximum Lightning Resist",
+        "+10% To Maximum Fire Resist",
+        "+15-21 Fire Absorb (varies)"
+      ],
+      "zh": [
+        "100% 概率当你升级时施放出 40 级 炽焰之径",
+        "40% 概率在击中目标时施放出 22 级 火风暴",
+        "当装备后拥有 10-15 级 救赎 (可变)",
+        "+350-400% 伤害力 (可变)",
+        "-28% 敌人火防",
+        "+350-400 防御力对远程攻击 (可变)",
+        "+50 生命 (盾) / 忽略目标防御 (武器)",
+        "+5% 防电上限 (盾) / 20% 概率双倍打击 (武器)",
+        "+10% 防火上限 (盾) / 每次命中偷取 14% 法力 (武器)",
+        "+15-21 火吸收 (可变)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "enigma",
+    "name": {
+      "en": "Enigma",
+      "zh": "谜团"
+    },
+    "runes": [
+      "Jah",
+      "Ith",
+      "Ber"
+    ],
+    "runeNumbers": [
+      31,
+      6,
+      30
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+2 To All Skills",
+        "+45% Faster Run/Walk",
+        "+1 To Teleport",
+        "+750-775 Defense (varies)",
+        "+ (0.75 Per Character Level) +0-74 To Strength (Based On Character Level)",
+        "Increase Maximum Life 5%",
+        "Damage Reduced By 8%",
+        "+14 Life After Each Kill",
+        "15% Damage Taken Goes To Mana",
+        "+ (1 Per Character Level) +1-99% Better Chance of Getting Magic Items (Based On Character Level)"
+      ],
+      "zh": [
+        "+2 所有技能",
+        "+45% 高速跑步/行走",
+        "+1 传送",
+        "+750-775 防御 (可变)",
+        "+(0.75 每角色等级) +0-74 力量 (以角色等级决定)",
+        "增加生命上限 5%",
+        "伤害减少 8%",
+        "+14 点生命在每杀一个敌人后取得",
+        "15% 受损的生命移至法力",
+        "+(1 每角色等级) +1-99% 更佳的机会取得魔法装备 (以角色等级决定)"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "famine",
+    "name": {
+      "en": "Famine",
+      "zh": "饥荒"
+    },
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Ort",
+      "Jah"
+    ],
+    "runeNumbers": [
+      19,
+      27,
+      9,
+      31
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Axes",
+      "Hammers"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "+30% Increased Attack Speed",
+        "+320-370% Enhanced Damage (varies)",
+        "Ignore Target's Defense",
+        "Adds 180-200 Magic Damage",
+        "Adds 50-200 Fire Damage",
+        "Adds 51-250 Lightning Damage",
+        "Adds 50-200 Cold Damage",
+        "12% Life Stolen Per Hit",
+        "Prevent Monster Heal",
+        "+10 To Strength"
+      ],
+      "zh": [
+        "+30% 增加攻击速度",
+        "+320-370% 增强伤害 (可变)",
+        "无视目标防御",
+        "+180-200 魔法伤害",
+        "+50-200 火焰伤害",
+        "+51-250 闪电伤害",
+        "+50-200 冰冷伤害",
+        "12% 击中偷取生命",
+        "防止怪物自疗",
+        "+10 力量"
+      ]
+    }
+  },
+  {
+    "slug": "pride",
+    "name": {
+      "en": "Pride",
+      "zh": "骄傲"
+    },
+    "runes": [
+      "Cham",
+      "Sur",
+      "Io",
+      "Lo"
+    ],
+    "runeNumbers": [
+      32,
+      29,
+      16,
+      28
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Polearms"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "25% Chance To Cast Level 17 Fire Wall When Struck",
+        "Level 16-20 Concentration Aura When Equipped (varies)",
+        "260-300% Bonus To Attack Rating (varies)",
+        "+1-99% Damage To Demons (Based on Character Level)",
+        "Adds 50-280 Lightning Damage",
+        "20% Deadly Strike",
+        "Hit Blinds Target",
+        "Freezes Target +3",
+        "+10 To Vitality",
+        "Replenish Life +8",
+        "1.875-185.625% Extra Gold From Monsters (Based on Character Level)"
+      ],
+      "zh": [
+        "25% 概率当被击中时施放出 17 级 火墙",
+        "当装备后拥有 16-20 级 专注灵气 (可变)",
+        "260-300% 提升攻击准确率 (可变)",
+        "+1% (每级) 伤害力对恶魔系怪物 (在角色级别基础上)",
+        "+50-280 电伤害",
+        "20% 概率双倍打击",
+        "命中后使目标失明",
+        "冰冻目标 +3",
+        "+10 活力",
+        "自动恢复生命 +8",
+        "1.875 (每级) 额外获得金钱 (在角色级别基础上)"
+      ]
+    }
+  },
+  {
+    "slug": "doom",
+    "name": {
+      "en": "Doom",
+      "zh": "末日"
+    },
+    "runes": [
+      "Hel",
+      "Ohm",
+      "Um",
+      "Lo",
+      "Cham"
+    ],
+    "runeNumbers": [
+      15,
+      27,
+      22,
+      28,
+      32
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Axes",
+      "Polearms",
+      "Hammers"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "5% Chance To Cast Level 18 Volcano On Striking",
+        "Level 12 Holy Freeze Aura When Equipped",
+        "+2 To All Skills",
+        "+45% Increased Attack Speed",
+        "+330-370% Enhanced Damage (varies)",
+        "-(40-60)% To Enemy Cold Resistance (varies)",
+        "20% Deadly Strike",
+        "25% Chance of Open Wounds",
+        "Prevent Monster Heal",
+        "Freezes Target +3",
+        "Requirements -20%"
+      ],
+      "zh": [
+        "5% 概率在击中目标时施展等级 18 火山",
+        "等级 12 神圣冰冻灵气赋予",
+        "+2 所有技能",
+        "+45% 增加攻击速度",
+        "+330-370% 增强伤害 (可变)",
+        "-(40-60)% 敌人冰冷抗性 (可变)",
+        "20% 致命攻击",
+        "25% 撕开伤口机会",
+        "防止怪物自疗",
+        "冰冻目标 +3",
+        "需求 -20%"
+      ]
+    }
+  },
+  {
+    "slug": "hand-of-justice",
+    "name": {
+      "en": "Hand of Justice",
+      "zh": "正义之手"
+    },
+    "runes": [
+      "Sur",
+      "Cham",
+      "Amn",
+      "Lo"
+    ],
+    "runeNumbers": [
+      29,
+      32,
+      11,
+      28
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "100% Chance To Cast Level 36 Blaze When You Level-Up",
+        "100% Chance To Cast Level 48 Meteor When You Die",
+        "Level 16 Holy Fire Aura When Equipped",
+        "+33% Increased Attack Speed",
+        "+280-330% Enhanced Damage (varies)",
+        "Ignore Target's Defense",
+        "7% Life Stolen Per Hit",
+        "-20% To Enemy Fire Resistance",
+        "20% Deadly Strike",
+        "Hit Blinds Target",
+        "Freezes Target +3"
+      ],
+      "zh": [
+        "升级时有 100% 几率施展等级 36 炽烈之径",
+        "死亡时有 100% 几率施展等级 48 陨石",
+        "等级 16 圣火灵气赋予",
+        "+33% 增加攻击速度",
+        "+280-330% 增强伤害 (可变)",
+        "无视目标防御",
+        "7% 击中偷取生命",
+        "-20% 敌人火焰抗性",
+        "20% 致命攻击",
+        "击中使目标目盲",
+        "冰冻目标 +3"
+      ]
+    }
+  },
+  {
+    "slug": "plague",
+    "name": {
+      "en": "Plague",
+      "zh": "瘟疫"
+    },
+    "runes": [
+      "Cham",
+      "Shael",
+      "Um"
+    ],
+    "runeNumbers": [
+      32,
+      13,
+      22
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Swords"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.4",
+    "effects": {
+      "en": [
+        "20% Chance to cast level 12 Lower Resist when struck",
+        "25% Chance to cast level 15 Poison Nova on striking",
+        "Level 13-17 Cleansing Aura When Equipped (varies)",
+        "+1-2 All Skills",
+        "+20% Increased Attack Speed",
+        "+220-320% Enhanced Damage (varies)",
+        "-23% To Enemy Poison Resistance",
+        "0.3% (0-29.7) Deadly Strike (Based on Character Level)",
+        "+25% Chance of Open Wounds",
+        "Freezes Target +3"
+      ],
+      "zh": [
+        "20% 几率被击中时施展等级 12 降低抗性",
+        "25% 几率击中时施展等级 15 剧毒新星",
+        "等级 13-17 净化灵气赋予 (可变)",
+        "+1-2 所有技能",
+        "+20% 增加攻击速度",
+        "+220-320% 增强伤害 (可变)",
+        "-23% 敌人毒素抗性",
+        "+0.3% (0-29.7) 致命攻击 (以角色等级决定)",
+        "+25% 撕开伤口机会",
+        "冰冻目标 +3"
+      ]
+    }
+  },
+  {
+    "slug": "mist",
+    "name": {
+      "en": "Mist",
+      "zh": "薄雾"
+    },
+    "runes": [
+      "Cham",
+      "Shael",
+      "Gul",
+      "Thul",
+      "Ith"
+    ],
+    "runeNumbers": [
+      32,
+      13,
+      25,
+      10,
+      6
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "Bows",
+      "Crossbows",
+      "Missile Weapons"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.4",
+    "effects": {
+      "en": [
+        "Level 8-12 Concentration Aura When Equipped (varies)",
+        "+3 To All Skills",
+        "20% Increased Attack Speed",
+        "+100% Piercing Attack",
+        "+325-375% Enhanced Damage (varies)",
+        "+9 To Maximum Damage",
+        "20% Bonus to Attack Rating",
+        "Adds 3-14 Cold Damage",
+        "Freeze Target +3",
+        "+24 Vitality",
+        "All Resistances +40"
+      ],
+      "zh": [
+        "等级 8-12 专注灵气赋予 (可变)",
+        "+3 所有技能",
+        "20% 增加攻击速度",
+        "+100% 穿透攻击",
+        "+325-375% 增强伤害 (可变)",
+        "+9 最大伤害",
+        "20% 额外攻击准确率",
+        "增加 3-14 冰冷伤害",
+        "冰冻目标 +3",
+        "+24 体力",
+        "所有抗性 +40"
+      ]
+    }
+  },
+  {
+    "slug": "metamorphosis",
+    "name": {
+      "en": "Metamorphosis",
+      "zh": "蜕变"
+    },
+    "runes": [
+      "Io",
+      "Cham",
+      "Fal"
+    ],
+    "runeNumbers": [
+      16,
+      32,
+      19
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.6",
+    "effects": {
+      "en": [
+        "Werewolf strikes grant Mark for 180 seconds",
+        "Mark of the Wolf: +30% Bonus to Attack Rating",
+        "Mark of the Wolf: Increase Maximum Life 40%",
+        "Werebear strikes grant Mark for 180 seconds",
+        "Mark of the Bear: +25% Attack Speed",
+        "Mark of the Bear: Physical Damage Received Reduced by 20%",
+        "+5 to Shape Shifting Skills (Druid only)",
+        "+25% Chance of Crushing Blow",
+        "+50-80% Enhanced Defense",
+        "+10 to Strength",
+        "+10 to Vitality",
+        "All Resistances +10",
+        "Cannot be Frozen"
+      ],
+      "zh": [
+        "狼人攻击赋予标记，持续 180 秒",
+        "狼之标记：+30% 额外攻击准确率",
+        "狼之标记：增加生命上限 40%",
+        "熊人攻击赋予标记，持续 180 秒",
+        "熊之标记：+25% 攻击速度",
+        "熊之标记：物理伤害减少 20%",
+        "+5 变形技能 (限德鲁伊使用)",
+        "+25% 压碎性打击概率",
+        "+50-80% 防御强化",
+        "+10 力量",
+        "+10 体力",
+        "所有抗性 +10",
+        "无法冰冻"
+      ]
+    }
+  },
+  {
+    "slug": "breath-of-the-dying",
+    "name": {
+      "en": "Breath of the Dying",
+      "zh": "死亡呼吸"
+    },
+    "runes": [
+      "Vex",
+      "Hel",
+      "El",
+      "Eld",
+      "Zod",
+      "Eth"
+    ],
+    "runeNumbers": [
+      26,
+      15,
+      1,
+      2,
+      33,
+      5
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "level": 69,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "patch": "1.10",
+    "effects": {
+      "en": [
+        "50% Chance To Cast Level 20 Poison Nova When You Kill An Enemy",
+        "Indestructible",
+        "+60% Increased Attack Speed",
+        "+350-400% Enhanced Damage (varies)",
+        "+200% Damage To Undead",
+        "-25% Target Defense",
+        "+50 To Attack Rating",
+        "+50 To Attack Rating Against Undead",
+        "7% Mana Stolen Per Hit",
+        "12-15% Life Stolen Per Hit (varies)",
+        "Prevent Monster Heal",
+        "+30 To All Attributes",
+        "+1 To Light Radius",
+        "Requirements -20%"
+      ],
+      "zh": [
+        "杀死敌人时有 50% 几率施展等级 20 剧毒新星",
+        "无法破坏",
+        "+60% 增加攻击速度",
+        "+350-400% 增强伤害 (可变)",
+        "+200% 对不死生物的伤害",
+        "-25% 目标防御",
+        "+50 准确率",
+        "+50 对不死生物的准确率",
+        "7% 击中偷取法力",
+        "12-15% 击中偷取生命 (可变)",
+        "防止怪物自疗",
+        "+30 转为所有的属性",
+        "+1 照亮范围",
+        "需求 -20%"
+      ]
+    },
+    "popular": true
+  },
+  {
+    "slug": "obsession",
+    "name": {
+      "en": "Obsession",
+      "zh": "痴迷"
+    },
+    "runes": [
+      "Zod",
+      "Ist",
+      "Lem",
+      "Lum",
+      "Io",
+      "Nef"
+    ],
+    "runeNumbers": [
+      33,
+      24,
+      20,
+      17,
+      16,
+      4
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "Staves"
+    ],
+    "level": 69,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "patch": "D2R 2.4",
+    "effects": {
+      "en": [
+        "Indestructible",
+        "24% Chance to cast level 10 Weaken when struck",
+        "+4 To All Skills",
+        "+65% Faster Cast Rate",
+        "+60% Faster Hit Recovery",
+        "Knockback",
+        "+10 To Vitality",
+        "+10 To Energy",
+        "Increase Maximum Life 15-25% (varies)",
+        "Regenerate Mana 15-30% (varies)",
+        "All Resistances +60-70 (varies)",
+        "75% Extra Gold from Monsters",
+        "30% Better Chance of Getting Magic Items"
+      ],
+      "zh": [
+        "无法破坏",
+        "24% 几率被击中时施展等级 10 衰弱",
+        "+4 所有技能",
+        "+65% 高速施展速度",
+        "+60% 快速再度攻击",
+        "击退",
+        "+10 体力",
+        "+10 精力",
+        "增加生命上限 15-25% (可变)",
+        "法力重生 15-30% (可变)",
+        "所有抗性 +60-70 (可变)",
+        "75% 额外金币从怪物身上取得",
+        "30% 更佳的机会取得魔法装备"
+      ]
+    }
   }
 ]

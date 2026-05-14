@@ -3,7 +3,8 @@
     "home": "Home",
     "runewords": "Runewords",
     "runes": "Runes",
-    "baseItems": "Base Items"
+    "baseItems": "Base Items",
+    "crafted": "Crafted Items"
   },
   "home": {
     "title": "Diablo II Resurrected",
@@ -56,6 +57,19 @@
     "compatibleRunewords": "Compatible Runewords",
     "type": "Type"
   },
+  "crafted": {
+    "title": "Crafted Items",
+    "subtitle": "Special items crafted via the Horadric Cube, {count} recipes total",
+    "category": "Category",
+    "fixedMods": "Fixed Mods",
+    "recipe": "Recipe",
+    "slot": "Slot",
+    "baseItem": "Base Item",
+    "blood": "Blood",
+    "caster": "Caster",
+    "hitPower": "Hit Power",
+    "safety": "Safety"
+  },
   "common": {
     "backToList": "Back to List",
     "all": "All",
@@ -67,7 +81,8 @@
     "ladder": "Ladder",
     "nonLadder": "Non-Ladder",
     "d2rOnly": "D2R",
-    "level": "Level"
+    "level": "Level",
+    "recipe": "Recipe"
   },
   "types": {
     "Swords": "Swords",
@@ -90,7 +105,8 @@
     "Scepters": "Scepters",
     "Wands": "Wands",
     "Daggers": "Daggers",
-    "Spears": "Spears"
+    "Spears": "Spears",
+    "Amazon Spears": "Amazon Spears"
   },
   "classes": {
     "Amazon": "Amazon",

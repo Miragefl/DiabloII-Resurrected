@@ -3,7 +3,7 @@ const route = useRoute()
 const { locale, t } = useI18n()
 const localePath = useLocalePath()
 const { runewords, load, getBySlug, getSlugs } = useRunewords()
-const { load: loadRunes } = useRunes()
+const { runes, load: loadRunes, getByName } = useRunes()
 const { baseItems, load: loadBaseItems } = useBaseItems()
 const { getItemIconPath } = useItemIcon()
 const { translateType, translateClass } = useTypeTranslation()
@@ -68,12 +68,25 @@ useHead({
         <div>
           <div class="flex items-center gap-3 mb-1">
             <h1 class="text-4xl font-heading text-d2r-accent">{{ displayName }}</h1>
+            <span v-if="runeword.popular" class="d2r-badge d2r-badge-orange">HOT</span>
             <span v-if="runeword.ladderOnly" class="d2r-badge d2r-badge-red">{{ t('common.ladder') }}</span>
             <span v-if="runeword.d2rOnly" class="d2r-badge d2r-badge-purple">{{ t('common.d2rOnly') }}</span>
           </div>
-          <p class="text-d2r-muted">
-            {{ runeword.itemTypes.map(translateType).join(', ') }} &middot; {{ runeword.sockets }} {{ t('runewords.sockets') }} &middot; Lv.{{ runeword.level }} &middot; {{ t('common.patch') }} {{ runeword.patch }}
-          </p>
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-d2r-muted text-sm">
+            <div class="flex flex-wrap gap-1.5">
+              <span
+                v-for="type in runeword.itemTypes"
+                :key="type"
+                class="inline-flex items-center gap-1 px-2 py-0.5 bg-d2r-bg-alt border border-d2r-border rounded text-xs"
+              >
+                <img :src="getItemIconPath(type)" :alt="type" class="w-3.5 h-3.5 opacity-70" />
+                {{ translateType(type) }}
+              </span>
+            </div>
+            <span>{{ runeword.sockets }} {{ t('runewords.sockets') }}</span>
+            <span>Lv.{{ runeword.level }}</span>
+            <span>{{ t('common.patch') }} {{ runeword.patch }}</span>
+          </div>
         </div>
       </div>
     </div>
@@ -87,6 +100,9 @@ useHead({
             :key="idx"
             :rune-name="rune"
             :rune-number="runeword.runeNumbers[idx]"
+            :weapon-effect="locale === 'zh' ? getByName(rune)?.weaponEffectZh : getByName(rune)?.weaponEffect"
+            :armor-effect="locale === 'zh' ? getByName(rune)?.armorEffectZh : getByName(rune)?.armorEffect"
+            :shield-effect="locale === 'zh' ? getByName(rune)?.shieldEffectZh : getByName(rune)?.shieldEffect"
           />
         </div>
 
@@ -117,7 +133,7 @@ useHead({
         >
           <div class="flex items-center gap-3">
             <img
-              :src="getItemIconPath(item.type)"
+              :src="getItemIconPath(item.type, item.slug)"
               :alt="item.type"
               class="w-8 h-8 opacity-80"
             />

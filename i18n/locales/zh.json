@@ -3,7 +3,8 @@
     "home": "首页",
     "runewords": "符文之语",
     "runes": "符文",
-    "baseItems": "装备底材"
+    "baseItems": "装备底材",
+    "crafted": "手工制品"
   },
   "home": {
     "title": "暗黑破坏神II：狱火重生",
@@ -56,6 +57,19 @@
     "compatibleRunewords": "兼容符文之语",
     "type": "类型"
   },
+  "crafted": {
+    "title": "手工制品",
+    "subtitle": "通过赫拉迪姆方块合成的特殊装备，共 {count} 个配方",
+    "category": "合成类型",
+    "fixedMods": "固定属性",
+    "recipe": "合成公式",
+    "slot": "装备部位",
+    "baseItem": "基础装备",
+    "blood": "鲜血",
+    "caster": "施法者",
+    "hitPower": "打击",
+    "safety": "安全"
+  },
   "common": {
     "backToList": "返回列表",
     "all": "全部",
@@ -67,7 +81,8 @@
     "ladder": "天梯",
     "nonLadder": "非天梯",
     "d2rOnly": "D2R专属",
-    "level": "等级"
+    "level": "等级",
+    "recipe": "合成公式"
   },
   "types": {
     "Swords": "剑",
@@ -89,8 +104,9 @@
     "Paladin Shields": "圣骑士盾牌",
     "Scepters": "权杖",
     "Wands": "法杖",
-    " Daggers": "匕首",
-    "Spears": "长矛"
+    "Daggers": "匕首",
+    "Spears": "长矛",
+    "Amazon Spears": "亚马逊长矛"
   },
   "classes": {
     "Amazon": "亚马逊",

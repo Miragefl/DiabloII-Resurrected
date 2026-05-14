@@ -18,10 +18,16 @@ const typeToSlug: Record<string, string> = {
   'Paladin Shields': 'shields',
   'Scepters': 'scepters',
   'Wands': 'wands',
+  'Spears': 'polearms',
+  'Amazon Spears': 'polearms',
+  'Daggers': 'swords',
 }
 
 export function useItemIcon() {
-  function getItemIconPath(type: string): string {
+  function getItemIconPath(type: string, itemSlug?: string): string {
+    if (itemSlug) {
+      return `/images/items/${itemSlug}.png`
+    }
     const slug = typeToSlug[type] || 'weapons'
     return `/images/items/${slug}.png`
   }

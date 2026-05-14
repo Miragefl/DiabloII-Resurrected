@@ -1,58 +1,2005 @@
 [
   {
     "slug": "crystal-sword",
-    "name": { "en": "Crystal Sword", "zh": "水晶剑" },
+    "name": {
+      "en": "Crystal Sword",
+      "zh": "水晶剑"
+    },
     "type": "Swords",
     "maxSockets": 6,
     "level": 1,
     "strength": 43,
     "dexterity": 0,
-    "damage": { "min": 5, "max": 15 },
+    "damage": {
+      "min": 5,
+      "max": 15
+    },
     "speed": 0,
-    "compatibleRunewords": ["spirit", "call-to-arms", "grief"]
+    "compatibleRunewords": [
+      "spirit",
+      "call-to-arms",
+      "grief",
+      "passion",
+      "last-wish",
+      "voice-of-reason",
+      "death",
+      "breath-of-the-dying"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "phase-blade",
+    "name": {
+      "en": "Phase Blade",
+      "zh": "幻化之刃"
+    },
+    "type": "Swords",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 25,
+    "dexterity": 136,
+    "damage": {
+      "min": 31,
+      "max": 35
+    },
+    "speed": -30,
+    "compatibleRunewords": [
+      "grief",
+      "spirit",
+      "last-wish",
+      "death",
+      "voice-of-reason",
+      "lawbringer",
+      "oath",
+      "breath-of-the-dying"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "colossus-sword",
+    "name": {
+      "en": "Colossus Sword",
+      "zh": "巨剑"
+    },
+    "type": "Swords",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 164,
+    "dexterity": 56,
+    "damage": {
+      "min": 26,
+      "max": 70
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "grief",
+      "death",
+      "destruction",
+      "last-wish",
+      "breath-of-the-dying"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "colossus-blade",
+    "name": {
+      "en": "Colossus Blade",
+      "zh": "巨神之刃"
+    },
+    "type": "Swords",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 189,
+    "dexterity": 110,
+    "damage": {
+      "min": 25,
+      "max": 65
+    },
+    "speed": 5,
+    "compatibleRunewords": [
+      "grief",
+      "death",
+      "destruction",
+      "last-wish",
+      "breath-of-the-dying"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "broad-sword",
+    "name": {
+      "en": "Broad Sword",
+      "zh": "阔剑"
+    },
+    "type": "Swords",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 48,
+    "dexterity": 0,
+    "damage": {
+      "min": 7,
+      "max": 21
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "spirit",
+      "passion",
+      "voice-of-reason"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "long-sword",
+    "name": {
+      "en": "Long Sword",
+      "zh": "长剑"
+    },
+    "type": "Swords",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 55,
+    "dexterity": 0,
+    "damage": {
+      "min": 10,
+      "max": 26
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "spirit",
+      "steel",
+      "crescent-moon",
+      "passion"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "flamberge",
+    "name": {
+      "en": "Flamberge",
+      "zh": "焰形剑"
+    },
+    "type": "Swords",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 40,
+    "dexterity": 0,
+    "damage": {
+      "min": 9,
+      "max": 17
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "spirit",
+      "steel",
+      "crescent-moon"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "dimensional-blade",
+    "name": {
+      "en": "Dimensional Blade",
+      "zh": "异形刃"
+    },
+    "type": "Swords",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 85,
+    "dexterity": 0,
+    "damage": {
+      "min": 15,
+      "max": 36
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "spirit",
+      "grief",
+      "death",
+      "oath",
+      "voice-of-reason"
+    ],
+    "tier": "exceptional",
+    "tierZh": "拓展级"
+  },
+  {
+    "slug": "dusk-shroud",
+    "name": {
+      "en": "Dusk Shroud",
+      "zh": "灰暮寿衣"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 77,
+    "defense": {
+      "min": 361,
+      "max": 467
+    },
+    "compatibleRunewords": [
+      "enigma",
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "bone",
+      "enlightenment",
+      "myth",
+      "peace",
+      "principle",
+      "rain",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "berserker-axe",
+    "name": {
+      "en": "Berserker Axe",
+      "zh": "狂战士斧"
+    },
+    "type": "Axes",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 138,
+    "dexterity": 0,
+    "damage": {
+      "min": 24,
+      "max": 71
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "grief",
+      "death",
+      "beast",
+      "doom",
+      "famine",
+      "oath",
+      "last-wish",
+      "breath-of-the-dying",
+      "eternity",
+      "kingslayer",
+      "crescent-moon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
   },
   {
     "slug": "colossus-voulge",
-    "name": { "en": "Colossus Voulge", "zh": "巨长斧" },
+    "name": {
+      "en": "Colossus Voulge",
+      "zh": "巨长斧"
+    },
     "type": "Polearms",
     "maxSockets": 4,
     "level": 1,
-    "strength": 0,
+    "strength": 210,
     "dexterity": 0,
-    "damage": { "min": 19, "max": 55 },
+    "damage": {
+      "min": 17,
+      "max": 165
+    },
     "speed": 10,
-    "compatibleRunewords": ["infinity", "insight"]
+    "compatibleRunewords": [
+      "infinity",
+      "insight",
+      "obedience",
+      "pride",
+      "rift",
+      "crescent-moon",
+      "destruction"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "thresher",
+    "name": {
+      "en": "Thresher",
+      "zh": "锐利之斧"
+    },
+    "type": "Polearms",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 188,
+    "dexterity": 0,
+    "damage": {
+      "min": 12,
+      "max": 141
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "infinity",
+      "insight",
+      "obedience",
+      "pride",
+      "rift",
+      "destruction"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "giant-thresher",
+    "name": {
+      "en": "Giant Thresher",
+      "zh": "巨型锐利之斧"
+    },
+    "type": "Polearms",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 229,
+    "dexterity": 0,
+    "damage": {
+      "min": 40,
+      "max": 136
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "infinity",
+      "insight",
+      "obedience",
+      "pride",
+      "rift",
+      "destruction"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "cryptic-axe",
+    "name": {
+      "en": "Cryptic Axe",
+      "zh": "神秘之斧"
+    },
+    "type": "Polearms",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 198,
+    "dexterity": 0,
+    "damage": {
+      "min": 36,
+      "max": 137
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "infinity",
+      "insight",
+      "obedience",
+      "pride",
+      "rift",
+      "destruction"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
   },
   {
     "slug": "archon-plate",
-    "name": { "en": "Archon Plate", "zh": "执政官铠甲" },
+    "name": {
+      "en": "Archon Plate",
+      "zh": "执政官铠甲"
+    },
     "type": "Body Armor",
     "maxSockets": 3,
     "level": 1,
     "strength": 103,
-    "defense": { "min": 875, "max": 1089 },
-    "compatibleRunewords": ["enigma", "stealth"]
+    "defense": {
+      "min": 410,
+      "max": 524
+    },
+    "compatibleRunewords": [
+      "enigma",
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "bone",
+      "enlightenment",
+      "myth",
+      "peace",
+      "principle",
+      "rain",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "mage-plate",
+    "name": {
+      "en": "Mage Plate",
+      "zh": "法师铠甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 55,
+    "defense": {
+      "min": 225,
+      "max": 261
+    },
+    "compatibleRunewords": [
+      "enigma",
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence"
+    ],
+    "tier": "exceptional",
+    "tierZh": "拓展级"
+  },
+  {
+    "slug": "light-plate",
+    "name": {
+      "en": "Light Plate",
+      "zh": "轻型装甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 41,
+    "defense": {
+      "min": 186,
+      "max": 210
+    },
+    "compatibleRunewords": [
+      "enigma",
+      "chains-of-honor",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "boneweave",
+    "name": {
+      "en": "Boneweave",
+      "zh": "骸骨织网"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 90,
+    "defense": {
+      "min": 377,
+      "max": 486
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "sacred-armor",
+    "name": {
+      "en": "Sacred Armor",
+      "zh": "神圣盔甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 232,
+    "defense": {
+      "min": 487,
+      "max": 600
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "great-hauberk",
+    "name": {
+      "en": "Great Hauberk",
+      "zh": "巨型链甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 118,
+    "defense": {
+      "min": 381,
+      "max": 498
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "wire-fleece",
+    "name": {
+      "en": "Wire Fleece",
+      "zh": "铁皮护甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 111,
+    "defense": {
+      "min": 375,
+      "max": 481
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "scarab-husk",
+    "name": {
+      "en": "Scarab Husk",
+      "zh": "圣甲虫壳"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 83,
+    "defense": {
+      "min": 366,
+      "max": 472
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "balrog-skin",
+    "name": {
+      "en": "Balrog Skin",
+      "zh": "炎魔皮"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 157,
+    "defense": {
+      "min": 417,
+      "max": 508
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "hellforge-plate",
+    "name": {
+      "en": "Hellforge Plate",
+      "zh": "地狱锻炉板甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 165,
+    "defense": {
+      "min": 403,
+      "max": 518
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "kraken-shell",
+    "name": {
+      "en": "Kraken Shell",
+      "zh": "海王利维亚坦之壳"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 140,
+    "defense": {
+      "min": 396,
+      "max": 504
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "lacquered-plate",
+    "name": {
+      "en": "Lacquered Plate",
+      "zh": "漆甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 166,
+    "defense": {
+      "min": 406,
+      "max": 521
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "shadow-plate",
+    "name": {
+      "en": "Shadow Plate",
+      "zh": "暗影盘甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 230,
+    "defense": {
+      "min": 445,
+      "max": 556
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "diamond-mail",
+    "name": {
+      "en": "Diamond Mail",
+      "zh": "钻石铠甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 132,
+    "defense": {
+      "min": 393,
+      "max": 498
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "wyrmhide",
+    "name": {
+      "en": "Wyrmhide",
+      "zh": "龙皮甲"
+    },
+    "type": "Body Armor",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 84,
+    "defense": {
+      "min": 364,
+      "max": 470
+    },
+    "compatibleRunewords": [
+      "chains-of-honor",
+      "bramble",
+      "stone",
+      "fortitude",
+      "duress",
+      "gloom",
+      "prudence",
+      "treachery",
+      "dragon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
   },
   {
     "slug": "monarch",
-    "name": { "en": "Monarch", "zh": "统治者大盾" },
+    "name": {
+      "en": "Monarch",
+      "zh": "统治者大盾"
+    },
     "type": "Shields",
     "maxSockets": 4,
     "level": 1,
     "strength": 156,
-    "defense": { "min": 336, "max": 384 },
-    "compatibleRunewords": ["spirit"]
+    "defense": {
+      "min": 133,
+      "max": 155
+    },
+    "compatibleRunewords": [
+      "spirit",
+      "phoenix",
+      "dragon",
+      "dream",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
   },
   {
-    "slug": "phase-blade",
-    "name": { "en": "Phase Blade", "zh": "幻化之刃" },
-    "type": "Swords",
+    "slug": "pelta-lunata",
+    "name": {
+      "en": "Pelta Lunata",
+      "zh": "月神盾"
+    },
+    "type": "Shields",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 25,
+    "defense": {
+      "min": 15,
+      "max": 19
+    },
+    "compatibleRunewords": [
+      "ancients-pledge",
+      "rhyme",
+      "splendor",
+      "sanctuary"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "aegis",
+    "name": {
+      "en": "Aegis",
+      "zh": "神使之盾"
+    },
+    "type": "Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 219,
+    "defense": {
+      "min": 145,
+      "max": 168
+    },
+    "compatibleRunewords": [
+      "spirit",
+      "phoenix",
+      "dragon",
+      "dream",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "ward",
+    "name": {
+      "en": "Ward",
+      "zh": "庇护之盾"
+    },
+    "type": "Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 176,
+    "defense": {
+      "min": 139,
+      "max": 164
+    },
+    "compatibleRunewords": [
+      "spirit",
+      "phoenix",
+      "dragon",
+      "dream",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "zakarum-shield",
+    "name": {
+      "en": "Zakarum Shield",
+      "zh": "撒卡兰姆盾"
+    },
+    "type": "Paladin Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 142,
+    "defense": {
+      "min": 162,
+      "max": 192
+    },
+    "compatibleRunewords": [
+      "exile",
+      "spirit",
+      "dragon",
+      "dream",
+      "phoenix",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "vortex-shield",
+    "name": {
+      "en": "Vortex Shield",
+      "zh": "旋风盾"
+    },
+    "type": "Paladin Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 148,
+    "defense": {
+      "min": 176,
+      "max": 206
+    },
+    "compatibleRunewords": [
+      "exile",
+      "spirit",
+      "dragon",
+      "dream",
+      "phoenix",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "sacred-targe",
+    "name": {
+      "en": "Sacred Targe",
+      "zh": "神圣轻盾"
+    },
+    "type": "Paladin Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 86,
+    "defense": {
+      "min": 126,
+      "max": 154
+    },
+    "compatibleRunewords": [
+      "exile",
+      "spirit",
+      "dragon",
+      "dream",
+      "phoenix",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "sacred-rondache",
+    "name": {
+      "en": "Sacred Rondache",
+      "zh": "神圣圆盾"
+    },
+    "type": "Paladin Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 92,
+    "defense": {
+      "min": 146,
+      "max": 170
+    },
+    "compatibleRunewords": [
+      "exile",
+      "spirit",
+      "dragon",
+      "dream",
+      "phoenix",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "kurast-shield",
+    "name": {
+      "en": "Kurast Shield",
+      "zh": "库拉斯特盾"
+    },
+    "type": "Paladin Shields",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 133,
+    "defense": {
+      "min": 152,
+      "max": 178
+    },
+    "compatibleRunewords": [
+      "exile",
+      "spirit",
+      "dragon",
+      "dream",
+      "phoenix",
+      "sanctuary",
+      "splendor",
+      "rhyme"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "bone-visage",
+    "name": {
+      "en": "Bone Visage",
+      "zh": "骨质面具"
+    },
+    "type": "Helms",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 125,
+    "defense": {
+      "min": 198,
+      "max": 253
+    },
+    "compatibleRunewords": [
+      "delirium",
+      "dream",
+      "wisdom",
+      "flickering-flame",
+      "bulwark",
+      "cure",
+      "ground",
+      "hearth",
+      "temper",
+      "metamorphosis"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "crown-of-ages",
+    "name": {
+      "en": "Corona",
+      "zh": "头冠"
+    },
+    "type": "Helms",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 105,
+    "defense": {
+      "min": 111,
+      "max": 156
+    },
+    "compatibleRunewords": [
+      "delirium",
+      "dream",
+      "wisdom",
+      "flickering-flame",
+      "bulwark",
+      "cure",
+      "ground",
+      "hearth",
+      "temper",
+      "metamorphosis"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "shako",
+    "name": {
+      "en": "Shako",
+      "zh": "军帽"
+    },
+    "type": "Helms",
+    "maxSockets": 2,
+    "level": 1,
+    "strength": 50,
+    "defense": {
+      "min": 98,
+      "max": 131
+    },
+    "compatibleRunewords": [
+      "delirium",
+      "dream",
+      "wisdom",
+      "flickering-flame"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "tiara",
+    "name": {
+      "en": "Tiara",
+      "zh": "三重冠"
+    },
+    "type": "Helms",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 50,
+    "defense": {
+      "min": 95,
+      "max": 132
+    },
+    "compatibleRunewords": [
+      "delirium",
+      "dream",
+      "wisdom",
+      "flickering-flame",
+      "bulwark",
+      "cure",
+      "ground",
+      "hearth",
+      "temper",
+      "metamorphosis"
+    ],
+    "tier": "exceptional",
+    "tierZh": "拓展级"
+  },
+  {
+    "slug": "diadem",
+    "name": {
+      "en": "Diadem",
+      "zh": "权冠"
+    },
+    "type": "Helms",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 50,
+    "defense": {
+      "min": 99,
+      "max": 150
+    },
+    "compatibleRunewords": [
+      "delirium",
+      "dream",
+      "wisdom",
+      "flickering-flame",
+      "bulwark",
+      "cure",
+      "ground",
+      "hearth",
+      "temper",
+      "metamorphosis"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "flail",
+    "name": {
+      "en": "Flail",
+      "zh": "连枷"
+    },
+    "type": "Maces",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 41,
+    "dexterity": 0,
+    "damage": {
+      "min": 11,
+      "max": 22
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "heart-of-the-oak",
+      "call-to-arms",
+      "kingslayer",
+      "passion"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "scourge",
+    "name": {
+      "en": "Scourge",
+      "zh": "天罚之锤"
+    },
+    "type": "Maces",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 125,
+    "dexterity": 0,
+    "damage": {
+      "min": 3,
+      "max": 80
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "heart-of-the-oak",
+      "call-to-arms",
+      "kingslayer",
+      "passion"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "war-staff",
+    "name": {
+      "en": "War Staff",
+      "zh": "战斗法杖"
+    },
+    "type": "Staves",
     "maxSockets": 6,
     "level": 1,
-    "strength": 109,
-    "dexterity": 136,
-    "damage": { "min": 31, "max": 35 },
+    "strength": 44,
+    "dexterity": 0,
+    "damage": {
+      "min": 18,
+      "max": 26
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "insight",
+      "heart-of-the-oak",
+      "obsession",
+      "leaf",
+      "memory"
+    ],
+    "tier": "normal",
+    "tierZh": "普通级"
+  },
+  {
+    "slug": "archon-staff",
+    "name": {
+      "en": "Archon Staff",
+      "zh": "执政官之杖"
+    },
+    "type": "Staves",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 56,
+    "dexterity": 0,
+    "damage": {
+      "min": 40,
+      "max": 52
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "insight",
+      "obsession"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "grand-matron-bow",
+    "name": {
+      "en": "Grand Matron Bow",
+      "zh": "女族长之弓"
+    },
+    "type": "Bows",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 52,
+    "dexterity": 176,
+    "damage": {
+      "min": 14,
+      "max": 55
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "faith",
+      "harmony",
+      "brand",
+      "ice",
+      "wrath",
+      "mist"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "matriarchal-bow",
+    "name": {
+      "en": "Matriarchal Bow",
+      "zh": "女巫之弓"
+    },
+    "type": "Bows",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 38,
+    "dexterity": 162,
+    "damage": {
+      "min": 15,
+      "max": 48
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "faith",
+      "harmony",
+      "brand",
+      "ice",
+      "wrath",
+      "mist"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "blade-bow",
+    "name": {
+      "en": "Blade Bow",
+      "zh": "刀锋弓"
+    },
+    "type": "Bows",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 95,
+    "dexterity": 118,
+    "damage": {
+      "min": 31,
+      "max": 40
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "faith",
+      "harmony",
+      "brand",
+      "ice",
+      "wrath",
+      "mist"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "crusader-bow",
+    "name": {
+      "en": "Crusader Bow",
+      "zh": "十字军之弓"
+    },
+    "type": "Bows",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 138,
+    "dexterity": 91,
+    "damage": {
+      "min": 23,
+      "max": 56
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "faith",
+      "harmony",
+      "brand",
+      "ice",
+      "wrath",
+      "mist"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "colossus-crossbow",
+    "name": {
+      "en": "Colossus Crossbow",
+      "zh": "巨神十字弓"
+    },
+    "type": "Crossbows",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 163,
+    "dexterity": 77,
+    "damage": {
+      "min": 27,
+      "max": 55
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "faith",
+      "harmony",
+      "brand",
+      "ice",
+      "wrath",
+      "mist"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "demon-crossbow",
+    "name": {
+      "en": "Demon Crossbow",
+      "zh": "恶魔十字弓"
+    },
+    "type": "Crossbows",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 111,
+    "dexterity": 98,
+    "damage": {
+      "min": 33,
+      "max": 49
+    },
+    "speed": -60,
+    "compatibleRunewords": [
+      "faith",
+      "harmony",
+      "brand",
+      "ice",
+      "wrath",
+      "mist"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "supreme-crossbow",
+    "name": {
+      "en": "Supreme Crossbow",
+      "zh": "极品十字弓"
+    },
+    "type": "Crossbows",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 118,
+    "dexterity": 92,
+    "damage": {
+      "min": 25,
+      "max": 56
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "faith",
+      "harmony",
+      "brand",
+      "ice",
+      "wrath",
+      "mist"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "suwayyah",
+    "name": {
+      "en": "Suwayyah",
+      "zh": "近身刃"
+    },
+    "type": "Claws",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 79,
+    "dexterity": 79,
+    "damage": {
+      "min": 27,
+      "max": 49
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "chaos",
+      "pattern",
+      "mosaic"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "scissor-suwayyah",
+    "name": {
+      "en": "Scissor Suwayyah",
+      "zh": "剪形近身刃"
+    },
+    "type": "Claws",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 79,
+    "dexterity": 79,
+    "damage": {
+      "min": 27,
+      "max": 49
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "chaos",
+      "pattern",
+      "mosaic"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "runic-talons",
+    "name": {
+      "en": "Runic Talons",
+      "zh": "符文爪"
+    },
+    "type": "Claws",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 77,
+    "dexterity": 77,
+    "damage": {
+      "min": 24,
+      "max": 44
+    },
     "speed": -30,
-    "compatibleRunewords": ["spirit", "grief", "call-to-arms"]
+    "compatibleRunewords": [
+      "chaos",
+      "pattern",
+      "mosaic"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "greater-talons",
+    "name": {
+      "en": "Greater Talons",
+      "zh": "大毒牙爪"
+    },
+    "type": "Claws",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 69,
+    "dexterity": 69,
+    "damage": {
+      "min": 19,
+      "max": 40
+    },
+    "speed": -20,
+    "compatibleRunewords": [
+      "chaos",
+      "pattern",
+      "mosaic"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "legendary-mallet",
+    "name": {
+      "en": "Legendary Mallet",
+      "zh": "传说之锤"
+    },
+    "type": "Hammers",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 225,
+    "dexterity": 0,
+    "damage": {
+      "min": 50,
+      "max": 61
+    },
+    "speed": 20,
+    "compatibleRunewords": [
+      "beast",
+      "doom",
+      "last-wish",
+      "famine",
+      "oath"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "berserker-head",
+    "name": {
+      "en": "Berserker Head",
+      "zh": "狂战士头颅"
+    },
+    "type": "Hammers",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 115,
+    "dexterity": 0,
+    "damage": {
+      "min": 37,
+      "max": 53
+    },
+    "speed": 10,
+    "compatibleRunewords": [
+      "beast",
+      "doom",
+      "last-wish",
+      "famine"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "caduceus",
+    "name": {
+      "en": "Caduceus",
+      "zh": "卡迪乌斯"
+    },
+    "type": "Scepters",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 98,
+    "dexterity": 0,
+    "damage": {
+      "min": 34,
+      "max": 49
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "beast",
+      "kingslayer",
+      "lawbringer",
+      "rift",
+      "passion"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "lich-wand",
+    "name": {
+      "en": "Lich Wand",
+      "zh": "巫妖法杖"
+    },
+    "type": "Wands",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 25,
+    "dexterity": 0,
+    "damage": {
+      "min": 18,
+      "max": 26
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "white"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "unearthed-wand",
+    "name": {
+      "en": "Unearthed Wand",
+      "zh": "出土法杖"
+    },
+    "type": "Wands",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 25,
+    "dexterity": 0,
+    "damage": {
+      "min": 16,
+      "max": 24
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "white"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "hyperion-spear",
+    "name": {
+      "en": "Hyperion Spear",
+      "zh": "亥伯龙之矛"
+    },
+    "type": "Spears",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 155,
+    "dexterity": 120,
+    "damage": {
+      "min": 35,
+      "max": 119
+    },
+    "speed": -10,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "venom"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "stygian-pike",
+    "name": {
+      "en": "Stygian Pike",
+      "zh": "冥河之枪"
+    },
+    "type": "Spears",
+    "maxSockets": 4,
+    "level": 1,
+    "strength": 168,
+    "dexterity": 97,
+    "damage": {
+      "min": 29,
+      "max": 144
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "passion",
+      "venom",
+      "fortitude",
+      "phoenix",
+      "hand-of-justice"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "mancatcher",
+    "name": {
+      "en": "Mancatcher",
+      "zh": "刺人枪"
+    },
+    "type": "Spears",
+    "maxSockets": 5,
+    "level": 1,
+    "strength": 132,
+    "dexterity": 134,
+    "damage": {
+      "min": 42,
+      "max": 92
+    },
+    "speed": -20,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "passion",
+      "venom",
+      "fortitude",
+      "phoenix",
+      "hand-of-justice",
+      "honor",
+      "eternity",
+      "call-to-arms"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "ghost-spear",
+    "name": {
+      "en": "Ghost Spear",
+      "zh": "鬼魂之矛"
+    },
+    "type": "Spears",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 122,
+    "dexterity": 163,
+    "damage": {
+      "min": 18,
+      "max": 155
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "passion",
+      "venom",
+      "fortitude",
+      "phoenix",
+      "hand-of-justice",
+      "honor",
+      "eternity",
+      "call-to-arms",
+      "silence",
+      "breath-of-the-dying"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "war-pike",
+    "name": {
+      "en": "War Pike",
+      "zh": "战枪"
+    },
+    "type": "Spears",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 165,
+    "dexterity": 106,
+    "damage": {
+      "min": 33,
+      "max": 178
+    },
+    "speed": 20,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "passion",
+      "venom",
+      "fortitude",
+      "phoenix",
+      "hand-of-justice",
+      "honor",
+      "eternity",
+      "call-to-arms",
+      "silence",
+      "breath-of-the-dying"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "matriarchal-spear",
+    "name": {
+      "en": "Matriarchal Spear",
+      "zh": "女族长之矛"
+    },
+    "type": "Amazon Spears",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 114,
+    "dexterity": 142,
+    "damage": {
+      "min": 65,
+      "max": 95
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "passion",
+      "venom",
+      "fortitude",
+      "phoenix",
+      "hand-of-justice",
+      "honor",
+      "eternity",
+      "call-to-arms",
+      "silence",
+      "breath-of-the-dying"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "matriarchal-pike",
+    "name": {
+      "en": "Matriarchal Pike",
+      "zh": "女族长之长矛"
+    },
+    "type": "Amazon Spears",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 132,
+    "dexterity": 149,
+    "damage": {
+      "min": 37,
+      "max": 153
+    },
+    "speed": 20,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "passion",
+      "venom",
+      "fortitude",
+      "phoenix",
+      "hand-of-justice",
+      "honor",
+      "eternity",
+      "call-to-arms",
+      "silence",
+      "breath-of-the-dying"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "ogre-axe",
+    "name": {
+      "en": "Ogre Axe",
+      "zh": "食人魔之斧"
+    },
+    "type": "Polearms",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 195,
+    "dexterity": 75,
+    "damage": {
+      "min": 28,
+      "max": 145
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "crescent-moon"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "great-poleaxe",
+    "name": {
+      "en": "Great Poleaxe",
+      "zh": "巨型长斧"
+    },
+    "type": "Polearms",
+    "maxSockets": 6,
+    "level": 1,
+    "strength": 179,
+    "dexterity": 99,
+    "damage": {
+      "min": 46,
+      "max": 127
+    },
+    "speed": 0,
+    "compatibleRunewords": [
+      "insight",
+      "obedience",
+      "crescent-moon",
+      "rift",
+      "infinity",
+      "destruction",
+      "pride",
+      "doom"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
+  },
+  {
+    "slug": "fanged-knife",
+    "name": {
+      "en": "Fanged Knife",
+      "zh": "齿缘小刀"
+    },
+    "type": "Daggers",
+    "maxSockets": 3,
+    "level": 1,
+    "strength": 42,
+    "dexterity": 86,
+    "damage": {
+      "min": 15,
+      "max": 57
+    },
+    "speed": -20,
+    "compatibleRunewords": [
+      "malice",
+      "strength",
+      "wind",
+      "fury",
+      "hustle",
+      "venom"
+    ],
+    "tier": "elite",
+    "tierZh": "精英级"
   }
 ]

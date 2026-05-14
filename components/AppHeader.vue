@@ -31,6 +31,9 @@ const mobileMenuOpen = ref(false)
           <NuxtLink :to="localePath('/base-items')" class="text-d2r-text hover:text-d2r-primary transition-colors no-underline">
             {{ t('nav.baseItems') }}
           </NuxtLink>
+          <NuxtLink :to="localePath('/crafted')" class="text-d2r-text hover:text-d2r-primary transition-colors no-underline">
+            {{ t('nav.crafted') }}
+          </NuxtLink>
         </nav>
 
         <div class="flex items-center gap-3">
@@ -66,6 +69,9 @@ const mobileMenuOpen = ref(false)
         </NuxtLink>
         <NuxtLink :to="localePath('/base-items')" class="block px-2 py-1 text-d2r-text hover:text-d2r-primary no-underline" @click="mobileMenuOpen = false">
           {{ t('nav.baseItems') }}
+        </NuxtLink>
+        <NuxtLink :to="localePath('/crafted')" class="block px-2 py-1 text-d2r-text hover:text-d2r-primary no-underline" @click="mobileMenuOpen = false">
+          {{ t('nav.crafted') }}
         </NuxtLink>
       </div>
     </div>

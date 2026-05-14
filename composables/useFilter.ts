@@ -6,9 +6,11 @@ export const useFilter = () => {
     itemTypes: [],
     levelRange: [1, 99] as [number, number],
     ladderOnly: null as boolean | null,
+    popularOnly: false,
     classFilter: '',
     search: '',
-    sort: 'name' as 'name' | 'level' | 'sockets',
+    keywords: [] as string[],
+    sort: 'level' as 'name' | 'level' | 'sockets',
   }))
 
   function apply(items: Runeword[]): Runeword[] {
@@ -35,6 +37,10 @@ export const useFilter = () => {
       result = result.filter(r => !r.ladderOnly)
     }
 
+    if (filter.value.popularOnly) {
+      result = result.filter(r => r.popular)
+    }
+
     if (filter.value.classFilter) {
       result = result.filter(r =>
         r.bestFor?.some(c =>
@@ -44,13 +50,32 @@ export const useFilter = () => {
     }
 
     if (filter.value.search) {
-      const q = filter.value.search.toLowerCase()
+      const terms = filter.value.search.split('|')
       result = result.filter(r =>
-        r.name.en.toLowerCase().includes(q) ||
-        r.name.zh.includes(q) ||
-        r.effects.en.some(e => e.toLowerCase().includes(q)) ||
-        r.effects.zh.some(e => e.includes(q)) ||
-        r.runes.some(rn => rn.toLowerCase().includes(q)),
+        terms.some(q => {
+          const ql = q.toLowerCase()
+          return r.name.en.toLowerCase().includes(ql) ||
+            r.name.zh.includes(q) ||
+            r.effects.en.some(e => e.toLowerCase().includes(ql)) ||
+            r.effects.zh.some(e => e.includes(q)) ||
+            r.runes.some(rn => rn.toLowerCase().includes(ql))
+        }),
+      )
+    }
+
+    if (filter.value.keywords.length > 0) {
+      result = result.filter(r =>
+        filter.value.keywords.every(kw => {
+          const terms = kw.split('|')
+          return terms.some(q => {
+            const ql = q.toLowerCase()
+            return r.name.en.toLowerCase().includes(ql) ||
+              r.name.zh.includes(q) ||
+              r.effects.en.some(e => e.toLowerCase().includes(ql)) ||
+              r.effects.zh.some(e => e.includes(q)) ||
+              r.runes.some(rn => rn.toLowerCase().includes(ql))
+          })
+        }),
       )
     }
 
@@ -70,8 +95,10 @@ export const useFilter = () => {
       itemTypes: [],
       levelRange: [1, 99],
       ladderOnly: null,
+      popularOnly: false,
       classFilter: '',
       search: '',
+      keywords: [],
       sort: 'name',
     }
   }

@@ -11,6 +11,7 @@ export interface Runeword {
   patch: string
   effects: { en: string[]; zh: string[] }
   bestFor?: string[]
+  popular?: boolean
 }
 
 export interface Rune {
@@ -21,6 +22,9 @@ export interface Rune {
   weaponEffect: string
   armorEffect: string
   shieldEffect: string
+  weaponEffectZh: string
+  armorEffectZh: string
+  shieldEffectZh: string
   dropLevel: { normal: number; nightmare: number; hell: number }
 }
 
@@ -64,7 +68,9 @@ export interface FilterState {
   itemTypes: string[]
   levelRange: [number, number]
   ladderOnly: boolean | null
+  popularOnly: boolean
   classFilter: string
   search: string
+  keywords: string[]
   sort: 'name' | 'level' | 'sockets'
 }

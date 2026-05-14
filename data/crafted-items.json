@@ -1,0 +1,1566 @@
+[
+  {
+    "slug": "blood-helm",
+    "name": {
+      "en": "Blood Helm",
+      "zh": "生命手工头盔"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Helm",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Ral",
+      "number": 8,
+      "nameZh": "拉尔"
+    },
+    "baseItems": {
+      "en": [
+        "Helm",
+        "Casque",
+        "Armet"
+      ],
+      "zh": [
+        "头盔",
+        "兜盔",
+        "覆颊盔"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "5-10% Deadly Strike",
+        "(1-3)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "5-10% 致命攻击",
+        "(1-3)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "头盔",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-boots",
+    "name": {
+      "en": "Blood Boots",
+      "zh": "生命手工鞋子"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Boots",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Eth",
+      "number": 5,
+      "nameZh": "爱斯"
+    },
+    "baseItems": {
+      "en": [
+        "Light Plated Boots",
+        "Battle Boots",
+        "Mirrored Boots"
+      ],
+      "zh": [
+        "轻铠靴",
+        "战斗靴",
+        "幻镜战靴"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Replenish Life +(5-10)",
+        "(1-3)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "补充生命 +(5-10)",
+        "(1-3)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "鞋子",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-gloves",
+    "name": {
+      "en": "Blood Gloves",
+      "zh": "生命手工手套"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Gloves",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Nef",
+      "number": 4,
+      "nameZh": "那夫"
+    },
+    "baseItems": {
+      "en": [
+        "Heavy Gloves",
+        "Sharkskin Gloves",
+        "Vampirebone Gloves"
+      ],
+      "zh": [
+        "厚皮手套",
+        "鲨皮手套",
+        "吸血鬼骸骨手套"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Crushing Blow (5-10)%",
+        "(1-3)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "压碎性打击 (5-10)%",
+        "(1-3)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "手套",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-belt",
+    "name": {
+      "en": "Blood Belt",
+      "zh": "生命手工腰带"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Belt",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Tal",
+      "number": 7,
+      "nameZh": "塔尔"
+    },
+    "baseItems": {
+      "en": [
+        "Belt",
+        "Mesh Belt",
+        "Mithril Coil"
+      ],
+      "zh": [
+        "腰带",
+        "铁网腰带",
+        "秘银腰带"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Open Wounds (5-10)%",
+        "(1-3)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "撕开伤口 (5-10)%",
+        "(1-3)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "腰带",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-shield",
+    "name": {
+      "en": "Blood Shield",
+      "zh": "生命手工盾牌"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Shield",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Ith",
+      "number": 6,
+      "nameZh": "伊司"
+    },
+    "baseItems": {
+      "en": [
+        "Spiked Shield",
+        "Barbed Shield",
+        "Blade Barrier"
+      ],
+      "zh": [
+        "尖刺盾",
+        "倒刺盾",
+        "刀刃刺盾"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Attacker Takes Damage of (4-7)",
+        "(1-3)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "攻击者受到伤害 (4-7)",
+        "(1-3)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "盾牌",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-body-armor",
+    "name": {
+      "en": "Blood Body Armor",
+      "zh": "生命手工护甲"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Body Armor",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Thul",
+      "number": 10,
+      "nameZh": "书尔"
+    },
+    "baseItems": {
+      "en": [
+        "Plate Mail",
+        "Templar Coat",
+        "Hellforge Plate"
+      ],
+      "zh": [
+        "铠甲",
+        "圣堂骑士战甲",
+        "地狱锻甲"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-3) Life Per Demon Kill",
+        "(1-3)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "+(1-3) 生命在每杀死一个恶魔后取得",
+        "(1-3)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "护甲",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-amulet",
+    "name": {
+      "en": "Blood Amulet",
+      "zh": "生命手工护身符"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Amulet",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Amn",
+      "number": 11,
+      "nameZh": "安姆"
+    },
+    "baseItems": {
+      "en": [
+        "Amulet"
+      ],
+      "zh": [
+        "护身符"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "5-10% Faster Run/Walk",
+        "(1-4)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "5-10% 高速跑步/行走",
+        "(1-4)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "护身符",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-ring",
+    "name": {
+      "en": "Blood Ring",
+      "zh": "生命手工戒指"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Ring",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Sol",
+      "number": 12,
+      "nameZh": "索尔"
+    },
+    "baseItems": {
+      "en": [
+        "Ring"
+      ],
+      "zh": [
+        "戒指"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-5) To Strength",
+        "(1-3)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "+(1-5) 力量",
+        "(1-3)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "戒指",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "blood-weapon",
+    "name": {
+      "en": "Blood Weapon",
+      "zh": "生命手工武器"
+    },
+    "category": {
+      "en": "Blood",
+      "zh": "生命"
+    },
+    "slot": "Weapon",
+    "gem": "Perfect Ruby",
+    "rune": {
+      "name": "Ort",
+      "number": 9,
+      "nameZh": "欧特"
+    },
+    "baseItems": {
+      "en": [
+        "Axe (any)"
+      ],
+      "zh": [
+        "斧（任意）"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(35-60)% Enhanced Damage",
+        "(1-4)% Life Stolen Per Hit",
+        "+(10-20) To Life"
+      ],
+      "zh": [
+        "+(35-60)% 伤害强化",
+        "(1-4)% 击中偷取生命",
+        "+(10-20) 生命"
+      ]
+    },
+    "slotZh": "武器",
+    "gemZh": "完美红宝石"
+  },
+  {
+    "slug": "caster-helm",
+    "name": {
+      "en": "Caster Helm",
+      "zh": "施法者手工头盔"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Helm",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Nef",
+      "number": 4,
+      "nameZh": "那夫"
+    },
+    "baseItems": {
+      "en": [
+        "Mask",
+        "Death Mask",
+        "Demonhead Mask"
+      ],
+      "zh": [
+        "面具",
+        "死亡面具",
+        "恶魔头骨"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "(1-4)% Mana Stolen Per Hit",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "(1-4)% 击中偷取法力",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "头盔",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-boots",
+    "name": {
+      "en": "Caster Boots",
+      "zh": "施法者手工鞋子"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Boots",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Thul",
+      "number": 10,
+      "nameZh": "书尔"
+    },
+    "baseItems": {
+      "en": [
+        "Boots",
+        "Demonhide Boots",
+        "Wyrmhide Boots"
+      ],
+      "zh": [
+        "鞋子",
+        "魔皮长靴",
+        "龙皮靴"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Increase Maximum Mana (2-5)%",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "增加法力上限 (2-5)%",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "鞋子",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-gloves",
+    "name": {
+      "en": "Caster Gloves",
+      "zh": "施法者手工手套"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Gloves",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Ort",
+      "number": 9,
+      "nameZh": "欧特"
+    },
+    "baseItems": {
+      "en": [
+        "Leather Gloves",
+        "Demonhide Gloves",
+        "Bramble Mitts"
+      ],
+      "zh": [
+        "皮革手套",
+        "魔皮手套",
+        "荆棘手套"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-3) Mana Per Kill",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "+(1-3) 法力在每杀一个敌人后取得",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "手套",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-belt",
+    "name": {
+      "en": "Caster Belt",
+      "zh": "施法者手工腰带"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Belt",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Ith",
+      "number": 6,
+      "nameZh": "伊司"
+    },
+    "baseItems": {
+      "en": [
+        "Light Belt",
+        "Sharkskin Belt",
+        "Vampirefang Belt"
+      ],
+      "zh": [
+        "轻腰带",
+        "鲨皮腰带",
+        "吸血鬼牙腰带"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "5-10% Faster Cast Rate",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "5-10% 高速施法",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "腰带",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-shield",
+    "name": {
+      "en": "Caster Shield",
+      "zh": "施法者手工盾牌"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Shield",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Eth",
+      "number": 5,
+      "nameZh": "爱斯"
+    },
+    "baseItems": {
+      "en": [
+        "Small Shield",
+        "Round Shield",
+        "Luna"
+      ],
+      "zh": [
+        "小型盾",
+        "圆型盾",
+        "圆月盾"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(5-10)% Increased Chance Of Blocking",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "+(5-10)% 增加格挡几率",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "盾牌",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-body-armor",
+    "name": {
+      "en": "Caster Body Armor",
+      "zh": "施法者手工护甲"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Body Armor",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Tal",
+      "number": 7,
+      "nameZh": "塔尔"
+    },
+    "baseItems": {
+      "en": [
+        "Light Plate",
+        "Mage Plate",
+        "Archon Plate"
+      ],
+      "zh": [
+        "轻型铠甲",
+        "法师铠甲",
+        "统御者铠甲"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-3) Mana Per Kill",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "+(1-3) 法力在每杀一个敌人后取得",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "护甲",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-amulet",
+    "name": {
+      "en": "Caster Amulet",
+      "zh": "施法者手工护身符"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Amulet",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Ral",
+      "number": 8,
+      "nameZh": "拉尔"
+    },
+    "baseItems": {
+      "en": [
+        "Amulet"
+      ],
+      "zh": [
+        "护身符"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "(5-10)% Faster Cast Rate",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "(5-10)% 高速施法",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "护身符",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-ring",
+    "name": {
+      "en": "Caster Ring",
+      "zh": "施法者手工戒指"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Ring",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Amn",
+      "number": 11,
+      "nameZh": "安姆"
+    },
+    "baseItems": {
+      "en": [
+        "Ring"
+      ],
+      "zh": [
+        "戒指"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-5) To Energy",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "+(1-5) 精力",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "戒指",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "caster-weapon",
+    "name": {
+      "en": "Caster Weapon",
+      "zh": "施法者手工武器"
+    },
+    "category": {
+      "en": "Caster",
+      "zh": "施法者"
+    },
+    "slot": "Weapon",
+    "gem": "Perfect Amethyst",
+    "rune": {
+      "name": "Tir",
+      "number": 3,
+      "nameZh": "提尔"
+    },
+    "baseItems": {
+      "en": [
+        "Scepter",
+        "Wand",
+        "Staff"
+      ],
+      "zh": [
+        "权杖",
+        "魔杖",
+        "法杖"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Increase Maximum Mana (1-5)%",
+        "Regenerate Mana (4-10)%",
+        "+(10-20) To Mana"
+      ],
+      "zh": [
+        "增加法力上限 (1-5)%",
+        "法力再生 (4-10)%",
+        "+(10-20) 法力"
+      ]
+    },
+    "slotZh": "武器",
+    "gemZh": "完美紫宝石"
+  },
+  {
+    "slug": "hit-power-helm",
+    "name": {
+      "en": "Hit Power Helm",
+      "zh": "打击手工头盔"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Helm",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Ith",
+      "number": 6,
+      "nameZh": "伊司"
+    },
+    "baseItems": {
+      "en": [
+        "Full Helm",
+        "Basinet",
+        "Giant Conch"
+      ],
+      "zh": [
+        "全罩盔",
+        "轻盔",
+        "巨螺盔"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "(25-50) Defense vs. Missiles",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-7)"
+      ],
+      "zh": [
+        "(25-50) 对飞射性防御",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-7)"
+      ]
+    },
+    "slotZh": "头盔",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-boots",
+    "name": {
+      "en": "Hit Power Boots",
+      "zh": "打击手工鞋子"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Boots",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Ral",
+      "number": 8,
+      "nameZh": "拉尔"
+    },
+    "baseItems": {
+      "en": [
+        "Chain Boots",
+        "Mesh Boots",
+        "Boneweave Boots"
+      ],
+      "zh": [
+        "锁链靴",
+        "铁网靴",
+        "骸骨网靴"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "(25-50) Defense vs. Melee",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-7)"
+      ],
+      "zh": [
+        "(25-50) 对近战防御",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-7)"
+      ]
+    },
+    "slotZh": "鞋子",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-gloves",
+    "name": {
+      "en": "Hit Power Gloves",
+      "zh": "打击手工手套"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Gloves",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Ort",
+      "number": 9,
+      "nameZh": "欧特"
+    },
+    "baseItems": {
+      "en": [
+        "Chain Gloves",
+        "Heavy Bracers",
+        "Vambraces"
+      ],
+      "zh": [
+        "链甲手套",
+        "重型护腕",
+        "护臂"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Knockback",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-7)"
+      ],
+      "zh": [
+        "击退",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-7)"
+      ]
+    },
+    "slotZh": "手套",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-belt",
+    "name": {
+      "en": "Hit Power Belt",
+      "zh": "打击手工腰带"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Belt",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Tal",
+      "number": 7,
+      "nameZh": "塔尔"
+    },
+    "baseItems": {
+      "en": [
+        "Heavy Belt",
+        "Battle Belt",
+        "Troll Belt"
+      ],
+      "zh": [
+        "厚腰带",
+        "战斗腰带",
+        "食人妖腰带"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "(5-10)% Damage Goes to Mana",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-7)"
+      ],
+      "zh": [
+        "(5-10)% 伤害转化为法力",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-7)"
+      ]
+    },
+    "slotZh": "腰带",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-shield",
+    "name": {
+      "en": "Hit Power Shield",
+      "zh": "打击手工盾牌"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Shield",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Eth",
+      "number": 5,
+      "nameZh": "爱斯"
+    },
+    "baseItems": {
+      "en": [
+        "Gothic Shield",
+        "Ancient Shield",
+        "Ward"
+      ],
+      "zh": [
+        "哥德盾",
+        "上古盾",
+        "庇护盾"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "(5-10)% Increased Chance of Blocking",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-10)"
+      ],
+      "zh": [
+        "(5-10)% 增加格挡几率",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-10)"
+      ]
+    },
+    "slotZh": "盾牌",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-body-armor",
+    "name": {
+      "en": "Hit Power Body Armor",
+      "zh": "打击手工护甲"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Body Armor",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Nef",
+      "number": 4,
+      "nameZh": "那夫"
+    },
+    "baseItems": {
+      "en": [
+        "Field Plate",
+        "Sharktooth Armor",
+        "Kraken Shell"
+      ],
+      "zh": [
+        "野战铠甲",
+        "鲨齿战甲",
+        "海怪之壳"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "10-20% Faster Hit Recovery",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-10)"
+      ],
+      "zh": [
+        "10-20% 高速再度攻击",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-10)"
+      ]
+    },
+    "slotZh": "护甲",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-amulet",
+    "name": {
+      "en": "Hit Power Amulet",
+      "zh": "打击手工护身符"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Amulet",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Thul",
+      "number": 10,
+      "nameZh": "书尔"
+    },
+    "baseItems": {
+      "en": [
+        "Amulet"
+      ],
+      "zh": [
+        "护身符"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "Hit Causes Monster To Flee (3-11)%",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-10)"
+      ],
+      "zh": [
+        "击中使怪物逃跑 (3-11)%",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-10)"
+      ]
+    },
+    "slotZh": "护身符",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-ring",
+    "name": {
+      "en": "Hit Power Ring",
+      "zh": "打击手工戒指"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Ring",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Amn",
+      "number": 11,
+      "nameZh": "安姆"
+    },
+    "baseItems": {
+      "en": [
+        "Ring"
+      ],
+      "zh": [
+        "戒指"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-5) To Dexterity",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-6)"
+      ],
+      "zh": [
+        "+(1-5) 敏捷",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-6)"
+      ]
+    },
+    "slotZh": "戒指",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "hit-power-weapon",
+    "name": {
+      "en": "Hit Power Weapon",
+      "zh": "打击手工武器"
+    },
+    "category": {
+      "en": "Hit Power",
+      "zh": "打击"
+    },
+    "slot": "Weapon",
+    "gem": "Perfect Sapphire",
+    "rune": {
+      "name": "Tir",
+      "number": 3,
+      "nameZh": "提尔"
+    },
+    "baseItems": {
+      "en": [
+        "Club",
+        "Hammer",
+        "Mace",
+        "Scepter",
+        "Staff",
+        "Wand"
+      ],
+      "zh": [
+        "短棒",
+        "重槌",
+        "钉锤",
+        "权杖",
+        "法杖",
+        "魔杖"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(35-60)% Enhanced Damage",
+        "5% Chance To Cast Level 4 Frost Nova When Struck",
+        "Attacker Takes Damage of (3-7)"
+      ],
+      "zh": [
+        "+(35-60)% 伤害强化",
+        "5% 机会施展等级 4 霜之新星在被击中时",
+        "攻击者受到伤害 (3-7)"
+      ]
+    },
+    "slotZh": "武器",
+    "gemZh": "完美蓝宝石"
+  },
+  {
+    "slug": "safety-helm",
+    "name": {
+      "en": "Safety Helm",
+      "zh": "安全手工头盔"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Helm",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Ith",
+      "number": 6,
+      "nameZh": "伊司"
+    },
+    "baseItems": {
+      "en": [
+        "Crown",
+        "Grand Crown",
+        "Corona"
+      ],
+      "zh": [
+        "王冠",
+        "庄严王冠",
+        "日冕之冠"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(10-30)% Enhanced Defense",
+        "Lightning Resist +(5-10)%",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(10-30)% 防御强化",
+        "闪电抗性 +(5-10)%",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "头盔",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-boots",
+    "name": {
+      "en": "Safety Boots",
+      "zh": "安全手工鞋子"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Boots",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Ort",
+      "number": 9,
+      "nameZh": "欧特"
+    },
+    "baseItems": {
+      "en": [
+        "Greaves",
+        "War Boots",
+        "Myrmidon Boots"
+      ],
+      "zh": [
+        "护胫",
+        "征战靴",
+        "勇士护胫"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(10-30)% Enhanced Defense",
+        "Fire Resist +(5-10)%",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(10-30)% 防御强化",
+        "火焰抗性 +(5-10)%",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "鞋子",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-gloves",
+    "name": {
+      "en": "Safety Gloves",
+      "zh": "安全手工手套"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Gloves",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Ral",
+      "number": 8,
+      "nameZh": "拉尔"
+    },
+    "baseItems": {
+      "en": [
+        "Gauntlets",
+        "War Gauntlets",
+        "Ogre Gauntlets"
+      ],
+      "zh": [
+        "钢铁护手",
+        "征战护手",
+        "巨魔护手"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(10-30)% Enhanced Defense",
+        "Cold Resist +(5-10)%",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(10-30)% 防御强化",
+        "冰冷抗性 +(5-10)%",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "手套",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-belt",
+    "name": {
+      "en": "Safety Belt",
+      "zh": "安全手工腰带"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Belt",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Tal",
+      "number": 7,
+      "nameZh": "塔尔"
+    },
+    "baseItems": {
+      "en": [
+        "Sash",
+        "Demonhide Sash",
+        "Spiderweb Sash"
+      ],
+      "zh": [
+        "束带",
+        "魔皮束带",
+        "蛛网束带"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(10-30)% Enhanced Defense",
+        "Poison Resist +(5-10)%",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(10-30)% 防御强化",
+        "毒素抗性 +(5-10)%",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "腰带",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-shield",
+    "name": {
+      "en": "Safety Shield",
+      "zh": "安全手工盾牌"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Shield",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Nef",
+      "number": 4,
+      "nameZh": "那夫"
+    },
+    "baseItems": {
+      "en": [
+        "Kite Shield",
+        "Dragon Shield",
+        "Monarch"
+      ],
+      "zh": [
+        "鸢盾",
+        "龙盾",
+        "君主盾"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(10-30)% Enhanced Defense",
+        "Magic Resistance +(5-10)%",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(10-30)% 防御强化",
+        "所有抗性 +(5-10)%",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "盾牌",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-body-armor",
+    "name": {
+      "en": "Safety Body Armor",
+      "zh": "安全手工护甲"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Body Armor",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Eth",
+      "number": 5,
+      "nameZh": "爱斯"
+    },
+    "baseItems": {
+      "en": [
+        "Breast Plate",
+        "Cuirass",
+        "Great Hauberk"
+      ],
+      "zh": [
+        "胸铠",
+        "护胸甲",
+        "鳞铠胸甲"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(10-30)% Enhanced Defense",
+        "Half Freeze Duration",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(10-30)% 防御强化",
+        "减半冰冻时间",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "护甲",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-amulet",
+    "name": {
+      "en": "Safety Amulet",
+      "zh": "安全手工护身符"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Amulet",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Thul",
+      "number": 10,
+      "nameZh": "书尔"
+    },
+    "baseItems": {
+      "en": [
+        "Amulet"
+      ],
+      "zh": [
+        "护身符"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-10)% Increased Chance Of Blocking",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(1-10)% 增加格挡几率",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "护身符",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-ring",
+    "name": {
+      "en": "Safety Ring",
+      "zh": "安全手工戒指"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Ring",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Amn",
+      "number": 11,
+      "nameZh": "安姆"
+    },
+    "baseItems": {
+      "en": [
+        "Ring"
+      ],
+      "zh": [
+        "戒指"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(1-5) To Vitality",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(1-5) 体力",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "戒指",
+    "gemZh": "完美绿宝石"
+  },
+  {
+    "slug": "safety-weapon",
+    "name": {
+      "en": "Safety Weapon",
+      "zh": "安全手工武器"
+    },
+    "category": {
+      "en": "Safety",
+      "zh": "安全"
+    },
+    "slot": "Weapon",
+    "gem": "Perfect Emerald",
+    "rune": {
+      "name": "Sol",
+      "number": 12,
+      "nameZh": "索尔"
+    },
+    "baseItems": {
+      "en": [
+        "Spear",
+        "Javelin"
+      ],
+      "zh": [
+        "长矛",
+        "标枪"
+      ]
+    },
+    "fixedMods": {
+      "en": [
+        "+(5-10%) Enhanced Defense",
+        "Magic Damage Reduced By (1-2)",
+        "Damage Reduced By (1-4)"
+      ],
+      "zh": [
+        "+(5-10%) 防御强化",
+        "魔法伤害减少 (1-2)",
+        "伤害减少 (1-4)"
+      ]
+    },
+    "slotZh": "武器",
+    "gemZh": "完美绿宝石"
+  }
+]
