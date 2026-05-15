@@ -180,7 +180,8 @@ function toggleItemType(type: string) {
       </div>
 
       <div>
-        <div class="flex flex-wrap gap-1.5">
+        <span class="text-d2r-accent text-sm font-semibold">{{ t('runewords.itemTypes') }}</span>
+        <div class="flex flex-wrap gap-1.5 mt-1">
           <button
             v-for="type in itemTypeOptions"
             :key="type"
@@ -194,7 +195,8 @@ function toggleItemType(type: string) {
       </div>
 
       <div>
-        <div class="flex flex-wrap gap-1.5">
+        <span class="text-d2r-accent text-sm font-semibold">{{ t('runewords.effects') }}</span>
+        <div class="flex flex-wrap gap-1.5 mt-1">
           <button
             v-for="tag in keywordTags"
             :key="tag.q"
