@@ -59,7 +59,7 @@ export default defineNuxtConfig({
 
   sitemap: {
     xsl: false,
-    sitemapsPathPrefix: '/sitemaps/',
+    autoI18n: false,
   },
 
   devtools: { enabled: false },
