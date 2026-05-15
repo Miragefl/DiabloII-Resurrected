@@ -27,6 +27,12 @@ const compatible = computed(() =>
 
 useHead({
   title: `${displayName.value} - D2R Base Items`,
+  meta: [
+    { name: 'description', content: `${displayName.value} - ${translateType(item.type)}, Lv.${item.level}, ${item.maxSockets} sockets` },
+    { property: 'og:title', content: `${displayName.value} - D2R Base Items` },
+    { property: 'og:url', content: `https://d2r-runewords.vercel.app/base-items/${slug}` },
+    { name: 'twitter:title', content: `${displayName.value} - D2R Base Items` },
+  ],
 })
 </script>
 

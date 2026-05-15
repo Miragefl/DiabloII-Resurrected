@@ -21,6 +21,12 @@ const runeImage = computed(() => `/images/runes/${rune.name.toLowerCase()}.png`)
 
 useHead({
   title: `${rune.name} (#${rune.id}) - D2R Runes`,
+  meta: [
+    { name: 'description', content: `${rune.name} Rune (#${rune.id}) - ${locale.value === 'zh' ? rune.weaponEffectZh : rune.weaponEffect}` },
+    { property: 'og:title', content: `${rune.name} (#${rune.id}) - D2R Runes` },
+    { property: 'og:url', content: `https://d2r-runewords.vercel.app/runes/${id}` },
+    { name: 'twitter:title', content: `${rune.name} (#${rune.id}) - D2R Runes` },
+  ],
 })
 </script>
 
@@ -44,15 +50,15 @@ useHead({
     <div class="grid md:grid-cols-3 gap-6 mb-10">
       <div class="d2r-card p-4">
         <h3 class="text-d2r-accent font-semibold mb-3">{{ t('runes.weapon') }}</h3>
-        <p class="text-d2r-text text-sm">{{ rune.weaponEffect }}</p>
+        <p class="text-d2r-text text-sm">{{ locale === 'zh' ? rune.weaponEffectZh : rune.weaponEffect }}</p>
       </div>
       <div class="d2r-card p-4">
         <h3 class="text-d2r-accent font-semibold mb-3">{{ t('runes.armor') }}</h3>
-        <p class="text-d2r-text text-sm">{{ rune.armorEffect }}</p>
+        <p class="text-d2r-text text-sm">{{ locale === 'zh' ? rune.armorEffectZh : rune.armorEffect }}</p>
       </div>
       <div class="d2r-card p-4">
         <h3 class="text-d2r-accent font-semibold mb-3">{{ t('runes.shield') }}</h3>
-        <p class="text-d2r-text text-sm">{{ rune.shieldEffect }}</p>
+        <p class="text-d2r-text text-sm">{{ locale === 'zh' ? rune.shieldEffectZh : rune.shieldEffect }}</p>
       </div>
     </div>
 

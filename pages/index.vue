@@ -9,6 +9,16 @@ const featured = ['enigma', 'infinity', 'spirit', 'insight', 'grief', 'faith']
 const featuredRunewords = computed(() =>
   runewords.value.filter(rw => featured.includes(rw.slug)),
 )
+
+useHead({
+  meta: [
+    { property: 'og:title', content: 'D2R Runewords - Diablo II Resurrected Database' },
+    { property: 'og:description', content: 'Complete D2R runewords, runes & base items database with stats and crafting guides.' },
+    { property: 'og:url', content: 'https://d2r-runewords.vercel.app' },
+    { name: 'twitter:title', content: 'D2R Runewords Database' },
+    { name: 'twitter:description', content: 'Complete Diablo II Resurrected runewords, runes & base items database.' },
+  ],
+})
 </script>
 
 <template>

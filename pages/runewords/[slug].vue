@@ -44,6 +44,11 @@ useHead({
   title: `${displayName.value} - D2R Runewords`,
   meta: [
     { name: 'description', content: displayEffects.value.slice(0, 3).join(', ') },
+    { property: 'og:title', content: `${displayName.value} - D2R Runewords` },
+    { property: 'og:description', content: displayEffects.value.slice(0, 3).join(', ') },
+    { property: 'og:url', content: `https://d2r-runewords.vercel.app/runewords/${slug}` },
+    { name: 'twitter:title', content: `${displayName.value} - D2R Runewords` },
+    { name: 'twitter:description', content: displayEffects.value.slice(0, 3).join(', ') },
   ],
 })
 </script>
